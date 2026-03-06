@@ -92,4 +92,4 @@ draft: false
 
 无论您选择哪种电子邮件营销服务，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能与大多数电子邮件营销平台无缝集成。您可以从 SeaChat AI Agent收集电子邮件和潜在客户，并将它们直接同步到您的电子邮件营销列表。
 
-在 10 分钟内设置并启动 AI 聊天Agent。多语言支持。实时Agent转接。与 Webchat、SMS、LINE、CRM、Shopify、日历、Twilio、Zendesk 和电话集成。欲了解更多详情，请发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[预订演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
+在 10 分钟内设置并启动 AI 聊天Agent。多语言支持。实时Agent转接。与 Webchat、SMS、LINE、CRM、Shopify、日历、Twilio、Zendesk 和电话集成。欲了解更多详情，请发送电子邮件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[预订演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。

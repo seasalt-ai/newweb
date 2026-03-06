@@ -114,4 +114,4 @@ draft: false
 지식 기반 시스템과 SeaX 플랫폼과의 통합 방식에 대해 더 자세히 알고 싶으시면 해당 주제에 대한 웨비나를 시청하십시오.
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube 동영상 플레이어" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-일대일 데모를 원하시거나 Seasalt.ai가 귀사의 비즈니스 요구에 맞는 솔루션을 맞춤화하는 방법에 대해 알아보려면 [데모 예약 양식](https://calendar.app.google/FLjCxzbYLqG6CkNs9)을 작성해 주십시오.
+일대일 데모를 원하시거나 Seasalt.ai가 귀사의 비즈니스 요구에 맞는 솔루션을 맞춤화하는 방법에 대해 알아보려면 [데모 예약 양식](https://calendar.app.google/GcdRQv1DVoiDaoCT6)을 작성해 주십시오.

@@ -116,4 +116,4 @@ Sa pahinang ito, maaari kang magdagdag ng mga indibidwal na bagong entry sa know
 Kung gusto mo ng mas malalim na pagtingin sa sistema ng knowledge base at kung paano ito isinasama sa platform ng SeaX, panoorin ang aming webinar sa paksa:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Para sa isang one-on-one na demo, o para malaman kung paano maaaring i-customize ng Seasalt.ai ang isang solusyon para sa mga pangangailangan ng iyong negosyo, mangyaring punan ang aming [form ng pag-iskedyul ng demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Para sa isang one-on-one na demo, o para malaman kung paano maaaring i-customize ng Seasalt.ai ang isang solusyon para sa mga pangangailangan ng iyong negosyo, mangyaring punan ang aming [form ng pag-iskedyul ng demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

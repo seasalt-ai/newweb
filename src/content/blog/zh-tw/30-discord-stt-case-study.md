@@ -169,7 +169,7 @@ __*用戶在使用 STT 時正在做什麼：*__
 
 我們希望這些計劃中的功能能夠讓我們繼續使語音通道對每個人都更易於訪問，同時賦予用戶以他們感到舒適的級別與 SeaVoice 機器人互動的能力。展望未來，我們將繼續努力主動解決這些具有挑戰性的問題，以使 SeaVoice 達到最佳狀態！
 
-感謝您對我們的 Discord 機器人的興趣，也感謝我們的用戶一直以來的支持！您可以在我們的 [SeaVoice 語音轉文本主頁](https://suite.seasalt.ai/tts)上了解有關我們 STT 產品的更多信息。要獲得我們任何語音智能產品的一對一演示，請填寫 [預訂演示表](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
+感謝您對我們的 Discord 機器人的興趣，也感謝我們的用戶一直以來的支持！您可以在我們的 [SeaVoice 語音轉文本主頁](https://suite.seasalt.ai/tts)上了解有關我們 STT 產品的更多信息。要獲得我們任何語音智能產品的一對一演示，請填寫 [預訂演示表](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。
 
 如果您還沒有嘗試過 SeaVoice 機器人，您可以從 [SeaVoice Discord 機器人維基](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/)了解更多關於我們的機器人並將其添加到您的伺服器。也歡迎加入我們的 [官方 SeaVoice Discord 伺服器](https://discord.gg/dfAYfwBQ)。
 

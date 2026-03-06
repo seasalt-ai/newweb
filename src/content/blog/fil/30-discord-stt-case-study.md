@@ -171,7 +171,7 @@ Sa wakas, ang huling isyu na nakita namin ay ang ilang mga gumagamit ay labis na
 
 Umaasa kami na ang mga nakaplanong feature na ito ay magpapahintulot sa amin na patuloy na gawing mas accessible ang mga voice channel para sa lahat habang binibigyan ang mga gumagamit ng kakayahang makipag-ugnayan sa SeaVoice Bot sa antas na komportable sila. Sa hinaharap, patuloy kaming magsisikap na proaktibong tugunan ang mga mapaghamong isyung ito upang gawing pinakamahusay ang SeaVoice!
 
-Salamat sa iyong interes sa aming Discord Bot at salamat sa aming mga gumagamit para sa iyong patuloy na suporta! Maaari kang matuto nang higit pa tungkol sa aming produkto ng STT sa aming [SeaVoice Speech-to-Text Homepage](https://suite.seasalt.ai/tts). Para sa isang one-on-one demo ng alinman sa aming mga produkto ng Voice Intelligence, punan ang [Book a Demo Form](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Salamat sa iyong interes sa aming Discord Bot at salamat sa aming mga gumagamit para sa iyong patuloy na suporta! Maaari kang matuto nang higit pa tungkol sa aming produkto ng STT sa aming [SeaVoice Speech-to-Text Homepage](https://suite.seasalt.ai/tts). Para sa isang one-on-one demo ng alinman sa aming mga produkto ng Voice Intelligence, punan ang [Book a Demo Form](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 Kung hindi mo pa nasubukan ang SeaVoice bot, maaari kang matuto nang higit pa tungkol sa aming bot at idagdag ito sa iyong server mula sa [SeaVoice Discord Bot Wiki](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). Huwag mag-atubiling sumali sa aming [Official SeaVoice Discord Server](https://discord.gg/dfAYfwBQ).
 

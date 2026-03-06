@@ -178,7 +178,7 @@ API Realtime ChatGPT-4o پیشرفت قابل توجهی در فناوری هو�
 
 
 ## بیشتر بدانید
-اگر می خواهید ابتدا فناوری صوتی هوش مصنوعی را برای خدمات مشتری با قیمت مناسب بررسی کنید، می توانید از [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) بازدید کنید یا می توانید [یک نسخه نمایشی با ما رزرو کنید](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+اگر می خواهید ابتدا فناوری صوتی هوش مصنوعی را برای خدمات مشتری با قیمت مناسب بررسی کنید، می توانید از [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) بازدید کنید یا می توانید [یک نسخه نمایشی با ما رزرو کنید](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 
 ## درباره این مجموعه

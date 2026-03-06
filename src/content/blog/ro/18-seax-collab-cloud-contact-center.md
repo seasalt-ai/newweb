@@ -85,4 +85,4 @@ SeaX simplifică spațiul de lucru al agenților dvs., aducând tot ce au nevoie
 
 **Monitorizare administrator** - Instrumente încorporate pentru monitorizarea comunicării cu clienții și a performanței agenților
 
-Pentru o demonstrație personală și pentru a vedea cum vă poate ajuta SeaX cu nevoile centrului dvs. de contact, vă rugăm să completați formularul nostru „[Rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”.
+Pentru o demonstrație personală și pentru a vedea cum vă poate ajuta SeaX cu nevoile centrului dvs. de contact, vă rugăm să completați formularul nostru „[Rezervați o demonstrație](https://calendar.app.google/GcdRQv1DVoiDaoCT6)”.

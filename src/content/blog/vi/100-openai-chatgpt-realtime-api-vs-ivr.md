@@ -76,4 +76,4 @@ Mặc dù công nghệ của OpenAI rất ấn tượng, nhưng hiện tại nó
 Công nghệ tiên tiến nhất không phải lúc nào cũng là lựa chọn tốt nhất cho nhu cầu kinh doanh của bạn. Hãy xem xét ngân sách của bạn, chất lượng dịch vụ khách hàng bạn cần và mức độ tích hợp của một giải pháp với các hệ thống hiện có của bạn trước khi thực hiện bất kỳ thay đổi nào.
 
 ## Tìm hiểu thêm
-Nếu bạn muốn khám phá công nghệ giọng nói AI cho dịch vụ khách hàng với giá cả hợp lý, bạn có thể truy cập [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) hoặc bạn có thể [đặt lịch demo với chúng tôi](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Nếu bạn muốn khám phá công nghệ giọng nói AI cho dịch vụ khách hàng với giá cả hợp lý, bạn có thể truy cập [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) hoặc bạn có thể [đặt lịch demo với chúng tôi](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

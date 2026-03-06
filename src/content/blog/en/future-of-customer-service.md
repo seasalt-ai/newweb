@@ -284,4 +284,4 @@ The future of customer service is bright, efficient, and more human than ever be
 
 ---
 
-*Want to explore how AI can transform your customer service? [Schedule a consultation](https://calendar.app.google/FLjCxzbYLqG6CkNs9/) to see how Seasalt.ai is helping businesses prepare for the future of customer experience.*
+*Want to explore how AI can transform your customer service? [Schedule a consultation](https://calendar.app.google/GcdRQv1DVoiDaoCT6/) to see how Seasalt.ai is helping businesses prepare for the future of customer experience.*

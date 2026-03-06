@@ -107,6 +107,6 @@ Có thể mất đến bốn giờ để nút trò chuyện xuất hiện trên 
 *Bạn có thể nhấp vào nút "Ra mắt lại" sau khi bạn đã hoàn tất việc thực hiện các thay đổi/cải tiến cho đại lý ảo của bạn.*
 </center>
 
-[Đặt lịch demo với chúng tôi](https://calendar.app.google/FLjCxzbYLqG6CkNs9) và chúng tôi sẽ rất vui lòng giúp bạn!
+[Đặt lịch demo với chúng tôi](https://calendar.app.google/GcdRQv1DVoiDaoCT6) và chúng tôi sẽ rất vui lòng giúp bạn!
 
 Cập nhật: Chúng tôi đã chuyển sản phẩm thành trình tạo chatbot đa kênh. Bây giờ được gọi là [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!

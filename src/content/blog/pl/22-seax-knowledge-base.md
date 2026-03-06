@@ -116,4 +116,4 @@ Na tej stronie można dodawać pojedyncze nowe wpisy do bazy wiedzy lub importow
 Jeśli chcesz bliżej przyjrzeć się systemowi bazy wiedzy i jego integracji z platformą SeaX, obejrzyj nasze webinarium na ten temat:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="Odtwarzacz wideo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Aby uzyskać indywidualną wersję demonstracyjną lub dowiedzieć się, jak Seasalt.ai może dostosować rozwiązanie do potrzeb Twojej firmy, wypełnij nasz [formularz umówienia się na wersję demonstracyjną](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Aby uzyskać indywidualną wersję demonstracyjną lub dowiedzieć się, jak Seasalt.ai może dostosować rozwiązanie do potrzeb Twojej firmy, wypełnij nasz [formularz umówienia się na wersję demonstracyjną](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

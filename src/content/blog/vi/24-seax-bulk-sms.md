@@ -120,4 +120,4 @@ Giống như tất cả các tính năng của SeaX, chúng tôi cố gắng tra
 
 # Kết luận
 
-Cảm ơn bạn đã dành thời gian đọc về cách Hệ thống Bulk SMS của SeaX trao quyền cho các đại lý gửi thông tin liên lạc đi ngoài việc xử lý các yêu cầu tin nhắn đến. Hãy theo dõi phần tiếp theo trong loạt bài đăng blog của chúng tôi, sẽ đề cập đến một số công cụ quản lý và phân tích được tích hợp trong nền tảng SeaX. Nếu bạn muốn tìm hiểu thêm ngay lập tức, hãy điền vào biểu mẫu [Đặt lịch Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) của chúng tôi để có cái nhìn đầu tiên về nền tảng SeaX.
+Cảm ơn bạn đã dành thời gian đọc về cách Hệ thống Bulk SMS của SeaX trao quyền cho các đại lý gửi thông tin liên lạc đi ngoài việc xử lý các yêu cầu tin nhắn đến. Hãy theo dõi phần tiếp theo trong loạt bài đăng blog của chúng tôi, sẽ đề cập đến một số công cụ quản lý và phân tích được tích hợp trong nền tảng SeaX. Nếu bạn muốn tìm hiểu thêm ngay lập tức, hãy điền vào biểu mẫu [Đặt lịch Demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6) của chúng tôi để có cái nhìn đầu tiên về nền tảng SeaX.

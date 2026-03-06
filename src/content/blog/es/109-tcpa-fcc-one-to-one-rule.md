@@ -94,7 +94,7 @@ Si quiere estar a la vanguardia, actúe ahora. El 27 de enero de 2025 se acerca 
 Los cambios en la regla TCPA de 2025 afectarán significativamente la forma en que las empresas realizan sus actividades de divulgación. Las llamadas y los mensajes de texto que utilicen tecnología regulada requerirán un consentimiento explícito de suscripción. Para aquellos que no tengan suscripción, será necesario marcar y enviar mensajes de texto manualmente después de la depuración. Las relaciones comerciales existentes pueden proporcionar algunas exenciones, pero mantenerse informado y cumplir con la normativa es crucial. Siempre hable con su asesor legal antes de realizar cualquier cambio.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Reserve una consulta gratuita con nosotros</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Reserve una consulta gratuita con nosotros</a>
 </center>
 
 

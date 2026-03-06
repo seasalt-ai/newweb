@@ -1,9 +1,9 @@
 // External URLs used throughout the application
 export const MEETING_URL =
-  "https://calendar.app.google/FLjCxzbYLqG6CkNs9/";
+  "https://calendar.app.google/GcdRQv1DVoiDaoCT6/";
 export const HUBSPOT_DEMO_ZH_TW =
   "https://calendar.app.google/3w9kgPpkjHKqgJsN7";
-  // "https://calendar.app.google/FLjCxzbYLqG6CkNs9-taiwan";
+  // "https://calendar.app.google/GcdRQv1DVoiDaoCT6-taiwan";
 
 // Helper function to get the appropriate meeting URL based on language
 export const getMeetingUrl = (language: string): string => {

@@ -177,7 +177,7 @@ Sebagai praktisi di bidang pengenalan suara dan pemrosesan bahasa alami, dua sen
 
 
 ## Pelajari Lebih Lanjut
-Jika Anda ingin menjelajahi teknologi suara AI untuk layanan pelanggan dengan harga yang wajar terlebih dahulu, Anda dapat mengunjungi [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) atau Anda dapat [memesan demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Jika Anda ingin menjelajahi teknologi suara AI untuk layanan pelanggan dengan harga yang wajar terlebih dahulu, Anda dapat mengunjungi [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) atau Anda dapat [memesan demo dengan kami](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 
 ## Tentang Seri Ini

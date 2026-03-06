@@ -163,7 +163,7 @@ Kaya ang mga puntong ito, kasama ang kung paano namin nakita ang mga tunay na us
 Ang mga tanong na ito ay hindi masagot, o kahit na ganap na masuri, sa isang blog post lamang.
 Gayunpaman, nararamdaman ng kumpanya ang obligasyon na patuloy na isaalang-alang ang mga isyung ito habang sumusulong kami sa aming proyek sa Discord at patuloy na nakikipagtulungan sa aming mga voice actor.
 
-Salamat sa iyong interes sa aming Discord Bot at mga proyek ng Voice Intelligence! Maaari kang matuto nang higit pa tungkol sa aming produkto ng STT sa aming [Speech-to-Text Homepage](https://suite.seasalt.ai/tts). Para sa isang one-on-one demo ng alinman sa aming mga produkto ng Voice Intelligence, punan ang [Book a Demo Form](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Salamat sa iyong interes sa aming Discord Bot at mga proyek ng Voice Intelligence! Maaari kang matuto nang higit pa tungkol sa aming produkto ng STT sa aming [Speech-to-Text Homepage](https://suite.seasalt.ai/tts). Para sa isang one-on-one demo ng alinman sa aming mga produkto ng Voice Intelligence, punan ang [Book a Demo Form](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 Sa panig ng Discord, maaari kang matuto nang higit pa tungkol sa aming bot at idagdag ito sa iyong server mula sa [SeaVoice Discord Bot Wiki](https://wiki.seasalt.ai/seavoice/discord/6-community/). Huwag mag-atubiling sumali sa aming [Opisyal na SeaVoice Discord Server](https://discord.gg/dfAYfwBQ).
 

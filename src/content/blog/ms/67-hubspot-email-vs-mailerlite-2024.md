@@ -100,4 +100,4 @@ Berikut adalah perkara yang perlu anda pertimbangkan sebelum memilih alat pemasa
 
 Tidak kira apa yang anda pilih untuk perkhidmatan pemasaran e-mel anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) berintegrasi dengan baik dengan kebanyakan platform pemasaran e-mel. Anda boleh mengumpul e-mel dan petunjuk daripada ejen AI SeaChat dan menyegerakkannya terus ke senarai pemasaran e-mel anda.
 
-Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan berbilang bahasa. Pemindahan ejen langsung. Berintegrasi dengan sembang web, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk, dan panggilan telefon. E-mel kami untuk maklumat lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan berbilang bahasa. Pemindahan ejen langsung. Berintegrasi dengan sembang web, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk, dan panggilan telefon. E-mel kami untuk maklumat lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

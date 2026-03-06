@@ -116,4 +116,4 @@ Di halaman ini, Anda dapat menambahkan entri basis pengetahuan baru satu per sat
 Jika Anda ingin melihat lebih dalam tentang sistem basis pengetahuan dan bagaimana sistem ini terintegrasi dengan platform SeaX, tonton webinar kami tentang topik tersebut:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="Pemutar video YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Untuk demo satu lawan satu, atau untuk mengetahui bagaimana Seasalt.ai dapat menyesuaikan solusi untuk kebutuhan bisnis Anda, silakan isi [formulir jadwal demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) kami.
+Untuk demo satu lawan satu, atau untuk mengetahui bagaimana Seasalt.ai dapat menyesuaikan solusi untuk kebutuhan bisnis Anda, silakan isi [formulir jadwal demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6) kami.

@@ -118,4 +118,4 @@ Near Me Messaging ยังมาพร้อมกับคุณสมบั�
 *อินเทอร์เฟซของคุณสมบัติตัวแทนสดของ Near Me*
 </center>
 
-คุณพร้อมที่จะเริ่มต้นใช้งาน Near Me Messaging แล้วหรือยัง? โปรดติดตามโพสต์ถัดไปของเราเกี่ยวกับวิธีเปิดตัวตัวแทนเสมือนของคุณด้วย Near Me Messaging [จองการสาธิตกับเรา](https://calendar.app.google/FLjCxzbYLqG6CkNs9) วันนี้ และเป็นคนแรกๆ ที่จะได้รับทดลองใช้ Near Me Messaging ฟรี!
+คุณพร้อมที่จะเริ่มต้นใช้งาน Near Me Messaging แล้วหรือยัง? โปรดติดตามโพสต์ถัดไปของเราเกี่ยวกับวิธีเปิดตัวตัวแทนเสมือนของคุณด้วย Near Me Messaging [จองการสาธิตกับเรา](https://calendar.app.google/GcdRQv1DVoiDaoCT6) วันนี้ และเป็นคนแรกๆ ที่จะได้รับทดลองใช้ Near Me Messaging ฟรี!

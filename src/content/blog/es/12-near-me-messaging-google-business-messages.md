@@ -119,4 +119,4 @@ El propietario puede unirse a cualquier conversación en cualquier momento, siem
 *Interfaz de la función de agente en vivo de Near Me.*
 </center>
 
-¿Estás listo para empezar con Near Me Messaging? Mantente atento a nuestra próxima publicación sobre cómo lanzar tu agente virtual con Near Me Messaging. [Reserva una demostración con nosotros](https://calendar.app.google/FLjCxzbYLqG6CkNs9) hoy mismo y sé de los primeros en obtener una prueba gratuita de Near Me Messaging!
+¿Estás listo para empezar con Near Me Messaging? Mantente atento a nuestra próxima publicación sobre cómo lanzar tu agente virtual con Near Me Messaging. [Reserva una demostración con nosotros](https://calendar.app.google/GcdRQv1DVoiDaoCT6) hoy mismo y sé de los primeros en obtener una prueba gratuita de Near Me Messaging!

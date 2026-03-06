@@ -46,4 +46,4 @@ Kết luận, việc triển khai thành công trung tâm liên lạc đa kênh 
 
 ## Liên hệ
 
-Nếu bạn muốn tìm hiểu thêm về SeaX, hãy điền vào biểu mẫu "[Đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" của chúng tôi để có cái nhìn đầu tiên về nền tảng SeaX. Chúng tôi luôn sẵn lòng trò chuyện!
+Nếu bạn muốn tìm hiểu thêm về SeaX, hãy điền vào biểu mẫu "[Đặt lịch demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6)" của chúng tôi để có cái nhìn đầu tiên về nền tảng SeaX. Chúng tôi luôn sẵn lòng trò chuyện!

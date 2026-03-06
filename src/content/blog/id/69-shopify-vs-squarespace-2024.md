@@ -86,7 +86,7 @@ Bagaimana jika Anda menyukai kekuatan desain Squarespace tetapi mendambakan alat
 
 ## Anda dapat melakukan lebih banyak dengan SeaChat
 
-Tidak peduli apa yang Anda pilih untuk bisnis online Anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) terintegrasi dengan baik dengan sebagian besar pembuat situs web e-commerce. Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Integrasikan dengan webchat, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Kirim email kepada kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Tidak peduli apa yang Anda pilih untuk bisnis online Anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) terintegrasi dengan baik dengan sebagian besar pembuat situs web e-commerce. Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Integrasikan dengan webchat, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Kirim email kepada kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 SeaChat menawarkan integrasi yang mulus dengan Shopify dan Squarespace. Lihat cara menambahkan obrolan AI dan agen ke toko Shopify dan Squarespace Anda sekarang:
 

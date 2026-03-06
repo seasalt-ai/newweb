@@ -119,4 +119,4 @@ draft: false
 *واجهة ميزة الوكيل المباشر في Near Me.*
 </center>
 
-هل أنت مستعد للبدء باستخدام Near Me Messaging؟ ترقبوا منشورنا التالي حول كيفية إطلاق وكيلك الافتراضي باستخدام Near Me Messaging. [احجز عرضًا توضيحيًا معنا](https://calendar.app.google/FLjCxzbYLqG6CkNs9) اليوم وكن من أوائل من يحصل على نسخة تجريبية مجانية من Near Me Messaging!
+هل أنت مستعد للبدء باستخدام Near Me Messaging؟ ترقبوا منشورنا التالي حول كيفية إطلاق وكيلك الافتراضي باستخدام Near Me Messaging. [احجز عرضًا توضيحيًا معنا](https://calendar.app.google/GcdRQv1DVoiDaoCT6) اليوم وكن من أوائل من يحصل على نسخة تجريبية مجانية من Near Me Messaging!

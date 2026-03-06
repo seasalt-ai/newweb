@@ -118,4 +118,4 @@ Der Inhaber kann jederzeit an jeder Konversation teilnehmen, solange der Benutze
 *Oberfläche der Live-Agenten-Funktion von Near Me.*
 </center>
 
-Sind Sie bereit, mit Near Me Messaging zu beginnen? Bleiben Sie dran für unseren nächsten Beitrag darüber, wie Sie Ihren virtuellen Agenten mit Near Me Messaging starten können. [Buchen Sie noch heute eine Demo bei uns](https://calendar.app.google/FLjCxzbYLqG6CkNs9) und gehören Sie zu den Ersten, die eine kostenlose Testversion von Near Me Messaging erhalten!
+Sind Sie bereit, mit Near Me Messaging zu beginnen? Bleiben Sie dran für unseren nächsten Beitrag darüber, wie Sie Ihren virtuellen Agenten mit Near Me Messaging starten können. [Buchen Sie noch heute eine Demo bei uns](https://calendar.app.google/GcdRQv1DVoiDaoCT6) und gehören Sie zu den Ersten, die eine kostenlose Testversion von Near Me Messaging erhalten!

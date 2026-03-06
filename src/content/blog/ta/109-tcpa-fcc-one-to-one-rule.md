@@ -94,7 +94,7 @@ FCC-இன் ஒருவருக்கொருவர் விதி உங�
 2025 TCPA விதி மாற்றங்கள் வணிகங்கள் தங்கள் அணுகலை எவ்வாறு நடத்துகின்றன என்பதை கணிசமாக பாதிக்கும். ஒழுங்குபடுத்தப்பட்ட தொழில்நுட்பத்தைப் பயன்படுத்தும் அழைப்புகள் மற்றும் குறுஞ்செய்திகளுக்கு வெளிப்படையான ஒப்புதல் தேவைப்படும். ஒப்புதல் இல்லாதவர்களுக்கு, சுத்தம் செய்த பிறகு கைமுறை டயலிங் மற்றும் குறுஞ்செய்தி அனுப்புதல் அவசியம். இருக்கும் வணிக உறவுகள் சில விலக்குகளை வழங்கலாம், ஆனால் தகவலறிந்த மற்றும் இணக்கமான நிலையில் இருப்பது முக்கியம். எந்த மாற்றங்களையும் செய்வதற்கு முன் எப்போதும் உங்கள் சட்ட ஆலோசகருடன் பேசுங்கள்.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">எங்களுடன் இலவச ஆலோசனைக்கு முன்பதிவு செய்யுங்கள்</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">எங்களுடன் இலவச ஆலோசனைக்கு முன்பதிவு செய்யுங்கள்</a>
 </center>
 
 

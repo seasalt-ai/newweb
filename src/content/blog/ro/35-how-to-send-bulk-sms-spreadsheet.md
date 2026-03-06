@@ -160,4 +160,4 @@ Trimiterea de SMS-uri în masă către contacte în instrumente de foi de calcul
 
 ## Luați legătura
 
-Dacă sunteți interesat să aflați mai multe despre 10DLC sau să aflați mai multe despre opțiunile dvs. pentru marketingul SMS, [rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9) cu noi. Suntem întotdeauna bucuroși să discutăm!
+Dacă sunteți interesat să aflați mai multe despre 10DLC sau să aflați mai multe despre opțiunile dvs. pentru marketingul SMS, [rezervați o demonstrație](https://calendar.app.google/GcdRQv1DVoiDaoCT6) cu noi. Suntem întotdeauna bucuroși să discutăm!

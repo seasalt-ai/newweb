@@ -115,4 +115,4 @@ Menghantar SMS pukal menggunakan alat seperti Excel atau Google Sheets sangat be
 
 ## Hubungi Kami
 
-Jika anda ingin tahu lebih lanjut tentang 10DLC atau pilihan pemasaran SMS, [tempah demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) bersama kami. Kami sedia membantu anda!
+Jika anda ingin tahu lebih lanjut tentang 10DLC atau pilihan pemasaran SMS, [tempah demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6) bersama kami. Kami sedia membantu anda!

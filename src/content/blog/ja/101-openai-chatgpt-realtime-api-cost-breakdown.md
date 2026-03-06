@@ -176,7 +176,7 @@ ChatGPT-4oのリアルタイムAPIは、音声AI技術における重要な進�
 
 
 ## もっと詳しく知る
-手頃な価格で顧客サービス向けのAI音声技術を最初に探求したい場合は、[SeaChat](https://chat.seasalt.ai/?utm_source=blog/)にアクセスするか、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)できます。
+手頃な価格で顧客サービス向けのAI音声技術を最初に探求したい場合は、[SeaChat](https://chat.seasalt.ai/?utm_source=blog/)にアクセスするか、[デモを予約](https://calendar.app.google/GcdRQv1DVoiDaoCT6)できます。
 
 
 ## このシリーズについて

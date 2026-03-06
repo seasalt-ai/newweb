@@ -118,4 +118,4 @@ Near Me Messaging은 실시간 상담원 기능도 갖추고 있습니다. 고�
 *Near Me 실시간 상담원 기능 인터페이스.*
 </center>
 
-Near Me Messaging을 시작할 준비가 되셨습니까? Near Me Messaging으로 가상 에이전트를 시작하는 방법에 대한 다음 게시물을 기대하십시오. [오늘 저희에게 데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하고 Near Me Messaging의 무료 평가판을 가장 먼저 받아보십시오!
+Near Me Messaging을 시작할 준비가 되셨습니까? Near Me Messaging으로 가상 에이전트를 시작하는 방법에 대한 다음 게시물을 기대하십시오. [오늘 저희에게 데모를 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)하고 Near Me Messaging의 무료 평가판을 가장 먼저 받아보십시오!

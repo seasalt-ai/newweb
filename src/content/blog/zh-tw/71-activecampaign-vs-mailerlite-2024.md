@@ -95,4 +95,4 @@ MailerLite 和 ActiveCampaign 都是出色的工具，但正確的選擇取決�
 
 無論您最終選擇哪種電子郵件行銷服務，[SeaChat](https://chat.seasalt.ai/?utm_source=blog) 都能與大多數電子郵件行銷平台良好整合。您可以從 SeaChat AI Agent收集電子郵件和潛在客戶，並直接同步到您的電子郵件行銷列表。
 
-在 10 分鐘內建立並啟動 AI 聊天Agent。多語言支援。即時Agent轉移。與網路聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk 和電話整合。如需了解更多詳情，請發送電子郵件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。 
+在 10 分鐘內建立並啟動 AI 聊天Agent。多語言支援。即時Agent轉移。與網路聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk 和電話整合。如需了解更多詳情，請發送電子郵件至 [seachat@seasalt.ai](mailto:seachat@seasalt.ai) 或[預約演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。 

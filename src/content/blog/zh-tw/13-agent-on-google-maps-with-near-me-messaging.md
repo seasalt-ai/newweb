@@ -106,6 +106,6 @@ draft: false
 *完成對虛擬Agent的更改/改進後，您可以點擊「重新發布」按鈕。*
 </center>
 
-[與我們預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，我們非常樂意為您提供幫助！
+[與我們預約演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)，我們非常樂意為您提供幫助！
 
 更新：我們已將產品轉向全通路聊天機器人建置工具。現在稱為 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)！

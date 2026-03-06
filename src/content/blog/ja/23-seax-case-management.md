@@ -123,4 +123,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-SeaX ケース管理システムが顧客とのやり取りにおいてエージェントをどのようにサポートするかについてお読みいただきありがとうございます。SeaX プラットフォームを使用した一括 SMS メッセージの送信プロセスについて詳しく説明する次のブログ投稿にご期待ください。すぐに詳細を知りたい場合は、[デモ予約フォーム](https://calendar.app.google/FLjCxzbYLqG6CkNs9)にご記入ください。SeaX プラットフォームを直接ご覧いただけます。
+SeaX ケース管理システムが顧客とのやり取りにおいてエージェントをどのようにサポートするかについてお読みいただきありがとうございます。SeaX プラットフォームを使用した一括 SMS メッセージの送信プロセスについて詳しく説明する次のブログ投稿にご期待ください。すぐに詳細を知りたい場合は、[デモ予約フォーム](https://calendar.app.google/GcdRQv1DVoiDaoCT6)にご記入ください。SeaX プラットフォームを直接ご覧いただけます。

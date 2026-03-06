@@ -121,4 +121,4 @@ Wysyłka masowych SMS-ów z narzędzi takich jak Excel czy Google Sheets jest ba
 
 ## Skontaktuj się z nami
 
-Jeśli chcesz dowiedzieć się więcej o 10DLC lub opcjach marketingu SMS, [umów się na demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). Chętnie doradzimy!
+Jeśli chcesz dowiedzieć się więcej o 10DLC lub opcjach marketingu SMS, [umów się na demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6). Chętnie doradzimy!

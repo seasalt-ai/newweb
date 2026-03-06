@@ -45,4 +45,4 @@ Kesimpulannya, penggunaan pusat hubungan omni-saluran yang berjaya untuk salah s
 
 ## Hubungi Kami
 
-Jika anda berminat untuk mengetahui lebih lanjut tentang SeaX, isi [borang Tempah Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) kami untuk melihat platform SeaX secara langsung. Kami sentiasa gembira untuk berbual!
+Jika anda berminat untuk mengetahui lebih lanjut tentang SeaX, isi [borang Tempah Demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6) kami untuk melihat platform SeaX secara langsung. Kami sentiasa gembira untuk berbual!

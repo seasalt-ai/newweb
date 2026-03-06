@@ -125,4 +125,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-شكرًا لك على الوقت الذي قضيته في القراءة عن كيفية دعم نظام إدارة الحالات في SeaX لوكلائك أثناء تفاعلهم مع عملائك. يرجى ترقب تدوينتنا التالية، والتي ستتعمق في عملية إرسال رسائل نصية قصيرة مجمعة باستخدام منصة SeaX. إذا كنت مهتمًا بمعرفة المزيد على الفور، فاملأ [نموذج حجز عرض توضيحي](https://calendar.app.google/FLjCxzbYLqG6CkNs9) لإلقاء نظرة مباشرة على منصة SeaX.
+شكرًا لك على الوقت الذي قضيته في القراءة عن كيفية دعم نظام إدارة الحالات في SeaX لوكلائك أثناء تفاعلهم مع عملائك. يرجى ترقب تدوينتنا التالية، والتي ستتعمق في عملية إرسال رسائل نصية قصيرة مجمعة باستخدام منصة SeaX. إذا كنت مهتمًا بمعرفة المزيد على الفور، فاملأ [نموذج حجز عرض توضيحي](https://calendar.app.google/GcdRQv1DVoiDaoCT6) لإلقاء نظرة مباشرة على منصة SeaX.

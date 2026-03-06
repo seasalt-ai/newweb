@@ -287,4 +287,4 @@ Twilio Studio 플로우가 메시지를 봇으로 라우팅하는 올바른 Webh
 
 # 요약
 요약하면, 이 블로그 시리즈에서 우리는 Discord의 인기 상승과 브랜드가 고객과 상호작용할 수 있는 새로운 플랫폼으로서 가져오는 기회에 대해 논의했습니다. 브랜드가 자체 온라인 커뮤니티를 구축하는 방법을 보여주기 위해 Discord의 기본 기능들을 소개했고, 브랜드가 Discord 봇을 사용하여 서버에서의 모더레이션과 고객 서비스를 자동화할 수 있는 더 고급 기능들도 소개했습니다. 마지막으로 Discord를 고객 서비스 플랫폼 SeaX와 통합하여 라이브 에이전트 전송, 케이스 관리, AI 기반 지식 베이스 검색과 같은 고급 기능을 Discord 커뮤니티에 가져오는 방법을 공유했습니다.
-개인 데모나 Seasalt.ai가 특정 비즈니스 요구사항을 충족하는 데 어떻게 도움이 되는지 알아보려면 ["데모 예약"](https://calendar.app.google/FLjCxzbYLqG6CkNs9) 양식을 작성해 주세요. Flex/Discord 통합에 대한 자세한 정보나 문의사항은 [Seasalt.ai의 Twilio 파트너 리스팅](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)을 방문하세요.
+개인 데모나 Seasalt.ai가 특정 비즈니스 요구사항을 충족하는 데 어떻게 도움이 되는지 알아보려면 ["데모 예약"](https://calendar.app.google/GcdRQv1DVoiDaoCT6) 양식을 작성해 주세요. Flex/Discord 통합에 대한 자세한 정보나 문의사항은 [Seasalt.ai의 Twilio 파트너 리스팅](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)을 방문하세요.

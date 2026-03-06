@@ -106,7 +106,7 @@ Poate dura până la patru ore pentru ca butonul de chat să apară pe Google Ma
 *Puteți face clic pe butonul „Relansare” odată ce ați terminat de făcut modificări/îmbunătățiri la agentul dvs. virtual.*
 </center>
 
-[Rezervați o demonstrație cu noi](https://calendar.app.google/FLjCxzbYLqG6CkNs9) și vom fi mai mult decât bucuroși să vă ajutăm!
+[Rezervați o demonstrație cu noi](https://calendar.app.google/GcdRQv1DVoiDaoCT6) și vom fi mai mult decât bucuroși să vă ajutăm!
 
 Actualizare: De atunci am pivotat produsul pentru a fi un constructor de chatbot omnicanal. Acum se numește [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!
 

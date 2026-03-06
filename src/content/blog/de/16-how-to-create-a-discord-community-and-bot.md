@@ -329,4 +329,4 @@ Jetzt sollte Ihr Bot verbunden sein und alle Aktivitäten auf Ihrem Discord-Serv
 
 Halten Sie Ausschau nach dem letzten Beitrag in unserer Blog-Serie, der zeigen wird, wie wir unser Produkt, [SeaX](https://seax.seasalt.ai/), verwendet haben, um die [Contact-Center-Plattform von Twilio Flex](https://www.twilio.com/flex) mit einem Community-Discord-Server zu verbinden. Diese Integration ermöglicht es Marken, nicht nur die Gemeinschaft mit ihren Kunden zu fördern, sondern auch einen direkten Kommunikationskanal aufrechtzuerhalten und Probleme direkt aus der Online-Community heraus anzugehen.
 
-Für weitere Informationen zu unseren Lösungen besuchen Sie das [Produkt-Wiki von Seasalt.ai](https://wiki.seasalt.ai) – oder füllen Sie das [Formular „Demo buchen“](https://calendar.app.google/FLjCxzbYLqG6CkNs9) aus, um einen direkten Einblick zu erhalten.
+Für weitere Informationen zu unseren Lösungen besuchen Sie das [Produkt-Wiki von Seasalt.ai](https://wiki.seasalt.ai) – oder füllen Sie das [Formular „Demo buchen“](https://calendar.app.google/GcdRQv1DVoiDaoCT6) aus, um einen direkten Einblick zu erhalten.

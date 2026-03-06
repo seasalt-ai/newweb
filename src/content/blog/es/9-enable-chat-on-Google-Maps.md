@@ -127,4 +127,4 @@ Google le enviará un código de verificación a su número de teléfono. Ingres
 
 Ahora que sabe cómo activar un botón de Chat en su ficha y sus beneficios, ¿cómo se asegura de que su negocio pueda mantenerse al día con un número creciente de consultas de clientes? Responder a chats repetitivos requiere mucho tiempo y dinero. Consulte nuestra próxima publicación sobre Google Business Messages y cómo esto puede ayudarlo a ahorrar tiempo y dinero al brindar un excelente servicio al cliente.
 
-[Reserve una demostración con nosotros](https://calendar.app.google/FLjCxzbYLqG6CkNs9) y sea el primero en recibir una prueba gratuita de nuestro producto.
+[Reserve una demostración con nosotros](https://calendar.app.google/GcdRQv1DVoiDaoCT6) y sea el primero en recibir una prueba gratuita de nuestro producto.

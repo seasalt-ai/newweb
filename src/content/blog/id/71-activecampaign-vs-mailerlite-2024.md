@@ -98,4 +98,4 @@ Pilih **ActiveCampaign** jika: Anda membutuhkan otomatisasi yang kuat, integrasi
 
 Apa pun yang Anda pilih untuk layanan pemasaran email Anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) terintegrasi dengan baik dengan sebagian besar platform pemasaran email. Anda dapat mengumpulkan email dan prospek dari agen AI SeaChat dan menyinkronkannya langsung ke daftar pemasaran email Anda. 
 
-Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Terintegrasi dengan obrolan web, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Email kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
+Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Terintegrasi dengan obrolan web, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Email kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6). 

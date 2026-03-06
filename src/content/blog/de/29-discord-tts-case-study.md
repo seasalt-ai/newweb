@@ -163,7 +163,7 @@ Diese Punkte, gepaart mit der Art und Weise, wie wir gesehen haben, wie echte Be
 Diese Fragen können in einem einzigen Blogbeitrag nicht beantwortet oder gar vollständig untersucht werden.
 Das Unternehmen fühlt sich jedoch verpflichtet, diese Probleme kontinuierlich zu berücksichtigen, während wir unser Discord-Projekt vorantreiben und weiterhin mit unseren Synchronsprechern zusammenarbeiten.
 
-Vielen Dank für Ihr Interesse an unserem Discord Bot und unseren Voice Intelligence-Projekten! Weitere Informationen zu unserem STT-Produkt finden Sie auf unserer [Speech-to-Text-Homepage](https://suite.seasalt.ai/tts). Für eine persönliche Demo unserer Voice Intelligence-Produkte füllen Sie das [Demo-Buchungsformular](https://calendar.app.google/FLjCxzbYLqG6CkNs9) aus.
+Vielen Dank für Ihr Interesse an unserem Discord Bot und unseren Voice Intelligence-Projekten! Weitere Informationen zu unserem STT-Produkt finden Sie auf unserer [Speech-to-Text-Homepage](https://suite.seasalt.ai/tts). Für eine persönliche Demo unserer Voice Intelligence-Produkte füllen Sie das [Demo-Buchungsformular](https://calendar.app.google/GcdRQv1DVoiDaoCT6) aus.
 
 Auf der Discord-Seite können Sie mehr über unseren Bot erfahren und ihn Ihrem Server hinzufügen, indem Sie das [SeaVoice Discord Bot Wiki](https://wiki.seasalt.ai/seavoice/discord/6-community/) besuchen. Treten Sie auch gerne unserem [offiziellen SeaVoice Discord Server](https://discord.gg/dfAYfwBQ) bei.
 

@@ -76,4 +76,4 @@ Bagi kebanyakan perniagaan, teknologi suara baharu OpenAI mungkin terlalu mahal 
 Teknologi yang paling canggih tidak semestinya pilihan terbaik untuk keperluan perniagaan anda. Pertimbangkan belanjawan anda, kualiti perkhidmatan pelanggan yang anda perlukan, dan sejauh mana penyelesaian disepadukan dengan sistem sedia ada anda sebelum membuat sebarang perubahan.
 
 ## Ketahui Lebih Lanjut
-Jika anda ingin meneroka teknologi suara AI untuk perkhidmatan pelanggan pada harga yang berpatutan terlebih dahulu, anda boleh melawati [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) atau anda boleh [menempah demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Jika anda ingin meneroka teknologi suara AI untuk perkhidmatan pelanggan pada harga yang berpatutan terlebih dahulu, anda boleh melawati [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) atau anda boleh [menempah demo dengan kami](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

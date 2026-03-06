@@ -51,4 +51,4 @@ Kesimpulannya, penerapan pusat kontak omni-channel yang sukses untuk perusahaan 
 
 ## Hubungi kami
 
-Jika Anda tertarik untuk mempelajari lebih lanjut tentang SeaX, isi formulir "[Pesan Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" kami untuk melihat langsung platform SeaX. Kami selalu senang untuk mengobrol!
+Jika Anda tertarik untuk mempelajari lebih lanjut tentang SeaX, isi formulir "[Pesan Demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6)" kami untuk melihat langsung platform SeaX. Kami selalu senang untuk mengobrol!

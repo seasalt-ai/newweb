@@ -96,4 +96,4 @@ MailerLite มุ่งเน้นไปที่การตลาดอีเ
 
 ไม่ว่าคุณจะเลือกบริการการตลาดอีเมลแบบใด [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ก็สามารถทำงานร่วมกับแพลตฟอร์มการตลาดอีเมลส่วนใหญ่ได้อย่างดีเยี่ยม คุณสามารถรวบรวมอีเมลและลูกค้าเป้าหมายจากเอเจนต์ AI SeaChat และซิงค์โดยตรงกับรายชื่อการตลาดอีเมลของคุณ 
 
-สร้างและเปิดตัวเอเจนต์แชท AI ใน 10 นาที รองรับหลายภาษา การโอนสายเอเจนต์สด ผสานรวมกับแชทบนเว็บ, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราสำหรับรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:seachat@seasalt.ai) หรือ [จองการสาธิต](https://calendar.app.google/FLjCxzbYLqG6CkNs9) 
+สร้างและเปิดตัวเอเจนต์แชท AI ใน 10 นาที รองรับหลายภาษา การโอนสายเอเจนต์สด ผสานรวมกับแชทบนเว็บ, SMS, Line, CRM, Shopify, ปฏิทิน, Twilio, ZenDesk และการโทรศัพท์ ส่งอีเมลถึงเราสำหรับรายละเอียดเพิ่มเติมที่ [seachat@seasalt.ai](mailto:seachat@seasalt.ai) หรือ [จองการสาธิต](https://calendar.app.google/GcdRQv1DVoiDaoCT6) 

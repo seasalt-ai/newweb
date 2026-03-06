@@ -285,4 +285,4 @@ Przyszłość obsługi klienta jest jasna, wydajna i bardziej ludzka niż kiedyk
 
 ---
 
-*Chcesz dowiedzieć się, jak AI może zmienić Twoją obsługę klienta? [Zaplanuj konsultację](https://calendar.app.google/FLjCxzbYLqG6CkNs9/), aby zobaczyć, jak Seasalt.ai pomaga firmom przygotować się na przyszłość doświadczeń klienta.*
+*Chcesz dowiedzieć się, jak AI może zmienić Twoją obsługę klienta? [Zaplanuj konsultację](https://calendar.app.google/GcdRQv1DVoiDaoCT6/), aby zobaczyć, jak Seasalt.ai pomaga firmom przygotować się na przyszłość doświadczeń klienta.*

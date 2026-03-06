@@ -163,7 +163,7 @@ Donc, ces points, associés à la façon dont nous avons vu de vrais utilisateur
 Ces questions ne peuvent être répondues, ni même entièrement explorées, dans un seul article de blog.
 Cependant, l'entreprise se sent obligée de considérer continuellement ces problèmes à mesure que nous avançons avec notre projet Discord et continuons à travailler avec nos acteurs vocaux.
 
-Merci de votre intérêt pour notre bot Discord et nos projets d'intelligence vocale ! Vous pouvez en savoir plus sur notre produit STT sur notre [page d'accueil de la reconnaissance vocale](https://suite.seasalt.ai/tts). Pour une démonstration individuelle de l'un de nos produits d'intelligence vocale, remplissez le [formulaire de réservation de démonstration](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Merci de votre intérêt pour notre bot Discord et nos projets d'intelligence vocale ! Vous pouvez en savoir plus sur notre produit STT sur notre [page d'accueil de la reconnaissance vocale](https://suite.seasalt.ai/tts). Pour une démonstration individuelle de l'un de nos produits d'intelligence vocale, remplissez le [formulaire de réservation de démonstration](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 Du côté de Discord, vous pouvez en savoir plus sur notre bot et l'ajouter à votre serveur à partir du [Wiki du bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/6-community/). N'hésitez pas également à rejoindre notre [serveur Discord officiel SeaVoice](https://discord.gg/dfAYfwBQ).
 

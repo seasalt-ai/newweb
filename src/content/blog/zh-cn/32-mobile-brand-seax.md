@@ -41,4 +41,4 @@ draft: false
 
 ## 联系我们
 
-如果您有兴趣了解更多关于 SeaX 的信息，请填写我们的“[预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”表格，以便亲身体验 SeaX 平台。我们随时乐意与您交流！
+如果您有兴趣了解更多关于 SeaX 的信息，请填写我们的“[预约演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)”表格，以便亲身体验 SeaX 平台。我们随时乐意与您交流！

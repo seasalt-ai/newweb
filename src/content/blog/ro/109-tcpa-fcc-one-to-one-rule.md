@@ -93,7 +93,7 @@ Dacă doriți să fiți înaintea curbei, vă rugăm să acționați acum. 27 ia
 Modificările regulii TCPA din 2025 vor avea un impact semnificativ asupra modului în care afacerile își desfășoară activitatea de contactare. Apelurile și textele care utilizează tehnologie reglementată vor necesita consimțământ explicit de înscriere. Pentru cei fără înscriere, va fi necesară apelarea și trimiterea de mesaje text manuală după curățare. Relațiile de afaceri existente pot oferi unele scutiri, dar este esențial să rămâneți informat și conform. Discutați întotdeauna cu consilierul juridic înainte de a face orice modificare.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Rezervați o consultație gratuită cu noi</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Rezervați o consultație gratuită cu noi</a>
 </center>
 
 

@@ -285,4 +285,4 @@ Die Zukunft des Kundenservice ist hell, effizient und menschlicher denn je. Durc
 
 ---
 
-*Möchten Sie erfahren, wie KI Ihren Kundenservice verändern kann? [Vereinbaren Sie einen Beratungstermin](https://calendar.app.google/FLjCxzbYLqG6CkNs9), um zu sehen, wie Seasalt.ai Unternehmen dabei hilft, sich auf die Zukunft des Kundenerlebnisses vorzubereiten.*
+*Möchten Sie erfahren, wie KI Ihren Kundenservice verändern kann? [Vereinbaren Sie einen Beratungstermin](https://calendar.app.google/GcdRQv1DVoiDaoCT6), um zu sehen, wie Seasalt.ai Unternehmen dabei hilft, sich auf die Zukunft des Kundenerlebnisses vorzubereiten.*

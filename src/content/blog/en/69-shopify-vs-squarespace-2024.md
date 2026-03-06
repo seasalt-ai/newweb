@@ -85,7 +85,7 @@ What if you love Squarespace's design power but crave the advanced commerce tool
 
 ## You can do much more with SeaChat
 
-No matter what you end up choosing for your online business, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of ecommerce website builders. Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seachat@seasalt.ai) or [book a demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
+No matter what you end up choosing for your online business, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of ecommerce website builders. Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seachat@seasalt.ai) or [book a demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6). 
 
 SeaChat offers seamless integrations with both Shopify and Squarespace. Check out how to add AI chat and agent to your Shopify and Squarespace stores now:
 

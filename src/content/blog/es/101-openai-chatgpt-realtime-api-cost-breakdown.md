@@ -177,7 +177,7 @@ Como profesional en el campo del reconocimiento de voz y el procesamiento del le
 
 
 ## Aprende más
-Si desea explorar primero la tecnología de voz de IA para el servicio al cliente a un precio razonable, puede visitar [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) o puede [reservar una demostración con nosotros](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Si desea explorar primero la tecnología de voz de IA para el servicio al cliente a un precio razonable, puede visitar [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) o puede [reservar una demostración con nosotros](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 
 ## Acerca de esta serie

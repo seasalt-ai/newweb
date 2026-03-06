@@ -163,7 +163,7 @@ Więc te punkty, w połączeniu z tym, jak widzieliśmy, jak prawdziwi użytkown
 Są to pytania, na które nie można odpowiedzieć, a nawet w pełni zbadać, w jednym wpisie na blogu.
 Jednak firma czuje się zobowiązana do ciągłego rozważania tych kwestii w miarę postępów w naszym projekcie na Discordzie i kontynuowania współpracy z naszymi lektorami.
 
-Dziękujemy za zainteresowanie naszym botem na Discordzie i projektami Voice Intelligence! Więcej o naszym produkcie STT dowiesz się na naszej [stronie głównej zamiany mowy na tekst](https://suite.seasalt.ai/tts). Aby uzyskać indywidualną demonstrację dowolnego z naszych produktów Voice Intelligence, wypełnij [formularz rezerwacji demonstracji](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Dziękujemy za zainteresowanie naszym botem na Discordzie i projektami Voice Intelligence! Więcej o naszym produkcie STT dowiesz się na naszej [stronie głównej zamiany mowy na tekst](https://suite.seasalt.ai/tts). Aby uzyskać indywidualną demonstrację dowolnego z naszych produktów Voice Intelligence, wypełnij [formularz rezerwacji demonstracji](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 Po stronie Discorda możesz dowiedzieć się więcej o naszym bocie i dodać go do swojego serwera z [wiki bota SeaVoice na Discordzie](https://wiki.seasalt.ai/seavoice/discord/6-community/). Zapraszamy również do dołączenia do naszego [oficjalnego serwera SeaVoice na Discordzie](https://discord.gg/dfAYfwBQ).
 

@@ -94,7 +94,7 @@ Nếu bạn muốn đi trước thời đại, hãy hành động ngay bây gi�
 Các thay đổi quy tắc TCPA năm 2025 sẽ ảnh hưởng đáng kể đến cách các doanh nghiệp thực hiện hoạt động tiếp cận của họ. Các cuộc gọi và tin nhắn sử dụng công nghệ được quy định sẽ yêu cầu sự đồng ý rõ ràng. Đối với những người không có sự đồng ý, việc quay số thủ công và nhắn tin sau khi sàng lọc sẽ là cần thiết. Các mối quan hệ kinh doanh hiện có có thể cung cấp một số miễn trừ, nhưng việc cập nhật thông tin và tuân thủ là rất quan trọng. Luôn nói chuyện với cố vấn pháp lý của bạn trước khi thực hiện bất kỳ thay đổi nào.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Đặt lịch tư vấn miễn phí với chúng tôi</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Đặt lịch tư vấn miễn phí với chúng tôi</a>
 </center>
 
 

@@ -107,6 +107,6 @@ Maaaring tumagal ng hanggang apat na oras bago lumabas ang chat button sa Google
 *Maaari mong i-click ang button na "I-re-launch" kapag tapos ka na sa paggawa ng mga pagbabago/pagpapabuti sa iyong virtual agent.*
 </center>
 
-[Mag-book ng demo sa amin](https://calendar.app.google/FLjCxzbYLqG6CkNs9) at masaya kaming tutulungan ka!
+[Mag-book ng demo sa amin](https://calendar.app.google/GcdRQv1DVoiDaoCT6) at masaya kaming tutulungan ka!
 
 Update: Kami ay nagbago ng produkto upang maging isang omni-channel chatbot builder. Ngayon ay tinatawag na [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!

@@ -116,4 +116,4 @@ draft: false
 அறிவுத் தள அமைப்பு மற்றும் அது SeaX தளத்துடன் எவ்வாறு ஒருங்கிணைக்கப்படுகிறது என்பதைப் பற்றி ஆழமாக ஆராய விரும்பினால், இந்தத் தலைப்பில் எங்கள் வலைநாரைப் பாருங்கள்:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-ஒருவருக்கு ஒருவர் டெமோவிற்கு அல்லது உங்கள் வணிகத் தேவைகளுக்கு Seasalt.ai எவ்வாறு ஒரு தீர்வைத் தனிப்பயனாக்கலாம் என்பதை அறிய, எங்கள் [டெமோ திட்டமிடல் படிவத்தை](https://calendar.app.google/FLjCxzbYLqG6CkNs9) நிரப்பவும்.
+ஒருவருக்கு ஒருவர் டெமோவிற்கு அல்லது உங்கள் வணிகத் தேவைகளுக்கு Seasalt.ai எவ்வாறு ஒரு தீர்வைத் தனிப்பயனாக்கலாம் என்பதை அறிய, எங்கள் [டெமோ திட்டமிடல் படிவத்தை](https://calendar.app.google/GcdRQv1DVoiDaoCT6) நிரப்பவும்.

@@ -36,7 +36,7 @@ const PhoneBanner = ({ lang, translations }: PhoneBannerProps) => {
             🎉 Get a free consultation call - Book now!
           </span>
           <a
-            href="https://calendar.app.google/FLjCxzbYLqG6CkNs9"
+            href="https://calendar.app.google/GcdRQv1DVoiDaoCT6"
             className="ml-3 text-sm underline hover:no-underline"
           >
             Book Call
@@ -60,7 +60,7 @@ const PhoneBanner = ({ lang, translations }: PhoneBannerProps) => {
           🎉 {getText('banner.phone.text', 'Get a free consultation call - Book now!')}
         </span>
         <a
-          href="https://calendar.app.google/FLjCxzbYLqG6CkNs9"
+          href="https://calendar.app.google/GcdRQv1DVoiDaoCT6"
           className="ml-3 text-sm underline hover:no-underline"
         >
           {getText('banner.phone.cta', 'Book Call')}

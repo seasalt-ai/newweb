@@ -119,4 +119,4 @@ Tant que l'utilisateur a envoyé un message au cours des 30 derniers jours, le p
 *Interface de la fonctionnalité d'agent en direct de Near Me.*
 </center>
 
-Êtes-vous prêt à commencer avec Near Me Messaging ? Restez à l'écoute pour notre prochain article sur la façon de lancer votre agent virtuel avec Near Me Messaging. [Réservez une démonstration avec nous maintenant](https://calendar.app.google/FLjCxzbYLqG6CkNs9) et soyez parmi les premiers à obtenir un essai gratuit de Near Me Messaging ! 
+Êtes-vous prêt à commencer avec Near Me Messaging ? Restez à l'écoute pour notre prochain article sur la façon de lancer votre agent virtuel avec Near Me Messaging. [Réservez une démonstration avec nous maintenant](https://calendar.app.google/GcdRQv1DVoiDaoCT6) et soyez parmi les premiers à obtenir un essai gratuit de Near Me Messaging ! 

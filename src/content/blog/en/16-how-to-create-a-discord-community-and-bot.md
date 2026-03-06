@@ -245,4 +245,4 @@ Now your bot should be hooked up and listening to all the action in your Discord
 Keep an eye out for the final post in our blog series, which will walk through how we used our product, [SeaX](https://seax.seasalt.ai/), to connect [Twilio Flex’s contact center platform](https://www.twilio.com/flex) with a community Discord server. This integration allows brands to not only foster community with their customers, but to maintain a direct channel of communication and address problems from directly within the online community.
 
 
-For more information about any of our solutions, visit [Seasalt.ai's Product Wiki](https://wiki.seasalt.ai) - or fill out the ["Book a Demo" form](https://calendar.app.google/FLjCxzbYLqG6CkNs9) to get a first-hand look.
+For more information about any of our solutions, visit [Seasalt.ai's Product Wiki](https://wiki.seasalt.ai) - or fill out the ["Book a Demo" form](https://calendar.app.google/GcdRQv1DVoiDaoCT6) to get a first-hand look.

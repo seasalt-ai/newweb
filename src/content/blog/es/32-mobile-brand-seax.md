@@ -46,4 +46,4 @@ En conclusión, la exitosa implementación del centro de contacto omnicanal para
 
 ## Póngase en contacto
 
-Si está interesado en obtener más información sobre SeaX, complete nuestro formulario "[Reservar una demostración](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" para obtener una primera vista de la plataforma SeaX. ¡Siempre estamos encantados de chatear!
+Si está interesado en obtener más información sobre SeaX, complete nuestro formulario "[Reservar una demostración](https://calendar.app.google/GcdRQv1DVoiDaoCT6)" para obtener una primera vista de la plataforma SeaX. ¡Siempre estamos encantados de chatear!

@@ -107,6 +107,6 @@ Pojawienie się przycisku czatu w Google Maps może potrwać do czterech godzin.
 *Możesz kliknąć przycisk „Uruchom ponownie” po zakończeniu wprowadzania zmian/ulepszeń w swoim wirtualnym agencie.*
 </center>
 
-[Zarezerwuj u nas demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9), a z przyjemnością Ci pomożemy!
+[Zarezerwuj u nas demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6), a z przyjemnością Ci pomożemy!
 
 Aktualizacja: Od tego czasu zmieniliśmy produkt na kreator chatbota wielokanałowego. Teraz nazywa się [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!

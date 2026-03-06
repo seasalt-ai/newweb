@@ -99,4 +99,4 @@ Iată ce trebuie să luați în considerare înainte de a alege un instrument de
 
 Indiferent ce alegeți pentru serviciul dvs. de marketing prin e-mail, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integrează bine cu majoritatea platformelor de marketing prin e-mail. Puteți colecta e-mailurile și clienții potențiali de la agentul AI SeaChat și îi puteți sincroniza direct cu lista dvs. de marketing prin e-mail.
 
-Construiți și lansați agentul de chat AI în 10 minute. Suport multilingv. Transfer de agent live. Integrați cu webchat, SMS, Line, CRM, Shopify, calendare, Twilio, ZenDesk și apeluri telefonice. Trimiteți-ne un e-mail pentru mai multe detalii la [seachat@seasalt.ai](mailto:seachat@seasalt.ai) sau [rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Construiți și lansați agentul de chat AI în 10 minute. Suport multilingv. Transfer de agent live. Integrați cu webchat, SMS, Line, CRM, Shopify, calendare, Twilio, ZenDesk și apeluri telefonice. Trimiteți-ne un e-mail pentru mai multe detalii la [seachat@seasalt.ai](mailto:seachat@seasalt.ai) sau [rezervați o demonstrație](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

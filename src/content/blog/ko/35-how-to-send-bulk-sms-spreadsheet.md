@@ -113,4 +113,4 @@ Excel, Google 스프레드시트 등 도구로 대량 SMS를 보내는 것은 �
 
 ## 문의하기
 
-10DLC나 SMS 마케팅에 대해 더 알고 싶으시면 [데모 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)을 해주세요. 언제든 상담해 드립니다!
+10DLC나 SMS 마케팅에 대해 더 알고 싶으시면 [데모 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)을 해주세요. 언제든 상담해 드립니다!

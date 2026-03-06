@@ -169,7 +169,7 @@ AIの開発は倫理的ジレンマの奔流に囲まれています。私たち
 
 これらの計画された機能により、音声チャンネルをすべての人にとってよりアクセスしやすくし続け、ユーザーが快適なレベルでSeaVoiceボットとやり取りできる能力を提供できることを願っています。今後も、SeaVoiceを可能な限り最高のものにするために、これらの困難な問題に積極的に取り組んでいきます！
 
-Discordボットにご興味をお持ちいただきありがとうございます。そして、継続的なご支援をいただいているユーザーの皆様に感謝いたします！STT製品の詳細については、[SeaVoice音声テキスト変換ホームページ](https://suite.seasalt.ai/tts)をご覧ください。当社の音声インテリジェンス製品のいずれかの1対1デモについては、[デモ予約フォーム](https://calendar.app.google/FLjCxzbYLqG6CkNs9)にご記入ください。
+Discordボットにご興味をお持ちいただきありがとうございます。そして、継続的なご支援をいただいているユーザーの皆様に感謝いたします！STT製品の詳細については、[SeaVoice音声テキスト変換ホームページ](https://suite.seasalt.ai/tts)をご覧ください。当社の音声インテリジェンス製品のいずれかの1対1デモについては、[デモ予約フォーム](https://calendar.app.google/GcdRQv1DVoiDaoCT6)にご記入ください。
 
 まだSeaVoiceボットを試していない場合は、[SeaVoice DiscordボットWiki](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/)からボットの詳細を確認し、サーバーに追加できます。また、お気軽に[公式SeaVoice Discordサーバー](https://discord.gg/dfAYfwBQ)にご参加ください。
 

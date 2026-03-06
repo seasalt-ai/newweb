@@ -83,7 +83,7 @@ Squarespace의 디자인 능력을 좋아하지만 Shopify의 고급 상거래 �
 
 ## SeaChat으로 더 많은 것을 할 수 있습니다
 
-온라인 비즈니스를 위해 어떤 것을 선택하든, [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대부분의 전자상거래 웹사이트 빌더와 잘 통합됩니다. 10분 안에 AI 채팅 에이전트를 구축하고 시작하세요. 다국어 지원. 실시간 에이전트 전환. 웹 채팅, SMS, 라인, CRM, Shopify, 캘린더, Twilio, ZenDesk 및 전화 통화와 통합됩니다. 자세한 내용은 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하세요.
+온라인 비즈니스를 위해 어떤 것을 선택하든, [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대부분의 전자상거래 웹사이트 빌더와 잘 통합됩니다. 10분 안에 AI 채팅 에이전트를 구축하고 시작하세요. 다국어 지원. 실시간 에이전트 전환. 웹 채팅, SMS, 라인, CRM, Shopify, 캘린더, Twilio, ZenDesk 및 전화 통화와 통합됩니다. 자세한 내용은 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모를 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)하세요.
 
 SeaChat은 Shopify와 Squarespace 모두와 원활한 통합을 제공합니다. Shopify 및 Squarespace 스토어에 AI 채팅 및 에이전트를 추가하는 방법을 지금 확인하세요.
 

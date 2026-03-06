@@ -41,4 +41,4 @@ draft: false
 
 ## 문의하기
 
-SeaX에 대해 더 자세히 알고 싶으시면, [데모 예약 양식](https://calendar.app.google/FLjCxzbYLqG6CkNs9)을 작성하여 SeaX 플랫폼을 직접 확인해 보세요. 언제든지 기꺼이 대화할 준비가 되어 있습니다!
+SeaX에 대해 더 자세히 알고 싶으시면, [데모 예약 양식](https://calendar.app.google/GcdRQv1DVoiDaoCT6)을 작성하여 SeaX 플랫폼을 직접 확인해 보세요. 언제든지 기꺼이 대화할 준비가 되어 있습니다!

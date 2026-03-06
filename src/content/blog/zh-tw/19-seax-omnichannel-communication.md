@@ -105,4 +105,4 @@ Twilio Flex，另一方面，為出色的全通路聯絡中心奠定了基礎。
 
 SeaX 建立在 Flex 之上，為一些最常請求的管道添加了內建支援：例如 Google Business Messages、Discord、Line 和 Instagram。此外，Seasalt.ai 始終與客戶合作，將新管道引入 SeaX 產品線。SeaX 高度可自訂且易於擴展——這意味著我們可以與您的公司合作，整合您最想要的任何管道。
 
-感謝您花時間閱讀 SeaX 雲端聯絡中心如何利用全通路通訊提供無縫的客戶和Agent商體驗。請繼續關注我們的下一篇部落格文章，該文章將探討成為「分散式聯絡中心」意味著什麼。如果您有興趣立即了解更多信息，請填寫我們的 [預約演示表單](https://calendar.app.google/FLjCxzbYLqG6CkNs9) 以親身體驗 SeaX 平台。
+感謝您花時間閱讀 SeaX 雲端聯絡中心如何利用全通路通訊提供無縫的客戶和Agent商體驗。請繼續關注我們的下一篇部落格文章，該文章將探討成為「分散式聯絡中心」意味著什麼。如果您有興趣立即了解更多信息，請填寫我們的 [預約演示表單](https://calendar.app.google/GcdRQv1DVoiDaoCT6) 以親身體驗 SeaX 平台。

@@ -51,4 +51,4 @@ Implementarea soluției de centru de contact omnicanal a demonstrat, de asemenea
 
 ## Luați legătura
 
-Dacă sunteți interesat să aflați mai multe despre SeaX, completați formularul nostru [Rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pentru a arunca o privire directă asupra platformei SeaX. Suntem întotdeauna bucuroși să discutăm!
+Dacă sunteți interesat să aflați mai multe despre SeaX, completați formularul nostru [Rezervați o demonstrație](https://calendar.app.google/GcdRQv1DVoiDaoCT6) pentru a arunca o privire directă asupra platformei SeaX. Suntem întotdeauna bucuroși să discutăm!

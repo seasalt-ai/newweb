@@ -172,7 +172,7 @@ const Hero: React.FC<HeroProps> = ({ lang, translations }) => {
                   {getText('seachat.hero.startFree', 'Start Free Now')}
                 </button>
               </a>
-              <a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" className="block">
+              <a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" className="block">
                 <button className="border-2 border-white text-white hover:bg-white hover:text-blue-900 px-8 py-4 rounded-lg text-lg font-semibold transition-all w-full">
                   {getText('seachat.hero.exploreAI', 'Book A Demo')}
                 </button>

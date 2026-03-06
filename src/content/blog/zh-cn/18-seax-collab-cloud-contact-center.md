@@ -83,4 +83,4 @@ SeaX 简化了座席的工作空间，将他们日常所需的一切都整合到
 
 **管理员监控** - 内置工具，用于监控客户通信和座席绩效
 
-如需个人演示，并了解 SeaX 如何帮助您满足联络中心需求，请填写我们的“[预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”表格。
+如需个人演示，并了解 SeaX 如何帮助您满足联络中心需求，请填写我们的“[预约演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)”表格。
