@@ -73,4 +73,4 @@ SeaX 的全渠道支持增加了向短信、语音通话、Facebook Messenger、
 ### 一个便捷的平台
 简而言之，SeaX 和 HubSpot 之间的集成简化了您的客户支持界面，让您的真人座席可以更轻松地访问客户信息。采用利用这种集成的人工智能虚拟座席和自动化功能，可以让您的真人座席更高效，并简化您的工作流程和 CRM 流程。
 
-想了解由 Seasalt.ai 提供支持的 SeaX 如何帮助您的业务吗？[立即预订演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+想了解由 Seasalt.ai 提供支持的 SeaX 如何帮助您的业务吗？[立即预订演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。

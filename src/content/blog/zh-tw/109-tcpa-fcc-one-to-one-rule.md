@@ -91,7 +91,7 @@ TCPA 法案起源於 1990 年代，經歷了多次修訂，並在 2010 年代初
 2025 年 TCPA 規則變更將顯著影響企業開展外聯活動的方式。使用受監管技術的電話和簡訊將需要明確的選擇加入同意。對於沒有選擇加入的，在清理後需要手動撥號和發簡訊。現有的業務關係可以提供一些豁免，但保持知情和合規至關重要。在進行任何更改之前，請務必諮詢您的法律顧問。
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">與我們預約免費諮詢</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">與我們預約免費諮詢</a>
 </center>
 
 

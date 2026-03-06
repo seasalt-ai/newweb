@@ -42,4 +42,4 @@ draft: false
 
 ## 문의하기
 
-SeaX에 대해 더 자세히 알고 싶으시다면, [데모 예약](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) 양식을 작성하여 SeaX 플랫폼을 직접 경험해 보십시오. 언제든지 기꺼이 대화하겠습니다!
+SeaX에 대해 더 자세히 알고 싶으시다면, [데모 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9) 양식을 작성하여 SeaX 플랫폼을 직접 경험해 보십시오. 언제든지 기꺼이 대화하겠습니다!

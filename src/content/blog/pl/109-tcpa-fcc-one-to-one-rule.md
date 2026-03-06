@@ -94,7 +94,7 @@ Jeśli chcesz być na bieżąco, działaj teraz. 27 stycznia 2025 roku zbliża s
 Zmiany w zasadach TCPA z 2025 roku znacząco wpłyną na sposób, w jaki firmy prowadzą swoje działania promocyjne. Połączenia i wiadomości tekstowe wykorzystujące regulowaną technologię będą wymagały wyraźnej zgody opt-in. Dla tych, którzy nie wyrazili zgody, konieczne będzie ręczne wybieranie numerów i wysyłanie wiadomości tekstowych po oczyszczeniu. Istniejące relacje biznesowe mogą zapewnić pewne wyjątki, ale bycie poinformowanym i zgodnym z przepisami jest kluczowe. Zawsze rozmawiaj z prawnikiem przed wprowadzeniem jakichkolwiek zmian.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Umów się na bezpłatną konsultację z nami</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Umów się na bezpłatną konsultację z nami</a>
 </center>
 
 

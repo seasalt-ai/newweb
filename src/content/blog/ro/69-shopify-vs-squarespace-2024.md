@@ -85,7 +85,7 @@ Squarespace este cunoscut mai ales ca un constructor de site-uri web cu capacit�
 
 ## Puteți face mult mai mult cu SeaChat
 
-Indiferent de soluția pe care o alegi pentru afacerea ta online, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integrează bine cu majoritatea constructorilor de site-uri web de e-commerce. Creează și lansează un agent de chat IA în 10 minute. Suport multi-limbă. Transfer la agent în timp real. Integrează-te cu chat web, SMS, Line, CRM, Shopify, calendare, Twilio, ZenDesk și apeluri telefonice. Trimite-ne un e-mail pentru mai multe detalii la [seachat@seasalt.ai](mailto:seachat@seasalt.ai) sau [rezervă o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Indiferent de soluția pe care o alegi pentru afacerea ta online, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integrează bine cu majoritatea constructorilor de site-uri web de e-commerce. Creează și lansează un agent de chat IA în 10 minute. Suport multi-limbă. Transfer la agent în timp real. Integrează-te cu chat web, SMS, Line, CRM, Shopify, calendare, Twilio, ZenDesk și apeluri telefonice. Trimite-ne un e-mail pentru mai multe detalii la [seachat@seasalt.ai](mailto:seachat@seasalt.ai) sau [rezervă o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 SeaChat oferă integrare perfectă cu Shopify și Squarespace. Descoperă cum să adaugi un chat IA și un agent la magazinele tale Shopify și Squarespace acum:
 

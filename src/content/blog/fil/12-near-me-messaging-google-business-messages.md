@@ -119,4 +119,4 @@ Maaaring sumali ang may-ari sa anumang pag-uusap anumang oras hangga't nagpadala
 *Interface ng Near Me live agent feature.*
 </center>
 
-Handa ka na bang magsimula sa Near Me Messaging? Manatiling nakatutok para sa aming susunod na post tungkol sa kung paano ilunsad ang iyong virtual agent gamit ang Near Me Messaging. [Mag-book ng demo sa amin](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) ngayon at maging isa sa mga unang makakuha ng libreng trial ng Near Me Messaging!
+Handa ka na bang magsimula sa Near Me Messaging? Manatiling nakatutok para sa aming susunod na post tungkol sa kung paano ilunsad ang iyong virtual agent gamit ang Near Me Messaging. [Mag-book ng demo sa amin](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ngayon at maging isa sa mga unang makakuha ng libreng trial ng Near Me Messaging!

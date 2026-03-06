@@ -73,4 +73,4 @@ When you finish a conversation with a customer in SeaX, an automation can direct
 ### One Convenient Platform
 In short, the integration between SeaX and HubSpot simplifies your customer support interface and gives your live agents more easier access to your customer information. Employing AI-enabled virtual agents and automation that utilize this integration frees up your live agents to be more efficient and streamlines your workflow and CRM processes.
 
-Want to see how SeaX powered by Seasalt.ai can help your business? [Book a demo today](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Want to see how SeaX powered by Seasalt.ai can help your business? [Book a demo today](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

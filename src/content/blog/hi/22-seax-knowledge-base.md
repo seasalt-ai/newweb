@@ -115,4 +115,4 @@ draft: false
 यदि आप नॉलेज बेस सिस्टम और यह SeaX प्लेटफॉर्म के साथ कैसे एकीकृत होता है, इस पर अधिक गहराई से विचार करना चाहते हैं, तो इस विषय पर हमारा वेबिनार देखें:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube वीडियो प्लेयर" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-एक-एक डेमो के लिए, या यह पता लगाने के लिए कि Seasalt.ai आपकी व्यावसायिक आवश्यकताओं के लिए समाधान को कैसे अनुकूलित कर सकता है, कृपया हमारा [डेमो शेड्यूल करें फ़ॉर्म](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) भरें।
+एक-एक डेमो के लिए, या यह पता लगाने के लिए कि Seasalt.ai आपकी व्यावसायिक आवश्यकताओं के लिए समाधान को कैसे अनुकूलित कर सकता है, कृपया हमारा [डेमो शेड्यूल करें फ़ॉर्म](https://calendar.app.google/FLjCxzbYLqG6CkNs9) भरें।

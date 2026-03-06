@@ -118,4 +118,4 @@ Pemilik dapat bergabung dengan percakapan apa pun kapan saja selama pengguna tel
 *Antarmuka fitur agen langsung Near Me.*
 </center>
 
-Apakah Anda siap untuk memulai dengan Near Me Messaging? Nantikan postingan kami berikutnya tentang cara meluncurkan agen virtual Anda dengan Near Me Messaging. [Pesan demo dengan kami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) hari ini dan jadilah yang pertama mendapatkan uji coba gratis Near Me Messaging!
+Apakah Anda siap untuk memulai dengan Near Me Messaging? Nantikan postingan kami berikutnya tentang cara meluncurkan agen virtual Anda dengan Near Me Messaging. [Pesan demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) hari ini dan jadilah yang pertama mendapatkan uji coba gratis Near Me Messaging!

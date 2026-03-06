@@ -285,4 +285,4 @@ Ang kinabukasan ng serbisyo sa customer ay maliwanag, mahusay, at mas makatao ka
 
 ---
 
-*Gusto mo bang tuklasin kung paano mababago ng AI ang iyong serbisyo sa customer? [Mag-iskedyul ng konsultasyon](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) upang makita kung paano tinutulungan ng Seasalt.ai ang mga negosyo na maghanda para sa kinabukasan ng karanasan ng customer.*
+*Gusto mo bang tuklasin kung paano mababago ng AI ang iyong serbisyo sa customer? [Mag-iskedyul ng konsultasyon](https://calendar.app.google/FLjCxzbYLqG6CkNs9) upang makita kung paano tinutulungan ng Seasalt.ai ang mga negosyo na maghanda para sa kinabukasan ng karanasan ng customer.*

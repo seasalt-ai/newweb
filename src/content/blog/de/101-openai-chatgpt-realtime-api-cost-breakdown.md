@@ -177,7 +177,7 @@ Als Praktiker im Bereich Spracherkennung und Verarbeitung natürlicher Sprache s
 
 
 ## Erfahren Sie mehr
-Wenn Sie zunächst die KI-Sprachtechnologie für den Kundenservice zu einem vernünftigen Preis erkunden möchten, können Sie [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) besuchen oder [eine Demo bei uns buchen](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Wenn Sie zunächst die KI-Sprachtechnologie für den Kundenservice zu einem vernünftigen Preis erkunden möchten, können Sie [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) besuchen oder [eine Demo bei uns buchen](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## Über diese Serie

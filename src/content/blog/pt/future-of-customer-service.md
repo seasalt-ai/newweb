@@ -285,4 +285,4 @@ O futuro do atendimento ao cliente é brilhante, eficiente e mais humano do que 
 
 ---
 
-*Quer explorar como a IA pode transformar seu atendimento ao cliente? [Agende uma consulta](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) para ver como a Seasalt.ai está ajudando as empresas a se prepararem para o futuro da experiência do cliente.*
+*Quer explorar como a IA pode transformar seu atendimento ao cliente? [Agende uma consulta](https://calendar.app.google/FLjCxzbYLqG6CkNs9) para ver como a Seasalt.ai está ajudando as empresas a se prepararem para o futuro da experiência do cliente.*

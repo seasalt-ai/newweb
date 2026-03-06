@@ -117,4 +117,4 @@ Auf dieser Seite können Sie einzelne neue Wissensdatenbankeinträge hinzufügen
 Wenn Sie einen genaueren Einblick in das Wissensdatenbanksystem und seine Integration in die SeaX-Plattform erhalten möchten, sehen Sie sich unser Webinar zu diesem Thema an:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube-Videoplayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Für eine persönliche Demo oder um zu erfahren, wie Seasalt.ai eine Lösung für Ihre Geschäftsanforderungen anpassen kann, füllen Sie bitte unser [Formular zur Demoanforderung](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) aus.
+Für eine persönliche Demo oder um zu erfahren, wie Seasalt.ai eine Lösung für Ihre Geschäftsanforderungen anpassen kann, füllen Sie bitte unser [Formular zur Demoanforderung](https://calendar.app.google/FLjCxzbYLqG6CkNs9) aus.

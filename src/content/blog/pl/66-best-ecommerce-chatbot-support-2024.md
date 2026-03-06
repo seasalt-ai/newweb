@@ -136,7 +136,7 @@ Opcje chatbota: Możesz wprowadzić agenta AI SeaChat do swojego sklepu Ecwid. E
 
 Rozważ te czynniki, decydując się na najlepszą platformę e-commerce:
 
-- Funkcje chatbota: Czy potrzebujesz prostej obsługi często zadawanych pytań, czy złożonego generowania leadów? Czy chcesz używać tego samego agenta czatu dla wielu kanałów? Łatwo jest zacząć, ale dobre planowanie może zaoszczędzić Ci wielu problemów operacyjnych później. [Chętnie pomożemy](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting), jeśli chcesz porozmawiać o planowaniu chatbota dla swojego sklepu internetowego.
+- Funkcje chatbota: Czy potrzebujesz prostej obsługi często zadawanych pytań, czy złożonego generowania leadów? Czy chcesz używać tego samego agenta czatu dla wielu kanałów? Łatwo jest zacząć, ale dobre planowanie może zaoszczędzić Ci wielu problemów operacyjnych później. [Chętnie pomożemy](https://calendar.app.google/FLjCxzbYLqG6CkNs9), jeśli chcesz porozmawiać o planowaniu chatbota dla swojego sklepu internetowego.
 - Budżet: Uwzględnij koszty aplikacji i opłaty transakcyjne. Skalowanie jest dużym czynnikiem. Wiele kreatorów e-commerce jest tanich, a nawet darmowych na początek, ale opłaty transakcyjne i ulepszenia pakietów mogą znacznie zwiększyć Twoje koszty w czasie. Przed rozpoczęciem przeprowadź dokładne badania, aby uniknąć niespodzianek.
 - Łatwość użycia: Jeśli budujesz sklep samodzielnie, musisz czuć się komfortowo z narzędziami. Poziom komfortu i preferencje techniczne każdego są inne, więc upewnij się, że przetestujesz narzędzie przed zablokowaniem rozwiązania.
 
@@ -150,4 +150,4 @@ Rozważ te czynniki, decydując się na najlepszą platformę e-commerce:
 
 ## Możesz zrobić znacznie więcej z SeaChat
 
-Bez względu na to, co wybierzesz dla swojego biznesu online, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) dobrze integruje się z większością kreatorów stron internetowych e-commerce. Zbuduj i uruchom agenta czatu AI w 10 minut. Obsługa wielu języków. Przekazywanie agenta na żywo. Integracja z czatem internetowym, SMS-ami, Line, CRM, Shopify, kalendarzami, Twilio, ZenDesk i połączeniami telefonicznymi. Napisz do nas, aby uzyskać więcej szczegółów na [seachat@seasalt.ai](mailto:seachat@seasalt.ai) lub [zarezerwuj demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bez względu na to, co wybierzesz dla swojego biznesu online, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) dobrze integruje się z większością kreatorów stron internetowych e-commerce. Zbuduj i uruchom agenta czatu AI w 10 minut. Obsługa wielu języków. Przekazywanie agenta na żywo. Integracja z czatem internetowym, SMS-ami, Line, CRM, Shopify, kalendarzami, Twilio, ZenDesk i połączeniami telefonicznymi. Napisz do nas, aby uzyskać więcej szczegółów na [seachat@seasalt.ai](mailto:seachat@seasalt.ai) lub [zarezerwuj demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

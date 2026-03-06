@@ -46,4 +46,4 @@ En conclusion, le déploiement réussi du centre de contact omnicanal pour l'une
 
 ## Contactez-nous
 
-Si vous souhaitez en savoir plus sur SeaX, remplissez notre [formulaire de réservation de démo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pour avoir un aperçu de la plateforme SeaX. Nous sommes toujours ravis de discuter!
+Si vous souhaitez en savoir plus sur SeaX, remplissez notre [formulaire de réservation de démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pour avoir un aperçu de la plateforme SeaX. Nous sommes toujours ravis de discuter!

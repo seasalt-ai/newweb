@@ -139,4 +139,4 @@ MailerLite는 뛰어난 이메일 전달률을 유지합니다. [2023년 6월 �
 
 어떤 이메일 마케팅 서비스를 선택하든 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대부분의 이메일 마케팅 플랫폼과 잘 통합됩니다. SeaChat AI 에이전트에서 이메일과 리드를 수집하여 이메일 마케팅 목록에 직접 동기화할 수 있습니다.
 
-10분 안에 AI 채팅 에이전트를 구축하고 실행하세요. 다국어 지원. 라이브 에이전트 전환. 웹챗, SMS, 라인, CRM, Shopify, 캘린더, Twilio, ZenDesk 및 전화 통화와 통합됩니다. 자세한 내용은 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모를 예약](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)하세요.
+10분 안에 AI 채팅 에이전트를 구축하고 실행하세요. 다국어 지원. 라이브 에이전트 전환. 웹챗, SMS, 라인, CRM, Shopify, 캘린더, Twilio, ZenDesk 및 전화 통화와 통합됩니다. 자세한 내용은 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하세요.

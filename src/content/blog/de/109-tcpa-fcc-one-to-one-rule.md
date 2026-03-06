@@ -94,7 +94,7 @@ Wenn Sie der Zeit voraus sein wollen, handeln Sie jetzt. Der 27. Januar 2025 rü
 Die TCPA-Regeländerungen von 2025 werden erhebliche Auswirkungen darauf haben, wie Unternehmen ihre Kundenansprache durchführen. Anrufe und Texte, die regulierte Technologie verwenden, erfordern eine ausdrückliche Opt-in-Zustimmung. Für diejenigen ohne Opt-in ist manuelles Wählen und Texten nach der Bereinigung erforderlich. Bestehende Geschäftsbeziehungen können einige Ausnahmen bieten, aber informiert und konform zu bleiben ist entscheidend. Sprechen Sie immer mit Ihrem Rechtsbeistand, bevor Sie Änderungen vornehmen.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Buchen Sie eine kostenlose Beratung bei uns</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Buchen Sie eine kostenlose Beratung bei uns</a>
 </center>
 
 

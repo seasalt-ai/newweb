@@ -107,4 +107,4 @@ Ang Mailchimp ay ang mas malaking pangalan. Maaaring ito ay isang salik kung nag
 
 Anuman ang iyong mapili para sa iyong serbisyo sa email marketing, ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ay mahusay na sumasama sa karamihan ng mga platform ng email marketing. Maaari kang mangolekta ng mga email at lead mula sa SeaChat AI agent at direktang i-sync sa iyong listahan ng email marketing.
 
-Bumuo at maglunsad ng AI chat agent sa loob ng 10 minuto. Suporta sa maraming wika. Live agent transfer. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang mga detalye sa [seachat@seasalt.ai](mailto:seachat@seasalt.ai) o [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bumuo at maglunsad ng AI chat agent sa loob ng 10 minuto. Suporta sa maraming wika. Live agent transfer. Isama sa webchat, SMS, Line, CRM, Shopify, mga kalendaryo, Twilio, ZenDesk, at mga tawag sa telepono. Mag-email sa amin para sa higit pang mga detalye sa [seachat@seasalt.ai](mailto:seachat@seasalt.ai) o [mag-book ng demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

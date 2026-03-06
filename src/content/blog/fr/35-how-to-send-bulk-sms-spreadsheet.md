@@ -121,4 +121,4 @@ L’envoi de SMS en masse via des outils comme Excel ou Google Sheets est très 
 
 ## Contactez-nous
 
-Pour en savoir plus sur le 10DLC ou sur vos options de marketing SMS, [réservez une démo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). Nous serons ravis d’échanger avec vous !
+Pour en savoir plus sur le 10DLC ou sur vos options de marketing SMS, [réservez une démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). Nous serons ravis d’échanger avec vous !

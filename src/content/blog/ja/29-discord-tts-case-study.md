@@ -161,7 +161,7 @@ TTSのログでは、私が知っているすべての罵り言葉（そして�
 これらの質問は、単一のブログ投稿で回答したり、完全に探求したりすることはできません。
 しかし、当社はDiscordプロジェクトを進め、声優との協力を続ける中で、これらの問題を継続的に検討する義務があると感じています。
 
-当社のDiscord Botおよび音声インテリジェンスプロジェクトにご興味をお持ちいただきありがとうございます！当社のSTT製品の詳細については、[音声認識ホームページ](https://suite.seasalt.ai/tts)をご覧ください。当社の音声インテリジェンス製品のいずれかの1対1デモについては、[デモ予約フォーム](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)にご記入ください。
+当社のDiscord Botおよび音声インテリジェンスプロジェクトにご興味をお持ちいただきありがとうございます！当社のSTT製品の詳細については、[音声認識ホームページ](https://suite.seasalt.ai/tts)をご覧ください。当社の音声インテリジェンス製品のいずれかの1対1デモについては、[デモ予約フォーム](https://calendar.app.google/FLjCxzbYLqG6CkNs9)にご記入ください。
 
 Discord側では、[SeaVoice Discord Bot Wiki](https://wiki.seasalt.ai/seavoice/discord/6-community/)から当社のボットについて詳しく知り、サーバーに追加できます。また、[公式SeaVoice Discordサーバー](https://discord.gg/dfAYfwBQ)への参加もお気軽にご検討ください。
 

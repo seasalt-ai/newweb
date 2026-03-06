@@ -77,4 +77,4 @@ Khi bạn kết thúc cuộc trò chuyện với khách hàng trong SeaX, một 
 ### Một nền tảng tiện lợi
 Nói tóm lại, việc tích hợp giữa SeaX và HubSpot giúp đơn giản hóa giao diện hỗ trợ khách hàng của bạn và cho phép các nhân viên trực tiếp của bạn truy cập dễ dàng hơn vào thông tin khách hàng của bạn. Việc sử dụng các cộng tác viên ảo được kích hoạt bởi AI và tự động hóa tận dụng sự tích hợp này sẽ giải phóng các nhân viên trực tiếp của bạn để hoạt động hiệu quả hơn và hợp lý hóa quy trình làm việc cũng như các quy trình CRM của bạn.
 
-Bạn muốn xem SeaX được cung cấp bởi Seasalt.ai có thể giúp doanh nghiệp của bạn như thế nào? [Đặt lịch demo ngay hôm nay](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bạn muốn xem SeaX được cung cấp bởi Seasalt.ai có thể giúp doanh nghiệp của bạn như thế nào? [Đặt lịch demo ngay hôm nay](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

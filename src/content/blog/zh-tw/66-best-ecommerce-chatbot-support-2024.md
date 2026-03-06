@@ -129,7 +129,7 @@ Ecwid是一個以其簡單性和易用性而聞名的流行電商平台。雖然
 
 在決定最佳電商平台時考慮這些因素：
 
-- 聊天機器人功能：您需要簡單的FAQ處理還是複雜的潛在客戶生成？您是否希望為多個管道使用相同的聊天Agent？開始可能很容易，但良好的規劃可以為您節省很多後續的操作麻煩。如果您想談論網上商店的聊天機器人規劃，[我們很樂意幫助](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+- 聊天機器人功能：您需要簡單的FAQ處理還是複雜的潛在客戶生成？您是否希望為多個管道使用相同的聊天Agent？開始可能很容易，但良好的規劃可以為您節省很多後續的操作麻煩。如果您想談論網上商店的聊天機器人規劃，[我們很樂意幫助](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
 - 預算：考慮應用程式成本和交易費用。擴展是一個重要因素。許多電商建構工具開始時便宜甚至免費，但交易費用和套餐升級可能會隨著時間推移顯著增加您的成本。在開始之前進行徹底研究以避免意外。
 - 易用性：如果您自己建構商店，您需要對工具感到舒適。每個人的舒適度和對技術工具的偏好都不同，所以在鎖定解決方案之前一定要測試工具。
 
@@ -143,4 +143,4 @@ Ecwid是一個以其簡單性和易用性而聞名的流行電商平台。雖然
 
 ## 您可以用SeaChat做更多事情
 
-無論您最終為線上業務選擇什麼，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都與大多數電商網站建構工具整合良好。在10分鐘內建構並啟動AI聊天Agent。多語言支援。即時Agent轉移。與網頁聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk和電話通話整合。發送電子郵件至[seachat@seasalt.ai](mailto:seameet@seasalt.ai)獲取更多詳細資訊，或[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+無論您最終為線上業務選擇什麼，[SeaChat](https://chat.seasalt.ai/?utm_source=blog)都與大多數電商網站建構工具整合良好。在10分鐘內建構並啟動AI聊天Agent。多語言支援。即時Agent轉移。與網頁聊天、簡訊、Line、CRM、Shopify、日曆、Twilio、ZenDesk和電話通話整合。發送電子郵件至[seachat@seasalt.ai](mailto:seameet@seasalt.ai)獲取更多詳細資訊，或[預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。

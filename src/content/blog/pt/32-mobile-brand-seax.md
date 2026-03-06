@@ -45,4 +45,4 @@ Em conclusão, a implementação bem-sucedida do contact center omnicanal para u
 
 ## Entre em contato
 
-Se você estiver interessado em saber mais sobre o SeaX, preencha nosso formulário "[Agendar uma Demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" para ter uma primeira visão da plataforma SeaX. Estamos sempre felizes em conversar!
+Se você estiver interessado em saber mais sobre o SeaX, preencha nosso formulário "[Agendar uma Demonstração](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" para ter uma primeira visão da plataforma SeaX. Estamos sempre felizes em conversar!

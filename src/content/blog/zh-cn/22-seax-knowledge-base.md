@@ -114,4 +114,4 @@ draft: false
 如果您想更深入地了解知识库系统及其与 SeaX 平台的整合方式，请观看我们关于该主题的网络研讨会：
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-如需一对一演示，或了解 Seasalt.ai 如何根据您的业务需求定制解决方案，请填写我们的 [预约演示表单](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+如需一对一演示，或了解 Seasalt.ai 如何根据您的业务需求定制解决方案，请填写我们的 [预约演示表单](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。

@@ -106,7 +106,7 @@ draft: false
 *가상 에이전트에 대한 변경/개선 작업을 마친 후 “다시 시작” 버튼을 클릭할 수 있습니다.*
 </center>
 
-[저희와 데모를 예약하세요](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 기꺼이 도와드리겠습니다!
+[저희와 데모를 예약하세요](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 기꺼이 도와드리겠습니다!
 
 업데이트: 제품을 옴니채널 챗봇 빌더로 전환했습니다. 이제 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)이라고 합니다!
 

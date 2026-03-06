@@ -100,4 +100,4 @@ Berikut adalah hal-hal yang perlu Anda pertimbangkan sebelum memilih alat pemasa
 
 Tidak peduli apa yang Anda pilih untuk layanan pemasaran email Anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) terintegrasi dengan baik dengan sebagian besar platform pemasaran email. Anda dapat mengumpulkan email dan prospek dari agen AI SeaChat dan menyinkronkannya langsung ke daftar pemasaran email Anda.
 
-Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Integrasikan dengan obrolan web, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Email kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bangun dan luncurkan agen obrolan AI dalam 10 menit. Dukungan multibahasa. Transfer agen langsung. Integrasikan dengan obrolan web, SMS, Line, CRM, Shopify, kalender, Twilio, ZenDesk, dan panggilan telepon. Email kami untuk detail lebih lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [pesan demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

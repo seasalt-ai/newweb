@@ -116,4 +116,4 @@ On this page, you can add individual new knowledge base entries, or you can impo
 If you'd like a more in-depth look at the knowledge base system and how it integrates with the SeaX platform, watch our webinar on the topic:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-For a one-on-one demo, or to find out how Seasalt.ai can customize a solution for your business needs, please fill out our [schedule-a-demo form](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+For a one-on-one demo, or to find out how Seasalt.ai can customize a solution for your business needs, please fill out our [schedule-a-demo form](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

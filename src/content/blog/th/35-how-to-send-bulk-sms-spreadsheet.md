@@ -121,4 +121,4 @@ Excel หรือ Google Sheets ไม่รองรับการส่ง S
 
 ## ติดต่อเรา
 
-หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับ 10DLC หรือ SMS Marketing [จองเดโม](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) กับเรา เรายินดีให้คำปรึกษา!
+หากต้องการทราบข้อมูลเพิ่มเติมเกี่ยวกับ 10DLC หรือ SMS Marketing [จองเดโม](https://calendar.app.google/FLjCxzbYLqG6CkNs9) กับเรา เรายินดีให้คำปรึกษา!

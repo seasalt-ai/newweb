@@ -121,4 +121,4 @@ Excel или Google Sheets не поддерживают SMS по умолчан
 
 ## Свяжитесь с нами
 
-Если хотите узнать больше о 10DLC или вариантах SMS-маркетинга, [запишитесь на демо](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). Мы всегда рады помочь!
+Если хотите узнать больше о 10DLC или вариантах SMS-маркетинга, [запишитесь на демо](https://calendar.app.google/FLjCxzbYLqG6CkNs9). Мы всегда рады помочь!

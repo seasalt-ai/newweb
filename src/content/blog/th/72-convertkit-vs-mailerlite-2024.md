@@ -93,4 +93,4 @@ draft: false
 
 ไม่ว่าคุณจะเลือกบริการการตลาดผ่านอีเมลใด [SeaChat](https://chat.seasalt.ai/?utm_source=blog) ก็สามารถทำงานร่วมกับแพลตฟอร์มการตลาดผ่านอีเมลส่วนใหญ่ได้อย่างราบรื่น คุณสามารถรวบรวมอีเมลและลูกค้าเป้าหมายจากตัวแทน AI ของ SeaChat และซิงค์ข้อมูลเหล่านั้นโดยตรงกับรายชื่อการตลาดผ่านอีเมลของคุณ 
 
-สร้างและเปิดใช้งานตัวแทนแชท AI ใน 10 นาที รองรับหลายภาษา การโอนตัวแทนสด การรวมเข้ากับ Webchat, SMS, LINE, CRM, Shopify, ปฏิทิน, Twilio, Zendesk และการโทรศัพท์ สำหรับรายละเอียดเพิ่มเติม โปรดส่งอีเมลถึงเราที่ [seachat@seasalt.ai](mailto:seachat@seasalt.ai) หรือ [จองการสาธิต](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+สร้างและเปิดใช้งานตัวแทนแชท AI ใน 10 นาที รองรับหลายภาษา การโอนตัวแทนสด การรวมเข้ากับ Webchat, SMS, LINE, CRM, Shopify, ปฏิทิน, Twilio, Zendesk และการโทรศัพท์ สำหรับรายละเอียดเพิ่มเติม โปรดส่งอีเมลถึงเราที่ [seachat@seasalt.ai](mailto:seachat@seasalt.ai) หรือ [จองการสาธิต](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

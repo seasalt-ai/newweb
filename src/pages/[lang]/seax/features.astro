@@ -1,54 +1,61 @@
 ---
-import SeaxLayout from '../../../layouts/SeaxLayout.astro';
-import { getTranslationHelpers, languages, getLocalizedPath } from '../../../i18n/helpers';
+import SeaxLayout from "../../../layouts/SeaxLayout.astro";
+import {
+  getTranslationHelpers,
+  languages,
+  getLocalizedPath,
+} from "../../../i18n/helpers";
 
 const { lang } = Astro.params;
 const { t, translations } = await getTranslationHelpers(lang);
 
 // SEO Configuration
 const seoData = {
-  title: t('seax.features.seo.title'),
-  description: t('seax.features.seo.description'),
-  keywords: t('seax.features.seo.keywords'),
-  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/features', lang),
-  ogImage: '/seax-features.png'
+  title: t("seax.features.seo.title"),
+  description: t("seax.features.seo.description"),
+  keywords: t("seax.features.seo.keywords"),
+  canonical: "https://seasalt.ai" + getLocalizedPath("/seax/features", lang),
+  ogImage: "/seax-features.png",
 };
 
 // Breadcrumbs
 const breadcrumbs = [
-  { name: 'Home', url: getLocalizedPath('/', lang) },
-  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
-  { name: 'Features', url: getLocalizedPath('/seax/features', lang) }
+  { name: "Home", url: getLocalizedPath("/", lang) },
+  { name: "SeaX", url: getLocalizedPath("/seax", lang) },
+  { name: "Features", url: getLocalizedPath("/seax/features", lang) },
 ];
 
 // FAQs
 const faqs = [
   {
     question: "What makes SeaX different from other messaging platforms?",
-    answer: "SeaX is specifically designed for massive scale communications. It can handle millions of messages and thousands of calls simultaneously with advanced AI automation and real-time analytics."
+    answer:
+      "SeaX is specifically designed for massive scale communications. It can handle millions of messages and thousands of calls simultaneously with advanced AI automation and real-time analytics.",
   },
   {
     question: "Can SeaX integrate with my existing CRM?",
-    answer: "Yes, SeaX offers seamless integrations with major CRM platforms including Salesforce, HubSpot, and others through our robust API and webhook system."
+    answer:
+      "Yes, SeaX offers seamless integrations with major CRM platforms including Salesforce, HubSpot, and others through our robust API and webhook system.",
   },
   {
     question: "What kind of analytics does SeaX provide?",
-    answer: "SeaX provides comprehensive real-time analytics including delivery rates, response tracking, conversion metrics, and detailed campaign performance reports with exportable data."
-  }
+    answer:
+      "SeaX provides comprehensive real-time analytics including delivery rates, response tracking, conversion metrics, and detailed campaign performance reports with exportable data.",
+  },
 ];
 
 export async function getStaticPaths() {
-  return Object.keys(languages).map(lang => ({
+  return Object.keys(languages).map((lang) => ({
     params: { lang },
   }));
 }
 ---
 
-<SeaxLayout 
-  {seoData} 
-  productKey="seax" 
-  breadcrumbs={breadcrumbs} 
-  faqs={faqs} 
+<SeaxLayout
+  {seoData}
+  productKey="seax"
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   lang={lang}
   headerVersion="seax"
   footerVersion="seax"
@@ -57,33 +64,64 @@ export async function getStaticPaths() {
   <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-        {t('seax.features.hero.title')}
+        {t("seax.features.hero.title")}
         <span class="text-blue-600 block">
-          {t('seax.features.hero.titleHighlight')}
+          {t("seax.features.hero.titleHighlight")}
         </span>
       </h1>
       <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-        {t('seax.features.hero.description')}
+        {t("seax.features.hero.description")}
       </p>
-      
-      <div class="flex justify-center items-center space-x-8 text-sm text-gray-600">
+
+      <div
+        class="flex justify-center items-center space-x-8 text-sm text-gray-600"
+      >
         <div class="flex items-center space-x-2">
-          <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+          <svg
+            class="w-5 h-5 text-yellow-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 10V3L4 14h7v7l9-11h-7z"></path>
           </svg>
-          <span>{t('seax.features.hero.stats.messages')}</span>
+          <span>{t("seax.features.hero.stats.messages")}</span>
         </div>
         <div class="flex items-center space-x-2">
-          <svg class="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0 9l3-3m-3 3l-3-3M12 3v9m0-9l3 3m-3-3L9 6"/>
+          <svg
+            class="w-5 h-5 text-blue-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0 9l3-3m-3 3l-3-3M12 3v9m0-9l3 3m-3-3L9 6"
+            ></path>
           </svg>
-          <span>{t('seax.features.hero.stats.countries')}</span>
+          <span>{t("seax.features.hero.stats.countries")}</span>
         </div>
         <div class="flex items-center space-x-2">
-          <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+          <svg
+            class="w-5 h-5 text-green-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+            ></path>
           </svg>
-          <span>{t('seax.features.hero.stats.security')}</span>
+          <span>{t("seax.features.hero.stats.security")}</span>
         </div>
       </div>
     </div>
@@ -94,238 +132,412 @@ export async function getStaticPaths() {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.features.core.title')}
+          {t("seax.features.core.title")}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.features.core.description')}
+          {t("seax.features.core.description")}
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Bulk Messaging -->
-        <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+        <div
+          class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow"
+        >
           <h3 class="text-xl font-bold text-gray-900 mb-4">
-            {t('seax.features.core.bulkMessaging.title')}
+            {t("seax.features.core.bulkMessaging.title")}
           </h3>
           <p class="text-gray-600 mb-6">
-            {t('seax.features.core.bulkMessaging.description')}
+            {t("seax.features.core.bulkMessaging.description")}
           </p>
           <div class="bg-white rounded-lg p-4 mb-6">
             <div class="text-2xl font-bold text-blue-600 mb-1">
-              {t('seax.features.core.bulkMessaging.metrics.value')}
+              {t("seax.features.core.bulkMessaging.metrics.value")}
             </div>
             <div class="text-sm text-gray-600">
-              {t('seax.features.core.bulkMessaging.metrics.label')}
+              {t("seax.features.core.bulkMessaging.metrics.label")}
             </div>
           </div>
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.bulkMessaging.benefits.0')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.bulkMessaging.benefits.0")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.bulkMessaging.benefits.1')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.bulkMessaging.benefits.1")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.bulkMessaging.benefits.2')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.bulkMessaging.benefits.2")}</span
+              >
             </div>
           </div>
         </div>
 
         <!-- AI Follow-Up -->
-        <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+        <div
+          class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow"
+        >
           <h3 class="text-xl font-bold text-gray-900 mb-4">
-            {t('seax.features.core.aiFollowup.title')}
+            {t("seax.features.core.aiFollowup.title")}
           </h3>
           <p class="text-gray-600 mb-6">
-            {t('seax.features.core.aiFollowup.description')}
+            {t("seax.features.core.aiFollowup.description")}
           </p>
           <div class="bg-white rounded-lg p-4 mb-6">
             <div class="text-2xl font-bold text-blue-600 mb-1">
-              {t('seax.features.core.aiFollowup.metrics.value')}
+              {t("seax.features.core.aiFollowup.metrics.value")}
             </div>
             <div class="text-sm text-gray-600">
-              {t('seax.features.core.aiFollowup.metrics.label')}
+              {t("seax.features.core.aiFollowup.metrics.label")}
             </div>
           </div>
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.aiFollowup.benefits.0')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.aiFollowup.benefits.0")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.aiFollowup.benefits.1')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.aiFollowup.benefits.1")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.aiFollowup.benefits.2')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.aiFollowup.benefits.2")}</span
+              >
             </div>
           </div>
         </div>
 
         <!-- Real-Time Analytics -->
-        <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+        <div
+          class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow"
+        >
           <h3 class="text-xl font-bold text-gray-900 mb-4">
-            {t('seax.features.core.analytics.title')}
+            {t("seax.features.core.analytics.title")}
           </h3>
           <p class="text-gray-600 mb-6">
-            {t('seax.features.core.analytics.description')}
+            {t("seax.features.core.analytics.description")}
           </p>
           <div class="bg-white rounded-lg p-4 mb-6">
             <div class="text-2xl font-bold text-blue-600 mb-1">
-              {t('seax.features.core.analytics.metrics.value')}
+              {t("seax.features.core.analytics.metrics.value")}
             </div>
             <div class="text-sm text-gray-600">
-              {t('seax.features.core.analytics.metrics.label')}
+              {t("seax.features.core.analytics.metrics.label")}
             </div>
           </div>
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.analytics.benefits.0')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.analytics.benefits.0")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.analytics.benefits.1')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.analytics.benefits.1")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.analytics.benefits.2')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.analytics.benefits.2")}</span
+              >
             </div>
           </div>
         </div>
 
         <!-- Compliance & Deliverability -->
-        <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+        <div
+          class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow"
+        >
           <h3 class="text-xl font-bold text-gray-900 mb-4">
-            {t('seax.features.core.compliance.title')}
+            {t("seax.features.core.compliance.title")}
           </h3>
           <p class="text-gray-600 mb-6">
-            {t('seax.features.core.compliance.description')}
+            {t("seax.features.core.compliance.description")}
           </p>
           <div class="bg-white rounded-lg p-4 mb-6">
             <div class="text-2xl font-bold text-blue-600 mb-1">
-              {t('seax.features.core.compliance.metrics.value')}
+              {t("seax.features.core.compliance.metrics.value")}
             </div>
             <div class="text-sm text-gray-600">
-              {t('seax.features.core.compliance.metrics.label')}
+              {t("seax.features.core.compliance.metrics.label")}
             </div>
           </div>
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.compliance.benefits.0')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.compliance.benefits.0")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.compliance.benefits.1')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.compliance.benefits.1")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.compliance.benefits.2')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.compliance.benefits.2")}</span
+              >
             </div>
           </div>
         </div>
 
         <!-- Team Collaboration -->
-        <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+        <div
+          class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow"
+        >
           <h3 class="text-xl font-bold text-gray-900 mb-4">
-            {t('seax.features.core.collaboration.title')}
+            {t("seax.features.core.collaboration.title")}
           </h3>
           <p class="text-gray-600 mb-6">
-            {t('seax.features.core.collaboration.description')}
+            {t("seax.features.core.collaboration.description")}
           </p>
           <div class="bg-white rounded-lg p-4 mb-6">
             <div class="text-2xl font-bold text-blue-600 mb-1">
-              {t('seax.features.core.collaboration.metrics.value')}
+              {t("seax.features.core.collaboration.metrics.value")}
             </div>
             <div class="text-sm text-gray-600">
-              {t('seax.features.core.collaboration.metrics.label')}
+              {t("seax.features.core.collaboration.metrics.label")}
             </div>
           </div>
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.collaboration.benefits.0')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.collaboration.benefits.0")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.collaboration.benefits.1')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.collaboration.benefits.1")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.collaboration.benefits.2')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.collaboration.benefits.2")}</span
+              >
             </div>
           </div>
         </div>
 
         <!-- Enterprise Scale -->
-        <div class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow">
+        <div
+          class="bg-gray-50 rounded-2xl p-8 hover:shadow-lg transition-shadow"
+        >
           <h3 class="text-xl font-bold text-gray-900 mb-4">
-            {t('seax.features.core.scale.title')}
+            {t("seax.features.core.scale.title")}
           </h3>
           <p class="text-gray-600 mb-6">
-            {t('seax.features.core.scale.description')}
+            {t("seax.features.core.scale.description")}
           </p>
           <div class="bg-white rounded-lg p-4 mb-6">
             <div class="text-2xl font-bold text-blue-600 mb-1">
-              {t('seax.features.core.scale.metrics.value')}
+              {t("seax.features.core.scale.metrics.value")}
             </div>
             <div class="text-sm text-gray-600">
-              {t('seax.features.core.scale.metrics.label')}
+              {t("seax.features.core.scale.metrics.label")}
             </div>
           </div>
           <div class="space-y-2">
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.scale.benefits.0')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.scale.benefits.0")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.scale.benefits.1')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.scale.benefits.1")}</span
+              >
             </div>
             <div class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-500 flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span class="text-sm text-gray-700">{t('seax.features.core.scale.benefits.2')}</span>
+              <span class="text-sm text-gray-700"
+                >{t("seax.features.core.scale.benefits.2")}</span
+              >
             </div>
           </div>
         </div>
@@ -338,64 +550,95 @@ export async function getStaticPaths() {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.features.categories.title')}
+          {t("seax.features.categories.title")}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.features.categories.description')}
+          {t("seax.features.categories.description")}
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <!-- Messaging Category -->
         <div class="bg-white rounded-2xl p-8 shadow-sm">
           <div class="flex items-center space-x-4 mb-6">
             <div class="p-3 rounded-lg bg-blue-100 text-blue-600">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                ></path>
               </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900">
-              {t('seax.features.categories.messaging.title')}
+              {t("seax.features.categories.messaging.title")}
             </h3>
           </div>
-          
+
           <div class="space-y-4">
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.messaging.sms.name')}
+                  {t("seax.features.categories.messaging.sms.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.messaging.sms.description')}
+                  {t("seax.features.categories.messaging.sms.description")}
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.messaging.whatsapp.name')}
+                  {t("seax.features.categories.messaging.whatsapp.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.messaging.whatsapp.description')}
+                  {t("seax.features.categories.messaging.whatsapp.description")}
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.messaging.voice.name')}
+                  {t("seax.features.categories.messaging.voice.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.messaging.voice.description')}
+                  {t("seax.features.categories.messaging.voice.description")}
                 </div>
               </div>
             </div>
@@ -406,52 +649,95 @@ export async function getStaticPaths() {
         <div class="bg-white rounded-2xl p-8 shadow-sm">
           <div class="flex items-center space-x-4 mb-6">
             <div class="p-3 rounded-lg bg-green-100 text-green-600">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                ></path>
               </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900">
-              {t('seax.features.categories.aiAutomation.title')}
+              {t("seax.features.categories.aiAutomation.title")}
             </h3>
           </div>
-          
+
           <div class="space-y-4">
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.aiAutomation.followup.name')}
+                  {t("seax.features.categories.aiAutomation.followup.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.aiAutomation.followup.description')}
+                  {
+                    t(
+                      "seax.features.categories.aiAutomation.followup.description",
+                    )
+                  }
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.aiAutomation.responses.name')}
+                  {t("seax.features.categories.aiAutomation.responses.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.aiAutomation.responses.description')}
+                  {
+                    t(
+                      "seax.features.categories.aiAutomation.responses.description",
+                    )
+                  }
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.aiAutomation.scoring.name')}
+                  {t("seax.features.categories.aiAutomation.scoring.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.aiAutomation.scoring.description')}
+                  {
+                    t(
+                      "seax.features.categories.aiAutomation.scoring.description",
+                    )
+                  }
                 </div>
               </div>
             </div>
@@ -462,52 +748,91 @@ export async function getStaticPaths() {
         <div class="bg-white rounded-2xl p-8 shadow-sm">
           <div class="flex items-center space-x-4 mb-6">
             <div class="p-3 rounded-lg bg-purple-100 text-purple-600">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                ></path>
               </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900">
-              {t('seax.features.categories.analytics.title')}
+              {t("seax.features.categories.analytics.title")}
             </h3>
           </div>
-          
+
           <div class="space-y-4">
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.analytics.dashboard.name')}
+                  {t("seax.features.categories.analytics.dashboard.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.analytics.dashboard.description')}
+                  {
+                    t(
+                      "seax.features.categories.analytics.dashboard.description",
+                    )
+                  }
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.analytics.tracking.name')}
+                  {t("seax.features.categories.analytics.tracking.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.analytics.tracking.description')}
+                  {t("seax.features.categories.analytics.tracking.description")}
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.analytics.reporting.name')}
+                  {t("seax.features.categories.analytics.reporting.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.analytics.reporting.description')}
+                  {
+                    t(
+                      "seax.features.categories.analytics.reporting.description",
+                    )
+                  }
                 </div>
               </div>
             </div>
@@ -518,52 +843,83 @@ export async function getStaticPaths() {
         <div class="bg-white rounded-2xl p-8 shadow-sm">
           <div class="flex items-center space-x-4 mb-6">
             <div class="p-3 rounded-lg bg-red-100 text-red-600">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+              <svg
+                class="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                ></path>
               </svg>
             </div>
             <h3 class="text-xl font-bold text-gray-900">
-              {t('seax.features.categories.enterprise.title')}
+              {t("seax.features.categories.enterprise.title")}
             </h3>
           </div>
-          
+
           <div class="space-y-4">
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.enterprise.gdpr.name')}
+                  {t("seax.features.categories.enterprise.gdpr.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.enterprise.gdpr.description')}
+                  {t("seax.features.categories.enterprise.gdpr.description")}
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.enterprise.team.name')}
+                  {t("seax.features.categories.enterprise.team.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.enterprise.team.description')}
+                  {t("seax.features.categories.enterprise.team.description")}
                 </div>
               </div>
             </div>
             <div class="flex items-start space-x-3">
-              <svg class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
               <div>
                 <div class="font-semibold text-gray-900">
-                  {t('seax.features.categories.enterprise.sla.name')}
+                  {t("seax.features.categories.enterprise.sla.name")}
                 </div>
                 <div class="text-sm text-gray-600">
-                  {t('seax.features.categories.enterprise.sla.description')}
+                  {t("seax.features.categories.enterprise.sla.description")}
                 </div>
               </div>
             </div>
@@ -578,39 +934,63 @@ export async function getStaticPaths() {
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold text-white mb-4">
-          {t('seax.features.integrations.title')}
+          {t("seax.features.integrations.title")}
         </h2>
         <p class="text-xl text-blue-100">
-          {t('seax.features.integrations.description')}
+          {t("seax.features.integrations.description")}
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- CRM -->
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
           <div class="bg-white/20 p-3 rounded-lg w-fit mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
+              ></path>
             </svg>
           </div>
           <h3 class="text-xl font-bold text-white mb-4">
-            {t('seax.features.integrations.crm.title')}
+            {t("seax.features.integrations.crm.title")}
           </h3>
           <p class="text-blue-100 mb-4">
-            {t('seax.features.integrations.crm.description')}
+            {t("seax.features.integrations.crm.description")}
           </p>
           <ul class="space-y-2 text-blue-100">
             <li class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span>{t('seax.features.integrations.crm.sync')}</span>
+              <span>{t("seax.features.integrations.crm.sync")}</span>
             </li>
             <li class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span>{t('seax.features.integrations.crm.mapping')}</span>
+              <span>{t("seax.features.integrations.crm.mapping")}</span>
             </li>
           </ul>
         </div>
@@ -618,28 +998,53 @@ export async function getStaticPaths() {
         <!-- Analytics -->
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
           <div class="bg-white/20 p-3 rounded-lg w-fit mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+              ></path>
             </svg>
           </div>
           <h3 class="text-xl font-bold text-white mb-4">
-            {t('seax.features.integrations.analytics.title')}
+            {t("seax.features.integrations.analytics.title")}
           </h3>
           <p class="text-blue-100 mb-4">
-            {t('seax.features.integrations.analytics.description')}
+            {t("seax.features.integrations.analytics.description")}
           </p>
           <ul class="space-y-2 text-blue-100">
             <li class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span>{t('seax.features.integrations.analytics.exports')}</span>
+              <span>{t("seax.features.integrations.analytics.exports")}</span>
             </li>
             <li class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span>{t('seax.features.integrations.analytics.dashboards')}</span>
+              <span>{t("seax.features.integrations.analytics.dashboards")}</span
+              >
             </li>
           </ul>
         </div>
@@ -647,28 +1052,51 @@ export async function getStaticPaths() {
         <!-- API -->
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
           <div class="bg-white/20 p-3 rounded-lg w-fit mb-4">
-            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            <svg
+              class="w-6 h-6 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
             </svg>
           </div>
           <h3 class="text-xl font-bold text-white mb-4">
-            {t('seax.features.integrations.api.title')}
+            {t("seax.features.integrations.api.title")}
           </h3>
           <p class="text-blue-100 mb-4">
-            {t('seax.features.integrations.api.description')}
+            {t("seax.features.integrations.api.description")}
           </p>
           <ul class="space-y-2 text-blue-100">
             <li class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span>{t('seax.features.integrations.api.endpoints')}</span>
+              <span>{t("seax.features.integrations.api.endpoints")}</span>
             </li>
             <li class="flex items-center space-x-2">
-              <svg class="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+              <svg
+                class="w-4 h-4 text-green-400"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"></path>
               </svg>
-              <span>{t('seax.features.integrations.api.webhooks')}</span>
+              <span>{t("seax.features.integrations.api.webhooks")}</span>
             </li>
           </ul>
         </div>
@@ -680,20 +1108,29 @@ export async function getStaticPaths() {
   <div class="py-20 bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl font-bold text-white mb-4">
-        {t('seax.features.cta.title')}
+        {t("seax.features.cta.title")}
       </h2>
       <p class="text-xl text-gray-300 mb-8">
-        {t('seax.features.cta.description')}
+        {t("seax.features.cta.description")}
       </p>
-      
+
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
-          href={`https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${lang}`}
+          href={`https://calendar.app.google/FLjCxzbYLqG6CkNs9?lang=${lang}`}
           class="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2"
         >
-          <span>{t('seax.features.cta.button')}</span>
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          <span>{t("seax.features.cta.button")}</span>
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"></path>
           </svg>
         </a>
       </div>

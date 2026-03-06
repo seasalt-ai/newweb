@@ -125,4 +125,4 @@ Google akan menghantar kod pengesahan ke nombor telefon anda. Masukkan kod penge
 
 Sekarang setelah anda tahu cara mengaktifkan butang Sembang pada penyenaraian anda dan faedahnya, bagaimana anda memastikan perniagaan anda dapat bersaing dengan jumlah pertanyaan pelanggan yang semakin meningkat? Ia memerlukan banyak masa dan wang untuk membalas sembang berulang. Lihat catatan kami yang seterusnya mengenai Mesej Perniagaan Google dan bagaimana ini dapat membantu anda menjimatkan masa dan wang dalam menyediakan perkhidmatan pelanggan yang cemerlang.
 
-[Tempah demo dengan kami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) dan jadilah yang pertama menerima percubaan percuma produk kami!
+[Tempah demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) dan jadilah yang pertama menerima percubaan percuma produk kami!

@@ -114,4 +114,4 @@ draft: false
 ナレッジベースシステムとそれがSeaXプラットフォームとどのように統合されるかについて詳しく知りたい場合は、このトピックに関するウェビナーをご覧ください。
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube動画プレーヤー" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-1対1のデモ、またはSeasalt.aiがお客様のビジネスニーズに合わせてソリューションをカスタマイズする方法については、[デモスケジュールフォーム](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)にご記入ください。
+1対1のデモ、またはSeasalt.aiがお客様のビジネスニーズに合わせてソリューションをカスタマイズする方法については、[デモスケジュールフォーム](https://calendar.app.google/FLjCxzbYLqG6CkNs9)にご記入ください。

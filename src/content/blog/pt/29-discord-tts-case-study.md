@@ -163,7 +163,7 @@ Então, esses pontos, juntamente com a forma como vimos usuários reais usarem (
 Essas são perguntas que não podem ser respondidas, ou mesmo totalmente exploradas, em uma única postagem de blog.
 No entanto, a empresa sente a obrigação de considerar continuamente essas questões à medida que avançamos com nosso projeto Discord e continuamos trabalhando com nossos dubladores.
 
-Obrigado pelo seu interesse em nosso Bot Discord e projetos de Inteligência de Voz! Você pode aprender mais sobre nosso produto STT em nossa [Página inicial de Fala para Texto](https://suite.seasalt.ai/tts). Para uma demonstração individual de qualquer um de nossos produtos de Inteligência de Voz, preencha o [Formulário de Agendamento de Demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Obrigado pelo seu interesse em nosso Bot Discord e projetos de Inteligência de Voz! Você pode aprender mais sobre nosso produto STT em nossa [Página inicial de Fala para Texto](https://suite.seasalt.ai/tts). Para uma demonstração individual de qualquer um de nossos produtos de Inteligência de Voz, preencha o [Formulário de Agendamento de Demonstração](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 No lado do Discord, você pode aprender mais sobre nosso bot e adicioná-lo ao seu servidor no [Wiki do Bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/6-community/). Sinta-se à vontade para se juntar ao nosso [Servidor Oficial do Discord SeaVoice](https://discord.gg/dfAYfwBQ).
 

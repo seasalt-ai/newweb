@@ -138,4 +138,4 @@ MailerLiteは優れたEメール配信率を維持しています。[Eメール�
 
 Eメールマーケティングサービスとして何を選択するにしても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はほとんどのEメールマーケティングプラットフォームと連携できます。SeaChat AIエージェントからEメールとリードを収集し、Eメールマーケティングリストに直接同期できます。
 
-AIチャットエージェントを10分で構築して起動できます。多言語対応。ライブエージェント転送。ウェブチャット、SMS、LINE、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合できます。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai)までEメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。
+AIチャットエージェントを10分で構築して起動できます。多言語対応。ライブエージェント転送。ウェブチャット、SMS、LINE、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合できます。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai)までEメールでお問い合わせいただくか、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)してください。

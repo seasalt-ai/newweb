@@ -41,4 +41,4 @@ draft: false
 
 ## 聯繫我們
 
-如果您有興趣了解更多關於 SeaX 的資訊，請填寫我們的「[預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)」表格，以便親身體驗 SeaX 平台。我們隨時樂意與您交流！
+如果您有興趣了解更多關於 SeaX 的資訊，請填寫我們的「[預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)」表格，以便親身體驗 SeaX 平台。我們隨時樂意與您交流！

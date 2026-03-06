@@ -161,7 +161,7 @@ So these points, paired with how we’ve seen real users use (or abuse) our TTS 
 These are questions that cannot be answered, or even fully explored, in a single blog post.
 However the company feels an obligation to continually consider these issues as we move forward with our Discord project and continue working with our voice actors.
 
-Thank you for your interest in our Discord Bot and Voice Intelligence projects! You can learn more about our STT product on our [Speech-to-Text Homepage](https://suite.seasalt.ai/tts). For a one-on-one demo of any of our Voice Intelligence products, fill out the [Book a Demo Form](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Thank you for your interest in our Discord Bot and Voice Intelligence projects! You can learn more about our STT product on our [Speech-to-Text Homepage](https://suite.seasalt.ai/tts). For a one-on-one demo of any of our Voice Intelligence products, fill out the [Book a Demo Form](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 On the Discord side, you can learn more about our bot and add it to your server from the [SeaVoice Discord Bot Wiki](https://wiki.seasalt.ai/seavoice/discord/6-community/). Also feel free to join our [Official SeaVoice Discord Server](https://discord.gg/dfAYfwBQ).
 

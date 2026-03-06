@@ -116,4 +116,4 @@ Nesta página, você pode adicionar novas entradas individuais da base de conhec
 Se você quiser se aprofundar no sistema de base de conhecimento e como ele se integra à plataforma SeaX, assista ao nosso webinar sobre o assunto:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Para uma demonstração individual ou para saber como a Seasalt.ai pode personalizar uma solução para as necessidades do seu negócio, preencha nosso [formulário de agendamento de demonstração](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Para uma demonstração individual ou para saber como a Seasalt.ai pode personalizar uma solução para as necessidades do seu negócio, preencha nosso [formulário de agendamento de demonstração](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

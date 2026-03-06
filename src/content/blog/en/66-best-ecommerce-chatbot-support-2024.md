@@ -133,7 +133,7 @@ Chatbot Options: You can bring SeaChat AI agent to your Ecwid store. Ecwid also 
 
 Consider these factors when deciding on the best e-commerce platform:
 
-- Chatbot Features: Do you need simple FAQ handling or complex lead generation? Do you want to use the same chat agent for multiple channels? It might be easy to get started but good planning can save you a lot of operation headaches later on. [We are happy to help](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) if you want to talk about chatbot planning for your web store.
+- Chatbot Features: Do you need simple FAQ handling or complex lead generation? Do you want to use the same chat agent for multiple channels? It might be easy to get started but good planning can save you a lot of operation headaches later on. [We are happy to help](https://calendar.app.google/FLjCxzbYLqG6CkNs9) if you want to talk about chatbot planning for your web store.
 - Budget: Factor in app costs and transaction fees. Scaling is a big factor. A lot of ecommerce builders are cheap or even free to start, but the transaction fees and package upgrades could increase your costs significantly over time. Do thorough research before getting started to avoid surprises.
 - Ease of Use: If you are building the store by yourself, you need to be comfortable with the tools. Everyone's comfort level and preference for technical tools are different, so be sure to test the tool before locking into a solution. 
 
@@ -147,4 +147,4 @@ Consider these factors when deciding on the best e-commerce platform:
 
 ## You can do much more with SeaChat
 
-No matter what you end up choosing for your online business, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of ecommerce website builders. Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seachat@seasalt.ai) or [book a demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+No matter what you end up choosing for your online business, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) integrates well with the majority of ecommerce website builders. Build and launch AI chat agent in 10 minutes. Multilingual support. Live agent transfer. Integrate with webchat, SMS, Line, CRM, Shopify, calendars, Twilio, ZenDesk, and phone calls. Email us for more details at [seachat@seasalt.ai](mailto:seachat@seasalt.ai) or [book a demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 

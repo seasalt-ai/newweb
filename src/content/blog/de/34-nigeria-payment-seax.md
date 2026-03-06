@@ -48,4 +48,4 @@ Zusammenfassend lässt sich sagen, dass die erfolgreiche Implementierung des Omn
 
 ## Kontakt aufnehmen
 
-Wenn Sie mehr über SeaX erfahren möchten, füllen Sie unser Formular „[Demo buchen](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)“ aus, um einen ersten Einblick in die SeaX-Plattform zu erhalten. Wir freuen uns immer auf ein Gespräch!
+Wenn Sie mehr über SeaX erfahren möchten, füllen Sie unser Formular „[Demo buchen](https://calendar.app.google/FLjCxzbYLqG6CkNs9)“ aus, um einen ersten Einblick in die SeaX-Plattform zu erhalten. Wir freuen uns immer auf ein Gespräch!

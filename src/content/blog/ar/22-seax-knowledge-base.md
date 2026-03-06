@@ -115,4 +115,4 @@ draft: false
 إذا كنت ترغب في إلقاء نظرة أكثر تعمقًا على نظام قاعدة المعرفة وكيفية تكامله مع منصة SeaX، فشاهد ندوتنا عبر الإنترنت حول هذا الموضوع:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-للحصول على عرض توضيحي فردي، أو لمعرفة كيف يمكن لـ Seasalt.ai تخصيص حل لاحتياجات عملك، يرجى ملء [نموذج جدولة العرض التوضيحي](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+للحصول على عرض توضيحي فردي، أو لمعرفة كيف يمكن لـ Seasalt.ai تخصيص حل لاحتياجات عملك، يرجى ملء [نموذج جدولة العرض التوضيحي](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

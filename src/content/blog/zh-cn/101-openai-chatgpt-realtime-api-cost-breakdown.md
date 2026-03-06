@@ -176,7 +176,7 @@ ChatGPT-4o 的实时 API 代表了语音 AI 技术的重大进步，与其他语
 
 
 ## 了解更多
-如果您想以合理的价格首先探索用于客户服务的 AI 语音技术，您可以访问 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) 或 [与我们预约演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+如果您想以合理的价格首先探索用于客户服务的 AI 语音技术，您可以访问 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) 或 [与我们预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
 
 
 ## 关于本系列

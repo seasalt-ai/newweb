@@ -95,4 +95,4 @@ Walau bagaimanapun, menurut [​​Email Deliverability June 2023](https://www.e
 
 Tidak kira apa yang anda pilih untuk perkhidmatan pemasaran e-mel anda, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) berintegrasi dengan baik dengan majoriti platform pemasaran e-mel. Anda boleh mengumpul e-mel dan petunjuk daripada ejen AI SeaChat dan menyegerakkannya terus ke senarai pemasaran e-mel anda. 
 
-Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan berbilang bahasa. Pemindahan ejen langsung. Berintegrasi dengan webchat, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk, dan panggilan telefon. E-mel kami untuk butiran lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Bina dan lancarkan ejen sembang AI dalam 10 minit. Sokongan berbilang bahasa. Pemindahan ejen langsung. Berintegrasi dengan webchat, SMS, Line, CRM, Shopify, kalendar, Twilio, ZenDesk, dan panggilan telefon. E-mel kami untuk butiran lanjut di [seachat@seasalt.ai](mailto:seachat@seasalt.ai) atau [tempah demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).

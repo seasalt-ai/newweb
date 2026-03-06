@@ -141,4 +141,4 @@ MailerLite उत्कृष्ट ईमेल वितरण क्षमत
 
 आप अपनी ईमेल मार्केटिंग सेवा के लिए जो भी चुनते हैं, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) अधिकांश ईमेल मार्केटिंग प्लेटफॉर्म के साथ अच्छी तरह से एकीकृत होता है। आप SeaChat AI एजेंट से ईमेल और लीड एकत्र कर सकते हैं और सीधे अपनी ईमेल मार्केटिंग सूची में सिंक कर सकते हैं।
 
-10 मिनट में AI चैट एजेंट बनाएं और लॉन्च करें। बहुभाषी समर्थन। लाइव एजेंट ट्रांसफर। वेबचैट, एसएमएस, Line, CRM, Shopify, कैलेंडर, Twilio, ZenDesk और फोन कॉल के साथ एकीकृत करें। अधिक जानकारी के लिए हमें [seachat@seasalt.ai](mailto:seachat@seasalt.ai) पर ईमेल करें या [एक डेमो बुक करें](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)।
+10 मिनट में AI चैट एजेंट बनाएं और लॉन्च करें। बहुभाषी समर्थन। लाइव एजेंट ट्रांसफर। वेबचैट, एसएमएस, Line, CRM, Shopify, कैलेंडर, Twilio, ZenDesk और फोन कॉल के साथ एकीकृत करें। अधिक जानकारी के लिए हमें [seachat@seasalt.ai](mailto:seachat@seasalt.ai) पर ईमेल करें या [एक डेमो बुक करें](https://calendar.app.google/FLjCxzbYLqG6CkNs9)।

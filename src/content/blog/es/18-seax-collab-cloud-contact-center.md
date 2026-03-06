@@ -85,4 +85,4 @@ En esta serie de blogs, profundizaremos en las grandes características de la pl
 
 **Monitoreo del administrador** - Herramientas integradas para monitorear la comunicación con el cliente y el rendimiento del agente
 
-Para una demostración personal y para ver cómo SeaX puede ayudar con las necesidades de su centro de contacto, complete nuestro formulario "[Reservar una demostración](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)".
+Para una demostración personal y para ver cómo SeaX puede ayudar con las necesidades de su centro de contacto, complete nuestro formulario "[Reservar una demostración](https://calendar.app.google/FLjCxzbYLqG6CkNs9)".

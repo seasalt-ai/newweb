@@ -121,4 +121,4 @@ Comme toutes les fonctionnalités de SeaX, nous nous efforçons de permettre aux
 
 # Conclusion
 
-Merci d'avoir pris le temps de lire comment le système SeaX Bulk SMS permet aux agents d'envoyer des communications sortantes en plus de gérer les demandes de messages entrants. Restez à l'écoute pour le prochain segment de notre série de blogs, qui couvrira certains des outils de gestion et d'analyse intégrés à la plateforme SeaX. Si vous souhaitez en savoir plus immédiatement, remplissez notre [formulaire de réservation de démo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pour avoir un aperçu direct de la plateforme SeaX.
+Merci d'avoir pris le temps de lire comment le système SeaX Bulk SMS permet aux agents d'envoyer des communications sortantes en plus de gérer les demandes de messages entrants. Restez à l'écoute pour le prochain segment de notre série de blogs, qui couvrira certains des outils de gestion et d'analyse intégrés à la plateforme SeaX. Si vous souhaitez en savoir plus immédiatement, remplissez notre [formulaire de réservation de démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pour avoir un aperçu direct de la plateforme SeaX.

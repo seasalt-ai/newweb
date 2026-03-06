@@ -102,4 +102,4 @@ Mailchimpはより大きな名前です。たとえば、クライアントに�
 
 メールマーケティングサービスに何を選択するにしても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はほとんどのメールマーケティングプラットフォームと適切に統合されます。SeaChat AIエージェントからメールとリードを収集し、メールマーケティングリストに直接同期できます。
 
-10分でAIチャットエージェントを構築して起動します。多言語サポート。ライブエージェント転送。Webチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、および電話と統合します。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai)までメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。
+10分でAIチャットエージェントを構築して起動します。多言語サポート。ライブエージェント転送。Webチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、および電話と統合します。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai)までメールでお問い合わせいただくか、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)してください。

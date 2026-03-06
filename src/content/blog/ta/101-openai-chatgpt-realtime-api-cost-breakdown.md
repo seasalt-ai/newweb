@@ -177,7 +177,7 @@ ChatGPT-4o-இன் Realtime API குரல் AI தொழில்நுட
 
 
 ## மேலும் அறிக
-நியாயமான விலையில் வாடிக்கையாளர் சேவைக்கான AI குரல் தொழில்நுட்பத்தை முதலில் ஆராய விரும்பினால், நீங்கள் [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ஐப் பார்வையிடலாம் அல்லது [எங்களுடன் ஒரு டெமோவை பதிவு செய்யலாம்](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+நியாயமான விலையில் வாடிக்கையாளர் சேவைக்கான AI குரல் தொழில்நுட்பத்தை முதலில் ஆராய விரும்பினால், நீங்கள் [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ஐப் பார்வையிடலாம் அல்லது [எங்களுடன் ஒரு டெமோவை பதிவு செய்யலாம்](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## இந்தத் தொடர் பற்றி

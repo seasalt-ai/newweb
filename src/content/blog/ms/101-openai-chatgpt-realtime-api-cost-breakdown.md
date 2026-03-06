@@ -177,7 +177,7 @@ Sebagai pengamal dalam bidang pengecaman pertuturan dan pemprosesan bahasa semul
 
 
 ## Ketahui Lebih Lanjut
-Jika anda ingin meneroka teknologi suara AI untuk perkhidmatan pelanggan pada harga yang berpatutan terlebih dahulu, anda boleh melawati [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) atau anda boleh [menempah demo dengan kami](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Jika anda ingin meneroka teknologi suara AI untuk perkhidmatan pelanggan pada harga yang berpatutan terlebih dahulu, anda boleh melawati [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) atau anda boleh [menempah demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## Mengenai Siri Ini

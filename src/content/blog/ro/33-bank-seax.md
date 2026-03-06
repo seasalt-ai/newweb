@@ -47,4 +47,4 @@ Angajamentul băncii față de confidențialitatea datelor și analize le-a perm
 
 ## Luați legătura
 
-Dacă sunteți interesat să aflați mai multe despre SeaX, completați formularul nostru [Rezervați o demonstrație](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) pentru a arunca o privire directă asupra platformei SeaX. Suntem întotdeauna bucuroși să discutăm!
+Dacă sunteți interesat să aflați mai multe despre SeaX, completați formularul nostru [Rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pentru a arunca o privire directă asupra platformei SeaX. Suntem întotdeauna bucuroși să discutăm!

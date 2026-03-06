@@ -125,4 +125,4 @@ Google sendet Ihnen einen Bestätigungscode an Ihre Telefonnummer. Geben Sie den
 
 Nachdem Sie nun wissen, wie Sie eine Chat-Schaltfläche in Ihrem Eintrag aktivieren und welche Vorteile sie bietet, wie stellen Sie sicher, dass Ihr Unternehmen mit einer wachsenden Anzahl von Kundenanfragen Schritt halten kann? Das Beantworten wiederholter Chats kostet viel Zeit und Geld. Lesen Sie unseren nächsten Beitrag über Google Business Messages und wie dieser Ihnen helfen kann, Zeit und Geld bei der Bereitstellung exzellenten Kundenservice zu sparen.
 
-[Buchen Sie eine Demo bei uns](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) und erhalten Sie als Erster eine kostenlose Testversion unseres Produkts!
+[Buchen Sie eine Demo bei uns](https://calendar.app.google/FLjCxzbYLqG6CkNs9) und erhalten Sie als Erster eine kostenlose Testversion unseres Produkts!

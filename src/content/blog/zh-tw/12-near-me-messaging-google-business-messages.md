@@ -118,4 +118,4 @@ Near Me Messaging 還配備了實時Agent功能。客戶可以通過 GBM 點擊�
 *Near Me 實時Agent功能的界面。*
 </center>
 
-您準備好開始使用 Near Me Messaging 了嗎？請繼續關注我們的下一篇文章，了解如何使用 Near Me Messaging 啟動您的虛擬Agent。[立即與我們預約演示](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)，成為首批獲得 Near Me Messaging 免費試用版的使用者之一！
+您準備好開始使用 Near Me Messaging 了嗎？請繼續關注我們的下一篇文章，了解如何使用 Near Me Messaging 啟動您的虛擬Agent。[立即與我們預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，成為首批獲得 Near Me Messaging 免費試用版的使用者之一！

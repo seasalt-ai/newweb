@@ -92,4 +92,4 @@ MailerLite와 ActiveCampaign 모두 훌륭한 도구이지만, 올바른 선택�
 
 최종적으로 어떤 이메일 마케팅 서비스를 선택하든, [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대부분의 이메일 마케팅 플랫폼과 잘 통합됩니다. SeaChat AI 에이전트에서 이메일과 잠재 고객을 수집하고 이메일 마케팅 목록에 직접 동기화할 수 있습니다.
 
-10분 내에 AI 채팅 에이전트를 구축하고 시작하세요. 다국어 지원. 실시간 에이전트 전환. 웹 채팅, SMS, Line, CRM, Shopify, 캘린더, Twilio, ZenDesk 및 전화 통합. 자세한 정보는 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모 예약](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)하세요. 
+10분 내에 AI 채팅 에이전트를 구축하고 시작하세요. 다국어 지원. 실시간 에이전트 전환. 웹 채팅, SMS, Line, CRM, Shopify, 캘린더, Twilio, ZenDesk 및 전화 통합. 자세한 정보는 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하세요. 

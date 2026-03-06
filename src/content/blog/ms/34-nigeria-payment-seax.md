@@ -51,4 +51,4 @@ Kesimpulannya, pelaksanaan pusat hubungan omni-saluran yang berjaya untuk syarik
 
 ## Hubungi kami
 
-Jika anda berminat untuk mengetahui lebih lanjut tentang SeaX, isi borang "[Tempah Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" kami untuk mendapatkan gambaran pertama platform SeaX. Kami sentiasa gembira untuk berbual!
+Jika anda berminat untuk mengetahui lebih lanjut tentang SeaX, isi borang "[Tempah Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" kami untuk mendapatkan gambaran pertama platform SeaX. Kami sentiasa gembira untuk berbual!

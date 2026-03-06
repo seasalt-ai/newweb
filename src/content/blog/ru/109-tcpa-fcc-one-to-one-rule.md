@@ -94,7 +94,7 @@ TCPA — это федеральный закон, регулирующий ис
 Изменения в правилах TCPA 2025 года значительно повлияют на то, как предприятия осуществляют свою деятельность. Звонки и текстовые сообщения, использующие регулируемые технологии, потребуют явного согласия на подписку. Для тех, у кого нет подписки, потребуется ручной набор номера и отправка текстовых сообщений после очистки. Существующие деловые отношения могут предоставлять некоторые исключения, но оставаться информированным и соблюдать правила крайне важно. Всегда консультируйтесь со своим юрисконсультом, прежде чем вносить какие-либо изменения.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Запишитесь на бесплатную консультацию с нами</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Запишитесь на бесплатную консультацию с нами</a>
 </center>
 
 

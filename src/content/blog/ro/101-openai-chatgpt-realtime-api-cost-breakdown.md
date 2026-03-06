@@ -178,7 +178,7 @@ Ca practician în domeniul recunoașterii vorbirii și al procesării limbajului
 
 
 ## Aflați mai multe
-Dacă doriți să explorați mai întâi tehnologia de inteligență artificială vocală pentru servicii pentru clienți la un preț rezonabil, puteți vizita [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) sau puteți [rezerva o demonstrație cu noi](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting). 
+Dacă doriți să explorați mai întâi tehnologia de inteligență artificială vocală pentru servicii pentru clienți la un preț rezonabil, puteți vizita [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) sau puteți [rezerva o demonstrație cu noi](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
 
 
 ## Despre această serie

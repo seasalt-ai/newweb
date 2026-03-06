@@ -119,4 +119,4 @@ Near Me Messaging همچنین مجهز به ویژگی عامل زنده است
 *رابط ویژگی عامل زنده Near Me.*
 </center>
 
-آیا آماده شروع کار با Near Me Messaging هستید؟ منتظر پست بعدی ما در مورد نحوه راه‌اندازی عامل مجازی خود با Near Me Messaging باشید. [امروز یک دمو با ما رزرو کنید](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) و جزو اولین کسانی باشید که یک آزمایش رایگان از Near Me Messaging دریافت می‌کنید!
+آیا آماده شروع کار با Near Me Messaging هستید؟ منتظر پست بعدی ما در مورد نحوه راه‌اندازی عامل مجازی خود با Near Me Messaging باشید. [امروز یک دمو با ما رزرو کنید](https://calendar.app.google/FLjCxzbYLqG6CkNs9) و جزو اولین کسانی باشید که یک آزمایش رایگان از Near Me Messaging دریافت می‌کنید!

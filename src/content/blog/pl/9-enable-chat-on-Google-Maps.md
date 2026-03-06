@@ -125,4 +125,4 @@ Google wyśle Ci kod weryfikacyjny na Twój numer telefonu. Wprowadź kod weryfi
 
 Teraz, gdy wiesz, jak aktywować przycisk czatu w swoim wpisie i jakie są jego korzyści, jak upewnić się, że Twoja firma nadąży za rosnącą liczbą zapytań klientów? Odpowiadanie na powtarzające się czaty zajmuje dużo czasu i pieniędzy. Sprawdź nasz następny post na temat Wiadomości Biznesowych Google i tego, jak może to pomóc Ci zaoszczędzić czas i pieniądze w zapewnianiu doskonałej obsługi klienta.
 
-[Zarezerwuj u nas demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) i bądź pierwszym, który otrzyma bezpłatną wersję próbną naszego produktu!
+[Zarezerwuj u nas demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) i bądź pierwszym, który otrzyma bezpłatną wersję próbną naszego produktu!

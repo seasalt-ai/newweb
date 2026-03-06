@@ -127,4 +127,4 @@ Google vous enverra un code de vérification sur votre numéro de téléphone. E
 
 Maintenant que vous savez comment activer un bouton de chat sur votre fiche et ses avantages, comment vous assurez-vous que votre entreprise peut suivre le nombre croissant de demandes de clients ? Répondre aux chats répétitifs prend beaucoup de temps et d'argent. Consultez notre prochain article sur Google Business Messages et comment cela peut vous aider à économiser du temps et de l'argent en offrant un excellent service client.
 
-[Réservez une démo avec nous](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) et soyez le premier à recevoir un essai gratuit de notre produit !
+[Réservez une démo avec nous](https://calendar.app.google/FLjCxzbYLqG6CkNs9) et soyez le premier à recevoir un essai gratuit de notre produit !

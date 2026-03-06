@@ -117,4 +117,4 @@ The owner can join any conversation at any time as long as the user has sent a m
 *Interface of Near Me live agent feature.*
 </center>
 
-Are you ready to get started with Near Me Messaging? Stay tuned for our next post about how to launch your virtual agent with Near Me Messaging. [Book a demo with us](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) today and be among the first to get a free trial of Near Me Messaging!
+Are you ready to get started with Near Me Messaging? Stay tuned for our next post about how to launch your virtual agent with Near Me Messaging. [Book a demo with us](https://calendar.app.google/FLjCxzbYLqG6CkNs9) today and be among the first to get a free trial of Near Me Messaging!

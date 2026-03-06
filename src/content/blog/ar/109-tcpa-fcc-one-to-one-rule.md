@@ -94,7 +94,7 @@ TCPA هو قانون اتحادي ينظم استخدام المكالمات ا�
 ستؤثر تغييرات قاعدة TCPA لعام 2025 بشكل كبير على كيفية قيام الشركات بالتواصل. ستتطلب المكالمات والرسائل النصية التي تستخدم التكنولوجيا المنظمة موافقة صريحة على الاشتراك. بالنسبة لأولئك الذين ليس لديهم اشتراك، سيكون الاتصال اليدوي والرسائل النصية بعد التنقية ضروريًا. يمكن أن توفر علاقات العمل الحالية بعض الإعفاءات، ولكن البقاء على اطلاع والامتثال أمر بالغ الأهمية. تحدث دائمًا مع مستشارك القانوني قبل إجراء أي تغييرات.
 
 <center>
-<a href="https://meetings.hubspot.com/seasalt-ai/seasalt-meeting" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">احجز استشارة مجانية معنا</a>
+<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">احجز استشارة مجانية معنا</a>
 </center>
 
 

@@ -96,4 +96,4 @@ Eメールマーケティングツールを選択する前に考慮すべき点�
 
 Eメールマーケティングサービスに何を選択しても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog) はほとんどのEメールマーケティングプラットフォームと連携できます。SeaChat AI エージェントからEメールとリードを収集し、Eメールマーケティングリストに直接同期できます。
 
-AIチャットエージェントを10分で構築して起動します。多言語サポート。ライブエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合します。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai) までEメールでお問い合わせいただくか、[デモを予約](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)してください。
+AIチャットエージェントを10分で構築して起動します。多言語サポート。ライブエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話と統合します。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai) までEメールでお問い合わせいただくか、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)してください。

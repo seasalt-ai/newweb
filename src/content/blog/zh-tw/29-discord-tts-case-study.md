@@ -161,7 +161,7 @@ __*你為什麼不說話？*__
 這些問題無法在一篇部落格文章中回答，甚至無法完全探討。
 然而，隨著我們 Discord 專案的推進並繼續與我們的配音演員合作，公司感到有義務不斷考慮這些問題。
 
-感謝您對我們的 Discord 機器人及語音智慧專案的興趣！您可以在我們的 [語音轉文字首頁](https://suite.seasalt.ai/tts) 上了解有關我們 STT 產品的更多資訊。要獲得我們任何語音智慧產品的一對一演示，請填寫 [預約演示表單](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)。
+感謝您對我們的 Discord 機器人及語音智慧專案的興趣！您可以在我們的 [語音轉文字首頁](https://suite.seasalt.ai/tts) 上了解有關我們 STT 產品的更多資訊。要獲得我們任何語音智慧產品的一對一演示，請填寫 [預約演示表單](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
 
 在 Discord 方面，您可以從 [SeaVoice Discord 機器人維基](https://wiki.seasalt.ai/seavoice/discord/6-community/) 了解有關我們機器人的更多資訊並將其添加到您的伺服器。也歡迎加入我們的 [官方 SeaVoice Discord 伺服器](https://discord.gg/dfAYfwBQ)。
 

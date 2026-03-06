@@ -177,7 +177,7 @@ draft: false
 
 
 ## تعلم المزيد
-إذا كنت ترغب في استكشاف تقنية الصوت للذكاء الاصطناعي لخدمة العملاء بسعر معقول أولاً، فيمكنك زيارة [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) أو يمكنك [حجز عرض توضيحي معنا](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+إذا كنت ترغب في استكشاف تقنية الصوت للذكاء الاصطناعي لخدمة العملاء بسعر معقول أولاً، فيمكنك زيارة [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) أو يمكنك [حجز عرض توضيحي معنا](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## حول هذه السلسلة

@@ -85,4 +85,4 @@ Dalam seri blog ini, kami akan menyelami lebih dalam fitur-fitur hebat dari plat
 
 **Pemantauan Administrator** - Alat bawaan untuk memantau komunikasi pelanggan dan kinerja agen
 
-Untuk demo pribadi, dan untuk melihat bagaimana SeaX dapat membantu kebutuhan pusat kontak Anda, silakan isi formulir "[Pesan Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" kami.
+Untuk demo pribadi, dan untuk melihat bagaimana SeaX dapat membantu kebutuhan pusat kontak Anda, silakan isi formulir "[Pesan Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" kami.

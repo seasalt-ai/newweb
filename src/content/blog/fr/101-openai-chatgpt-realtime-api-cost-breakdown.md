@@ -177,7 +177,7 @@ En tant que praticien dans le domaine de la reconnaissance vocale et du traiteme
 
 
 ## En savoir plus
-Si vous souhaitez d'abord explorer la technologie vocale de l'IA pour le service client à un prix raisonnable, vous pouvez visiter [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou vous pouvez [réserver une démo avec nous](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting).
+Si vous souhaitez d'abord explorer la technologie vocale de l'IA pour le service client à un prix raisonnable, vous pouvez visiter [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou vous pouvez [réserver une démo avec nous](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
 
 
 ## À propos de cette série

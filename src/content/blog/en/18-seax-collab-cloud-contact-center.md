@@ -84,4 +84,4 @@ In this series of blogs, we will dive deeper into the great features of the SeaX
 
 **Administrator Monitoring** - Built in tools for monitoring customer communication and agent performance
 
-For a personal demo, and to see how SeaX can help with your contact center needs, please fill out our “[Book a Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting)" form.
+For a personal demo, and to see how SeaX can help with your contact center needs, please fill out our “[Book a Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)" form.

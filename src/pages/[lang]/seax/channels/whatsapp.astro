@@ -1,175 +1,264 @@
 ---
-import SeaxLayout from '../../../../layouts/SeaxLayout.astro';
-import { getTranslationHelpers, languages, getLocalizedPath } from '../../../../i18n/helpers';
+import SeaxLayout from "../../../../layouts/SeaxLayout.astro";
+import {
+  getTranslationHelpers,
+  languages,
+  getLocalizedPath,
+} from "../../../../i18n/helpers";
 
 const { lang } = Astro.params;
 const { t, translations } = await getTranslationHelpers(lang);
 
 // SEO Configuration
 const seoData = {
-  title: t('seax.channels.whatsapp.seo.title') || 'WhatsApp Business API - Mass WhatsApp Messaging | SeaX',
-  description: t('seax.channels.whatsapp.seo.description') || 'Scale your WhatsApp marketing with SeaX. Send rich media messages, interactive templates, and automated WhatsApp campaigns to millions of customers.',
-  keywords: t('seax.channels.whatsapp.seo.keywords') || 'WhatsApp Business API, WhatsApp marketing, WhatsApp automation, WhatsApp bulk messaging, WhatsApp campaigns',
-  canonical: 'https://seasalt.ai' + getLocalizedPath('/seax/channels/whatsapp', lang),
-  ogImage: '/seax-whatsapp.png'
+  title:
+    t("seax.channels.whatsapp.seo.title") ||
+    "WhatsApp Business API - Mass WhatsApp Messaging | SeaX",
+  description:
+    t("seax.channels.whatsapp.seo.description") ||
+    "Scale your WhatsApp marketing with SeaX. Send rich media messages, interactive templates, and automated WhatsApp campaigns to millions of customers.",
+  keywords:
+    t("seax.channels.whatsapp.seo.keywords") ||
+    "WhatsApp Business API, WhatsApp marketing, WhatsApp automation, WhatsApp bulk messaging, WhatsApp campaigns",
+  canonical:
+    "https://seasalt.ai" + getLocalizedPath("/seax/channels/whatsapp", lang),
+  ogImage: "/seax-whatsapp.png",
 };
 
 // Breadcrumbs
 const breadcrumbs = [
-  { name: 'Home', url: getLocalizedPath('/', lang) },
-  { name: 'SeaX', url: getLocalizedPath('/seax', lang) },
-  { name: 'Channels', url: getLocalizedPath('/seax/channels', lang) },
-  { name: 'WhatsApp', url: getLocalizedPath('/seax/channels/whatsapp', lang) }
+  { name: "Home", url: getLocalizedPath("/", lang) },
+  { name: "SeaX", url: getLocalizedPath("/seax", lang) },
+  { name: "Channels", url: getLocalizedPath("/seax/channels", lang) },
+  { name: "WhatsApp", url: getLocalizedPath("/seax/channels/whatsapp", lang) },
 ];
 
 // FAQs
 const faqs = [
   {
     question: "What is WhatsApp Business API and how does SeaX use it?",
-    answer: "WhatsApp Business API is the official solution for businesses to communicate with customers on WhatsApp at scale. SeaX integrates with this API to enable bulk messaging, rich media content, and automated conversations."
+    answer:
+      "WhatsApp Business API is the official solution for businesses to communicate with customers on WhatsApp at scale. SeaX integrates with this API to enable bulk messaging, rich media content, and automated conversations.",
   },
   {
     question: "What types of messages can I send through WhatsApp on SeaX?",
-    answer: "You can send text messages, images, videos, documents, interactive buttons, list messages, and pre-approved message templates for customer notifications and marketing."
+    answer:
+      "You can send text messages, images, videos, documents, interactive buttons, list messages, and pre-approved message templates for customer notifications and marketing.",
   },
   {
     question: "Do I need WhatsApp Business API approval to use SeaX?",
-    answer: "Yes, you need WhatsApp Business API approval. SeaX can help guide you through the application process and provide support for template approvals and compliance requirements."
-  }
+    answer:
+      "Yes, you need WhatsApp Business API approval. SeaX can help guide you through the application process and provide support for template approvals and compliance requirements.",
+  },
 ];
 
 // Features data
 const features = [
   {
-    title: t('seax.channels.whatsapp.features.richMedia.title') || 'Rich Media Messages',
-    description: t('seax.channels.whatsapp.features.richMedia.description') || 'Send images, videos, documents and more',
-    icon: 'message'
+    title:
+      t("seax.channels.whatsapp.features.richMedia.title") ||
+      "Rich Media Messages",
+    description:
+      t("seax.channels.whatsapp.features.richMedia.description") ||
+      "Send images, videos, documents and more",
+    icon: "message",
   },
   {
-    title: t('seax.channels.whatsapp.features.globalReach.title') || 'Global Reach',
-    description: t('seax.channels.whatsapp.features.globalReach.description') || 'Reach 2B+ WhatsApp users worldwide',
-    icon: 'globe'
+    title:
+      t("seax.channels.whatsapp.features.globalReach.title") || "Global Reach",
+    description:
+      t("seax.channels.whatsapp.features.globalReach.description") ||
+      "Reach 2B+ WhatsApp users worldwide",
+    icon: "globe",
   },
   {
-    title: t('seax.channels.whatsapp.features.security.title') || 'End-to-End Security',
-    description: t('seax.channels.whatsapp.features.security.description') || 'Messages encrypted for maximum security',
-    icon: 'shield'
+    title:
+      t("seax.channels.whatsapp.features.security.title") ||
+      "End-to-End Security",
+    description:
+      t("seax.channels.whatsapp.features.security.description") ||
+      "Messages encrypted for maximum security",
+    icon: "shield",
   },
   {
-    title: t('seax.channels.whatsapp.features.instantDelivery.title') || 'Instant Delivery',
-    description: t('seax.channels.whatsapp.features.instantDelivery.description') || 'Messages delivered instantly',
-    icon: 'zap'
+    title:
+      t("seax.channels.whatsapp.features.instantDelivery.title") ||
+      "Instant Delivery",
+    description:
+      t("seax.channels.whatsapp.features.instantDelivery.description") ||
+      "Messages delivered instantly",
+    icon: "zap",
   },
   {
-    title: t('seax.channels.whatsapp.features.analytics.title') || 'Advanced Analytics',
-    description: t('seax.channels.whatsapp.features.analytics.description') || 'Track reads, clicks, and conversions',
-    icon: 'chart'
+    title:
+      t("seax.channels.whatsapp.features.analytics.title") ||
+      "Advanced Analytics",
+    description:
+      t("seax.channels.whatsapp.features.analytics.description") ||
+      "Track reads, clicks, and conversions",
+    icon: "chart",
   },
   {
-    title: t('seax.channels.whatsapp.features.twoWay.title') || 'Two-Way Conversations',
-    description: t('seax.channels.whatsapp.features.twoWay.description') || 'Enable interactive customer conversations',
-    icon: 'users'
-  }
+    title:
+      t("seax.channels.whatsapp.features.twoWay.title") ||
+      "Two-Way Conversations",
+    description:
+      t("seax.channels.whatsapp.features.twoWay.description") ||
+      "Enable interactive customer conversations",
+    icon: "users",
+  },
 ];
 
 // Message types data
 const messageTypes = [
   {
-    title: t('seax.channels.whatsapp.messageTypes.template.title') || 'Template Messages',
-    description: t('seax.channels.whatsapp.messageTypes.template.description') || 'Pre-approved messages for notifications and marketing',
-    icon: 'message',
+    title:
+      t("seax.channels.whatsapp.messageTypes.template.title") ||
+      "Template Messages",
+    description:
+      t("seax.channels.whatsapp.messageTypes.template.description") ||
+      "Pre-approved messages for notifications and marketing",
+    icon: "message",
     features: [
-      t('seax.channels.whatsapp.messageTypes.template.feature1') || 'Order confirmations',
-      t('seax.channels.whatsapp.messageTypes.template.feature2') || 'Shipping updates',
-      t('seax.channels.whatsapp.messageTypes.template.feature3') || 'Appointment reminders',
-      t('seax.channels.whatsapp.messageTypes.template.feature4') || 'Payment notifications'
-    ]
+      t("seax.channels.whatsapp.messageTypes.template.feature1") ||
+        "Order confirmations",
+      t("seax.channels.whatsapp.messageTypes.template.feature2") ||
+        "Shipping updates",
+      t("seax.channels.whatsapp.messageTypes.template.feature3") ||
+        "Appointment reminders",
+      t("seax.channels.whatsapp.messageTypes.template.feature4") ||
+        "Payment notifications",
+    ],
   },
   {
-    title: t('seax.channels.whatsapp.messageTypes.richMedia.title') || 'Rich Media Content',
-    description: t('seax.channels.whatsapp.messageTypes.richMedia.description') || 'Engage customers with visual content',
-    icon: 'image',
+    title:
+      t("seax.channels.whatsapp.messageTypes.richMedia.title") ||
+      "Rich Media Content",
+    description:
+      t("seax.channels.whatsapp.messageTypes.richMedia.description") ||
+      "Engage customers with visual content",
+    icon: "image",
     features: [
-      t('seax.channels.whatsapp.messageTypes.richMedia.feature1') || 'Product images',
-      t('seax.channels.whatsapp.messageTypes.richMedia.feature2') || 'Video demonstrations',
-      t('seax.channels.whatsapp.messageTypes.richMedia.feature3') || 'PDF catalogs',
-      t('seax.channels.whatsapp.messageTypes.richMedia.feature4') || 'Audio messages'
-    ]
+      t("seax.channels.whatsapp.messageTypes.richMedia.feature1") ||
+        "Product images",
+      t("seax.channels.whatsapp.messageTypes.richMedia.feature2") ||
+        "Video demonstrations",
+      t("seax.channels.whatsapp.messageTypes.richMedia.feature3") ||
+        "PDF catalogs",
+      t("seax.channels.whatsapp.messageTypes.richMedia.feature4") ||
+        "Audio messages",
+    ],
   },
   {
-    title: t('seax.channels.whatsapp.messageTypes.interactive.title') || 'Interactive Messages',
-    description: t('seax.channels.whatsapp.messageTypes.interactive.description') || 'Buttons and lists for better engagement',
-    icon: 'users',
+    title:
+      t("seax.channels.whatsapp.messageTypes.interactive.title") ||
+      "Interactive Messages",
+    description:
+      t("seax.channels.whatsapp.messageTypes.interactive.description") ||
+      "Buttons and lists for better engagement",
+    icon: "users",
     features: [
-      t('seax.channels.whatsapp.messageTypes.interactive.feature1') || 'Quick reply buttons',
-      t('seax.channels.whatsapp.messageTypes.interactive.feature2') || 'Product selection lists',
-      t('seax.channels.whatsapp.messageTypes.interactive.feature3') || 'Call-to-action buttons',
-      t('seax.channels.whatsapp.messageTypes.interactive.feature4') || 'Location requests'
-    ]
-  }
+      t("seax.channels.whatsapp.messageTypes.interactive.feature1") ||
+        "Quick reply buttons",
+      t("seax.channels.whatsapp.messageTypes.interactive.feature2") ||
+        "Product selection lists",
+      t("seax.channels.whatsapp.messageTypes.interactive.feature3") ||
+        "Call-to-action buttons",
+      t("seax.channels.whatsapp.messageTypes.interactive.feature4") ||
+        "Location requests",
+    ],
+  },
 ];
 
 // Use cases data
 const useCases = [
   {
-    title: t('seax.channels.whatsapp.useCases.support.title') || 'Customer Support',
-    description: t('seax.channels.whatsapp.useCases.support.description') || 'Provide instant customer support via WhatsApp',
-    metrics: t('seax.channels.whatsapp.useCases.support.metrics') || '90% faster resolution times'
+    title:
+      t("seax.channels.whatsapp.useCases.support.title") || "Customer Support",
+    description:
+      t("seax.channels.whatsapp.useCases.support.description") ||
+      "Provide instant customer support via WhatsApp",
+    metrics:
+      t("seax.channels.whatsapp.useCases.support.metrics") ||
+      "90% faster resolution times",
   },
   {
-    title: t('seax.channels.whatsapp.useCases.orders.title') || 'Order Updates',
-    description: t('seax.channels.whatsapp.useCases.orders.description') || 'Send real-time order and delivery notifications',
-    metrics: t('seax.channels.whatsapp.useCases.orders.metrics') || '95% message open rates'
+    title: t("seax.channels.whatsapp.useCases.orders.title") || "Order Updates",
+    description:
+      t("seax.channels.whatsapp.useCases.orders.description") ||
+      "Send real-time order and delivery notifications",
+    metrics:
+      t("seax.channels.whatsapp.useCases.orders.metrics") ||
+      "95% message open rates",
   },
   {
-    title: t('seax.channels.whatsapp.useCases.marketing.title') || 'Marketing Campaigns',
-    description: t('seax.channels.whatsapp.useCases.marketing.description') || 'Drive sales with targeted promotional messages',
-    metrics: t('seax.channels.whatsapp.useCases.marketing.metrics') || '3x higher conversion rates'
+    title:
+      t("seax.channels.whatsapp.useCases.marketing.title") ||
+      "Marketing Campaigns",
+    description:
+      t("seax.channels.whatsapp.useCases.marketing.description") ||
+      "Drive sales with targeted promotional messages",
+    metrics:
+      t("seax.channels.whatsapp.useCases.marketing.metrics") ||
+      "3x higher conversion rates",
   },
   {
-    title: t('seax.channels.whatsapp.useCases.appointments.title') || 'Appointment Management',
-    description: t('seax.channels.whatsapp.useCases.appointments.description') || 'Send reminders and booking confirmations',
-    metrics: t('seax.channels.whatsapp.useCases.appointments.metrics') || '50% reduction in no-shows'
-  }
+    title:
+      t("seax.channels.whatsapp.useCases.appointments.title") ||
+      "Appointment Management",
+    description:
+      t("seax.channels.whatsapp.useCases.appointments.description") ||
+      "Send reminders and booking confirmations",
+    metrics:
+      t("seax.channels.whatsapp.useCases.appointments.metrics") ||
+      "50% reduction in no-shows",
+  },
 ];
 
 // Stats data
 const stats = [
-  { 
-    value: '2B+', 
-    label: t('seax.channels.whatsapp.hero.stats.monthlyUsers') || 'Monthly Active Users'
+  {
+    value: "2B+",
+    label:
+      t("seax.channels.whatsapp.hero.stats.monthlyUsers") ||
+      "Monthly Active Users",
   },
-  { 
-    value: '95%', 
-    label: t('seax.channels.whatsapp.hero.stats.openRate') || 'Message Open Rate'
+  {
+    value: "95%",
+    label:
+      t("seax.channels.whatsapp.hero.stats.openRate") || "Message Open Rate",
   },
-  { 
-    value: '65%', 
-    label: t('seax.channels.whatsapp.hero.stats.engagementRate') || 'Engagement Rate'
+  {
+    value: "65%",
+    label:
+      t("seax.channels.whatsapp.hero.stats.engagementRate") ||
+      "Engagement Rate",
   },
-  { 
-    value: '180+', 
-    label: t('seax.channels.whatsapp.hero.stats.countriesSupported') || 'Countries Supported'
-  }
+  {
+    value: "180+",
+    label:
+      t("seax.channels.whatsapp.hero.stats.countriesSupported") ||
+      "Countries Supported",
+  },
 ];
 
 export async function getStaticPaths() {
-  return Object.keys(languages).map(lang => ({
+  return Object.keys(languages).map((lang) => ({
     params: { lang },
   }));
 }
 
 // Helper function to get demo URL
 const getDemoUrl = () => {
-  return `https://calendly.com/seasalt-ai/seasalt-ai-demo?lang=${lang}`;
+  return `https://calendar.app.google/FLjCxzbYLqG6CkNs9?lang=${lang}`;
 };
 ---
 
-<SeaxLayout 
-  {seoData} 
-  productKey="seax" 
-  breadcrumbs={breadcrumbs} 
-  faqs={faqs} 
+<SeaxLayout
+  {seoData}
+  productKey="seax"
+  breadcrumbs={breadcrumbs}
+  faqs={faqs}
   lang={lang}
   headerVersion="seax"
   footerVersion="seax"
@@ -182,34 +271,62 @@ const getDemoUrl = () => {
           <div class="space-y-4">
             <div class="flex items-center space-x-3">
               <div class="bg-green-100 p-3 rounded-lg">
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                <svg
+                  class="w-8 h-8 text-green-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                  ></path>
                 </svg>
               </div>
-              <span class="text-sm font-medium text-green-600 bg-green-100 px-3 py-1 rounded-full">
-                {t('seax.channels.whatsapp.hero.badge') || 'WhatsApp Business API'}
+              <span
+                class="text-sm font-medium text-green-600 bg-green-100 px-3 py-1 rounded-full"
+              >
+                {
+                  t("seax.channels.whatsapp.hero.badge") ||
+                    "WhatsApp Business API"
+                }
               </span>
             </div>
             <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">
-              {t('seax.channels.whatsapp.hero.title.line1') || 'WhatsApp Business'}{' '}
+              {
+                t("seax.channels.whatsapp.hero.title.line1") ||
+                  "WhatsApp Business"
+              }{" "}
               <span class="text-green-600 block">
-                {t('seax.channels.whatsapp.hero.title.line2') || 'Marketing Platform'}
+                {
+                  t("seax.channels.whatsapp.hero.title.line2") ||
+                    "Marketing Platform"
+                }
               </span>
             </h1>
             <p class="text-xl text-gray-600">
-              {t('seax.channels.whatsapp.hero.description') || 'Scale your WhatsApp marketing with rich media messages, interactive templates, and automated campaigns. Reach 2B+ users worldwide.'}
+              {
+                t("seax.channels.whatsapp.hero.description") ||
+                  "Scale your WhatsApp marketing with rich media messages, interactive templates, and automated campaigns. Reach 2B+ users worldwide."
+              }
             </p>
           </div>
-          
+
           <div class="grid grid-cols-2 gap-4">
-            {stats.map((stat, index) => (
-              <div key={index} class="text-center">
-                <div class="text-2xl font-bold text-green-600">{stat.value}</div>
-                <div class="text-sm text-gray-600">{stat.label}</div>
-              </div>
-            ))}
+            {
+              stats.map((stat, index) => (
+                <div key={index} class="text-center">
+                  <div class="text-2xl font-bold text-green-600">
+                    {stat.value}
+                  </div>
+                  <div class="text-sm text-gray-600">{stat.label}</div>
+                </div>
+              ))
+            }
           </div>
-          
+
           <div class="flex flex-col sm:flex-row gap-4">
             <a
               href="https://seax.seasalt.ai/signup"
@@ -217,9 +334,22 @@ const getDemoUrl = () => {
               rel="noopener noreferrer"
               class="bg-green-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center space-x-2"
             >
-              <span>{t('seax.channels.whatsapp.hero.cta.primary') || 'Sign Up Now'}</span>
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              <span
+                >{
+                  t("seax.channels.whatsapp.hero.cta.primary") || "Sign Up Now"
+                }</span
+              >
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
               </svg>
             </a>
             <a
@@ -228,69 +358,113 @@ const getDemoUrl = () => {
               rel="noopener noreferrer"
               class="border-2 border-green-600 text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-green-50 transition-colors text-center"
             >
-              {t('seax.channels.whatsapp.hero.cta.secondary') || 'Book Demo'}
+              {t("seax.channels.whatsapp.hero.cta.secondary") || "Book Demo"}
             </a>
           </div>
         </div>
-        
+
         <!-- WhatsApp Illustration -->
         <div class="relative">
           <div class="bg-white rounded-2xl shadow-xl p-8 border">
             <div class="space-y-6">
               <div class="flex items-center space-x-3">
-                <div class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                <div
+                  class="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                    ></path>
                   </svg>
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-gray-900">
-                    {t('seax.channels.whatsapp.hero.demo.title') || 'WhatsApp Campaign Preview'}
+                    {
+                      t("seax.channels.whatsapp.hero.demo.title") ||
+                        "WhatsApp Campaign Preview"
+                    }
                   </h3>
                   <p class="text-sm text-gray-600">
-                    {t('seax.channels.whatsapp.hero.demo.subtitle') || 'Interactive message template'}
+                    {
+                      t("seax.channels.whatsapp.hero.demo.subtitle") ||
+                        "Interactive message template"
+                    }
                   </p>
                 </div>
               </div>
-              
+
               <div class="space-y-4">
                 <div class="bg-green-50 rounded-lg p-4">
                   <div class="flex items-center space-x-2 mb-2">
                     <div class="w-2 h-2 bg-green-500 rounded-full"></div>
                     <span class="text-sm font-medium text-gray-700">
-                      {t('seax.channels.whatsapp.hero.demo.templateLabel') || 'Approved Template'}
+                      {
+                        t("seax.channels.whatsapp.hero.demo.templateLabel") ||
+                          "Approved Template"
+                      }
                     </span>
                   </div>
-                  <div class="bg-white rounded-lg p-3 border-l-4 border-green-500">
+                  <div
+                    class="bg-white rounded-lg p-3 border-l-4 border-green-500"
+                  >
                     <div class="text-sm text-gray-900">
-                      {t('seax.channels.whatsapp.hero.demo.message') || 'Hi {{name}}! Your order #{{order_id}} is ready for pickup. Would you like to schedule a time?'}
+                      {
+                        t("seax.channels.whatsapp.hero.demo.message") ||
+                          "Hi {{name}}! Your order #{{order_id}} is ready for pickup. Would you like to schedule a time?"
+                      }
                     </div>
                     <div class="mt-2 flex space-x-2">
-                      <button class="bg-green-600 text-white px-3 py-1 rounded text-xs">
-                        {t('seax.channels.whatsapp.hero.demo.button1') || 'Schedule Pickup'}
+                      <button
+                        class="bg-green-600 text-white px-3 py-1 rounded text-xs"
+                      >
+                        {
+                          t("seax.channels.whatsapp.hero.demo.button1") ||
+                            "Schedule Pickup"
+                        }
                       </button>
-                      <button class="border border-green-600 text-green-600 px-3 py-1 rounded text-xs">
-                        {t('seax.channels.whatsapp.hero.demo.button2') || 'Call Store'}
+                      <button
+                        class="border border-green-600 text-green-600 px-3 py-1 rounded text-xs"
+                      >
+                        {
+                          t("seax.channels.whatsapp.hero.demo.button2") ||
+                            "Call Store"
+                        }
                       </button>
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="grid grid-cols-2 gap-4">
                   <div class="bg-blue-50 rounded-lg p-3 text-center">
                     <div class="text-2xl font-bold text-blue-600">
-                      {t('seax.channels.whatsapp.hero.demo.openRateValue') || '95%'}
+                      {
+                        t("seax.channels.whatsapp.hero.demo.openRateValue") ||
+                          "95%"
+                      }
                     </div>
                     <div class="text-sm text-gray-600">
-                      {t('seax.channels.whatsapp.hero.demo.openRateLabel') || 'Open Rate'}
+                      {
+                        t("seax.channels.whatsapp.hero.demo.openRateLabel") ||
+                          "Open Rate"
+                      }
                     </div>
                   </div>
                   <div class="bg-purple-50 rounded-lg p-3 text-center">
                     <div class="text-2xl font-bold text-purple-600">
-                      {t('seax.channels.whatsapp.hero.demo.deliveredValue') || '847K'}
+                      {
+                        t("seax.channels.whatsapp.hero.demo.deliveredValue") ||
+                          "847K"
+                      }
                     </div>
                     <div class="text-sm text-gray-600">
-                      {t('seax.channels.whatsapp.hero.demo.deliveredLabel') || 'Delivered'}
+                      {
+                        t("seax.channels.whatsapp.hero.demo.deliveredLabel") ||
+                          "Delivered"
+                      }
                     </div>
                   </div>
                 </div>
@@ -301,155 +475,300 @@ const getDemoUrl = () => {
       </div>
     </div>
   </div>
-  
+
   <!-- Features Section -->
   <div class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.whatsapp.features.title') || 'Powerful WhatsApp Features'}
+          {
+            t("seax.channels.whatsapp.features.title") ||
+              "Powerful WhatsApp Features"
+          }
         </h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          {t('seax.channels.whatsapp.features.subtitle') || 'Everything you need to run successful WhatsApp campaigns at scale'}
+          {
+            t("seax.channels.whatsapp.features.subtitle") ||
+              "Everything you need to run successful WhatsApp campaigns at scale"
+          }
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {features.map((feature, index) => (
-          <div key={index} class="text-center space-y-4">
-            <div class="bg-green-100 p-4 rounded-lg w-16 h-16 flex items-center justify-center mx-auto">
-              {feature.icon === 'message' && (
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
-                </svg>
-              )}
-              {feature.icon === 'globe' && (
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                </svg>
-              )}
-              {feature.icon === 'shield' && (
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
-                </svg>
-              )}
-              {feature.icon === 'zap' && (
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                </svg>
-              )}
-              {feature.icon === 'chart' && (
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
-                </svg>
-              )}
-              {feature.icon === 'users' && (
-                <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
-                </svg>
-              )}
+        {
+          features.map((feature, index) => (
+            <div key={index} class="text-center space-y-4">
+              <div class="bg-green-100 p-4 rounded-lg w-16 h-16 flex items-center justify-center mx-auto">
+                {feature.icon === "message" && (
+                  <svg
+                    class="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                    />
+                  </svg>
+                )}
+                {feature.icon === "globe" && (
+                  <svg
+                    class="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                )}
+                {feature.icon === "shield" && (
+                  <svg
+                    class="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                    />
+                  </svg>
+                )}
+                {feature.icon === "zap" && (
+                  <svg
+                    class="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 10V3L4 14h7v7l9-11h-7z"
+                    />
+                  </svg>
+                )}
+                {feature.icon === "chart" && (
+                  <svg
+                    class="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                )}
+                {feature.icon === "users" && (
+                  <svg
+                    class="w-8 h-8 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"
+                    />
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900">
+                {feature.title}
+              </h3>
+              <p class="text-gray-600">{feature.description}</p>
             </div>
-            <h3 class="text-xl font-semibold text-gray-900">{feature.title}</h3>
-            <p class="text-gray-600">{feature.description}</p>
-          </div>
-        ))}
+          ))
+        }
       </div>
     </div>
   </div>
-  
+
   <!-- Message Types Section -->
   <div class="py-20 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.whatsapp.messageTypes.title') || 'WhatsApp Message Types'}
+          {
+            t("seax.channels.whatsapp.messageTypes.title") ||
+              "WhatsApp Message Types"
+          }
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.channels.whatsapp.messageTypes.subtitle') || 'Choose from various message formats to engage your customers'}
+          {
+            t("seax.channels.whatsapp.messageTypes.subtitle") ||
+              "Choose from various message formats to engage your customers"
+          }
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {messageTypes.map((type, index) => (
-          <div key={index} class="bg-white rounded-lg p-6 shadow-sm">
-            <div class="bg-green-100 p-3 rounded-lg w-fit mb-4">
-              {type.icon === 'message' && (
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
-                </svg>
-              )}
-              {type.icon === 'image' && (
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                </svg>
-              )}
-              {type.icon === 'users' && (
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
-                </svg>
-              )}
-            </div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-3">{type.title}</h3>
-            <p class="text-gray-600 mb-4">{type.description}</p>
-            <ul class="space-y-2">
-              {type.features.map((feature, featureIndex) => (
-                <li key={featureIndex} class="flex items-center space-x-2">
-                  <svg class="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+        {
+          messageTypes.map((type, index) => (
+            <div key={index} class="bg-white rounded-lg p-6 shadow-sm">
+              <div class="bg-green-100 p-3 rounded-lg w-fit mb-4">
+                {type.icon === "message" && (
+                  <svg
+                    class="w-6 h-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
+                    />
                   </svg>
-                  <span class="text-sm text-gray-700">{feature}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+                )}
+                {type.icon === "image" && (
+                  <svg
+                    class="w-6 h-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
+                  </svg>
+                )}
+                {type.icon === "users" && (
+                  <svg
+                    class="w-6 h-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"
+                    />
+                  </svg>
+                )}
+              </div>
+              <h3 class="text-xl font-semibold text-gray-900 mb-3">
+                {type.title}
+              </h3>
+              <p class="text-gray-600 mb-4">{type.description}</p>
+              <ul class="space-y-2">
+                {type.features.map((feature, featureIndex) => (
+                  <li key={featureIndex} class="flex items-center space-x-2">
+                    <svg
+                      class="w-4 h-4 text-green-600"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    <span class="text-sm text-gray-700">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
       </div>
     </div>
   </div>
-  
+
   <!-- Use Cases Section -->
   <div class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">
-          {t('seax.channels.whatsapp.useCases.title') || 'WhatsApp Use Cases'}
+          {t("seax.channels.whatsapp.useCases.title") || "WhatsApp Use Cases"}
         </h2>
         <p class="text-lg text-gray-600">
-          {t('seax.channels.whatsapp.useCases.subtitle') || 'Discover how businesses use WhatsApp to drive results'}
+          {
+            t("seax.channels.whatsapp.useCases.subtitle") ||
+              "Discover how businesses use WhatsApp to drive results"
+          }
         </p>
       </div>
-      
+
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {useCases.map((useCase, index) => (
-          <div key={index} class="bg-gray-50 rounded-lg p-6">
-            <div class="flex items-start space-x-4">
-              <div class="bg-green-100 p-2 rounded-lg">
-                <svg class="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
-                </svg>
-              </div>
-              <div class="flex-1">
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">{useCase.title}</h3>
-                <p class="text-gray-600 mb-3">{useCase.description}</p>
-                <div class="text-sm font-medium text-green-600">{useCase.metrics}</div>
+        {
+          useCases.map((useCase, index) => (
+            <div key={index} class="bg-gray-50 rounded-lg p-6">
+              <div class="flex items-start space-x-4">
+                <div class="bg-green-100 p-2 rounded-lg">
+                  <svg
+                    class="w-6 h-6 text-green-600"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"
+                    />
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="text-lg font-semibold text-gray-900 mb-2">
+                    {useCase.title}
+                  </h3>
+                  <p class="text-gray-600 mb-3">{useCase.description}</p>
+                  <div class="text-sm font-medium text-green-600">
+                    {useCase.metrics}
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))
+        }
       </div>
     </div>
   </div>
-  
+
   <!-- CTA Section -->
   <div class="bg-green-600 py-20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-3xl font-bold text-white mb-4">
-        {t('seax.channels.whatsapp.cta.title') || 'Ready to Scale Your WhatsApp Marketing?'}
+        {
+          t("seax.channels.whatsapp.cta.title") ||
+            "Ready to Scale Your WhatsApp Marketing?"
+        }
       </h2>
       <p class="text-xl text-green-100 mb-8">
-        {t('seax.channels.whatsapp.cta.subtitle') || 'Join businesses using SeaX to reach millions of customers on WhatsApp'}
+        {
+          t("seax.channels.whatsapp.cta.subtitle") ||
+            "Join businesses using SeaX to reach millions of customers on WhatsApp"
+        }
       </p>
-      
+
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
           href="https://seax.seasalt.ai/signup"
@@ -457,19 +776,29 @@ const getDemoUrl = () => {
           rel="noopener noreferrer"
           class="bg-white text-green-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-50 transition-colors flex items-center justify-center space-x-2"
         >
-          <span>{t('seax.channels.whatsapp.cta.primary') || 'Sign Up Now'}</span>
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+          <span>{t("seax.channels.whatsapp.cta.primary") || "Sign Up Now"}</span
+          >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
           </svg>
         </a>
-        
+
         <a
           href={getDemoUrl()}
           target="_blank"
           rel="noopener noreferrer"
           class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-green-600 transition-colors"
         >
-          {t('seax.channels.whatsapp.cta.secondary') || 'Book Demo'}
+          {t("seax.channels.whatsapp.cta.secondary") || "Book Demo"}
         </a>
       </div>
     </div>

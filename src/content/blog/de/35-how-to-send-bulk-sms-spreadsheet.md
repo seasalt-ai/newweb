@@ -133,4 +133,4 @@ Das Versenden von Massen-SMS an Kontakte in Tabellenkalkulationsprogrammen wie E
 
 ## Kontakt aufnehmen
 
-Wenn Sie mehr über 10DLC erfahren oder mehr über Ihre Optionen für SMS-Marketing erfahren möchten, [buchen Sie eine Demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) mit uns. Wir freuen uns immer auf ein Gespräch!
+Wenn Sie mehr über 10DLC erfahren oder mehr über Ihre Optionen für SMS-Marketing erfahren möchten, [buchen Sie eine Demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) mit uns. Wir freuen uns immer auf ein Gespräch!

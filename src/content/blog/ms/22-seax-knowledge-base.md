@@ -119,4 +119,4 @@ Di halaman ini, anda boleh menambah entri pangkalan data pengetahuan baharu seca
 Jika anda ingin melihat lebih mendalam sistem pangkalan data pengetahuan dan bagaimana ia berintegrasi dengan platform SeaX, tonton webinar kami mengenai topik tersebut:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="Pemain video YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Untuk demo satu sama satu, atau untuk mengetahui bagaimana Seasalt.ai boleh menyesuaikan penyelesaian untuk keperluan perniagaan anda, sila isi [borang jadual-demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) kami.
+Untuk demo satu sama satu, atau untuk mengetahui bagaimana Seasalt.ai boleh menyesuaikan penyelesaian untuk keperluan perniagaan anda, sila isi [borang jadual-demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) kami.

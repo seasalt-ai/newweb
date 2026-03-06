@@ -132,7 +132,7 @@ Ang pagpapadala ng maramihang SMS sa mga tool ng spreadsheet tulad ng Excel, Goo
 
 ## Makipag-ugnayan
 
-Kung interesado kang matuto nang higit pa tungkol sa 10DLC o matuto nang higit pa tungkol sa iyong mga opsyon para sa SMS marketing, [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) sa us. Palagi kaming masaya na makipag-usap!
+Kung interesado kang matuto nang higit pa tungkol sa 10DLC o matuto nang higit pa tungkol sa iyong mga opsyon para sa SMS marketing, [mag-book ng demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) sa us. Palagi kaming masaya na makipag-usap!
 title: "Ang Tamang Paraan upang Magpadala ng Maramihang SMS sa mga Contact sa Excel, Google Sheets, at Apple Numbers"
 metatitle: "Maramihang Pagpapadala ng SMS | Excel, Google Sheets, Apple Numbers"
 date: 2024-05-13T00:00:00-08:00
@@ -289,4 +289,4 @@ Ang pagpapadala ng maramihang SMS sa mga tool ng spreadsheet tulad ng Excel, Goo
 
 ## Makipag-ugnayan
 
-Kung interesado kang matuto nang higit pa tungkol sa 10DLC o matuto nang higit pa tungkol sa iyong mga opsyon para sa SMS marketing, [mag-book ng demo](https://meetings.hubspot.com/seasalt-ai/seasalt-meeting) sa us. Palagi kaming masaya na makipag-usap!
+Kung interesado kang matuto nang higit pa tungkol sa 10DLC o matuto nang higit pa tungkol sa iyong mga opsyon para sa SMS marketing, [mag-book ng demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) sa us. Palagi kaming masaya na makipag-usap!
