@@ -107,7 +107,7 @@ Le bouton de chat peut prendre jusqu'à quatre heures pour apparaître sur Googl
 *Vous pouvez cliquer sur le bouton "Relancer" une fois que vous avez terminé d'apporter des modifications/améliorations à votre agent virtuel.*
 </center>
 
-[Réservez une démo avec nous](https://calendar.app.google/FLjCxzbYLqG6CkNs9) et nous serons ravis de vous aider !
+[Réservez une démo avec nous](https://calendar.app.google/GcdRQv1DVoiDaoCT6) et nous serons ravis de vous aider !
 
 Mise à jour : Nous avons depuis réorienté le produit pour en faire un constructeur de chatbots omnicanal. Il s'appelle maintenant [SeaChat](https://chat.seasalt.ai/?utm_source=blog) !
 

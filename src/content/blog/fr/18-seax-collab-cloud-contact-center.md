@@ -85,4 +85,4 @@ Dans cette série de blogs, nous approfondirons les grandes fonctionnalités de 
 
 **Surveillance de l'administrateur** - Outils intégrés pour surveiller la communication client et les performances des agents
 
-Pour une démonstration personnelle et pour voir comment SeaX peut vous aider à répondre aux besoins de votre centre de contact, veuillez remplir notre formulaire « [Réserver une démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ».
+Pour une démonstration personnelle et pour voir comment SeaX peut vous aider à répondre aux besoins de votre centre de contact, veuillez remplir notre formulaire « [Réserver une démo](https://calendar.app.google/GcdRQv1DVoiDaoCT6) ».

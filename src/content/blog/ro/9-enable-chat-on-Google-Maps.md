@@ -119,4 +119,4 @@ Google îți va trimite un cod de verificare la numărul tău de telefon. Introd
 
 Acum că știi cum să activezi butonul de chat în listarea ta și beneficiile sale, cum te asiguri că afacerea ta poate face față numărului în creștere de întrebări ale clienților? Răspunsul la chat-urile repetitive necesită mult timp și bani. Verifică următorul nostru articol despre mesajele Google Business și cum te pot ajuta să economisești timp și bani, oferind astfel un serviciu clienți excelent.
 
-[Programează o demonstrație cu noi](https://calendar.app.google/FLjCxzbYLqG6CkNs9) și fii primul care primește o încercare gratuită a produsului nostru! 
+[Programează o demonstrație cu noi](https://calendar.app.google/GcdRQv1DVoiDaoCT6) și fii primul care primește o încercare gratuită a produsului nostru! 

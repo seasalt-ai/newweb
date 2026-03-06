@@ -73,4 +73,4 @@ OpenAI의 기술은 인상적이지만 현재 다른 옵션보다 훨씬 비쌉�
 가장 진보된 기술이 항상 비즈니스 요구에 가장 적합한 선택은 아닙니다. 변경하기 전에 예산, 필요한 고객 서비스 품질, 솔루션이 기존 시스템과 얼마나 잘 통합되는지 고려하십시오.
 
 ## 더 알아보기
-합리적인 가격으로 고객 서비스를 위한 AI 음성 기술을 먼저 탐색하고 싶다면 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/)을 방문하거나 [데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)할 수 있습니다.
+합리적인 가격으로 고객 서비스를 위한 AI 음성 기술을 먼저 탐색하고 싶다면 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/)을 방문하거나 [데모를 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)할 수 있습니다.

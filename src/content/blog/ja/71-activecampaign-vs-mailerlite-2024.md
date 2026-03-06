@@ -91,4 +91,4 @@ MailerLiteとActiveCampaignはどちらも優れたツールですが、正し�
 
 最終的にどのメールマーケティングサービスを選択しても、[SeaChat](https://chat.seasalt.ai/?utm_source=blog)はほとんどのメールマーケティングプラットフォームと良好に統合できます。SeaChat AIエージェントからメールとリードを収集し、直接メールマーケティングリストに同期できます。
 
-10分以内にAIチャットエージェントを構築して起動。多言語サポート。即座のエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話との統合。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai)にメールを送信するか、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)してください。 
+10分以内にAIチャットエージェントを構築して起動。多言語サポート。即座のエージェント転送。ウェブチャット、SMS、Line、CRM、Shopify、カレンダー、Twilio、ZenDesk、電話との統合。詳細については、[seachat@seasalt.ai](mailto:seachat@seasalt.ai)にメールを送信するか、[デモを予約](https://calendar.app.google/GcdRQv1DVoiDaoCT6)してください。 

@@ -102,4 +102,4 @@ draft: false
 
 이메일 마케팅 서비스로 무엇을 선택하든 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)은 대부분의 이메일 마케팅 플랫폼과 잘 통합됩니다. SeaChat AI 에이전트에서 이메일과 리드를 수집하고 이메일 마케팅 목록에 직접 동기화할 수 있습니다.
 
-10분 만에 AI 채팅 에이전트를 구축하고 시작하십시오. 다국어 지원. 실시간 상담원 전송. 웹 채팅, SMS, 라인, CRM, 쇼피파이, 캘린더, 트윌리오, 젠데스크 및 전화 통화와 통합하십시오. 자세한 내용은 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하십시오.
+10분 만에 AI 채팅 에이전트를 구축하고 시작하십시오. 다국어 지원. 실시간 상담원 전송. 웹 채팅, SMS, 라인, CRM, 쇼피파이, 캘린더, 트윌리오, 젠데스크 및 전화 통화와 통합하십시오. 자세한 내용은 [seachat@seasalt.ai](mailto:seachat@seasalt.ai)로 이메일을 보내거나 [데모를 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)하십시오.

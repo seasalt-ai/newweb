@@ -169,7 +169,7 @@ __*用户在使用 STT 时正在做什么：*__
 
 我们希望这些计划中的功能能够让我们继续使语音通道对每个人都更易于访问，同时赋予用户以他们感到舒适的级别与 SeaVoice 机器人交互的能力。展望未来，我们将继续努力主动解决这些具有挑战性的问题，以使 SeaVoice 达到最佳状态！
 
-感谢您对我们的 Discord 机器人的兴趣，也感谢我们的用户一直以来的支持！您可以在我们的 [SeaVoice 语音转文本主页](https://suite.seasalt.ai/tts)上了解有关我们 STT 产品的更多信息。要获得我们任何语音智能产品的一对一演示，请填写 [预订演示表](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
+感谢您对我们的 Discord 机器人的兴趣，也感谢我们的用户一直以来的支持！您可以在我们的 [SeaVoice 语音转文本主页](https://suite.seasalt.ai/tts)上了解有关我们 STT 产品的更多信息。要获得我们任何语音智能产品的一对一演示，请填写 [预订演示表](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。
 
 如果您还没有尝试过 SeaVoice 机器人，您可以从 [SeaVoice Discord 机器人维基](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/)了解更多关于我们的机器人并将其添加到您的服务器。也欢迎加入我们的 [官方 SeaVoice Discord 服务器](https://discord.gg/dfAYfwBQ)。
 

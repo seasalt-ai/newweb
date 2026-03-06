@@ -170,7 +170,7 @@ AI 개발은 윤리적 딜레마의 홍수에 둘러싸여 있습니다. 우리�
 
 이러한 계획된 기능들이 음성 채널을 모든 사람에게 더 쉽게 접근할 수 있도록 계속 만들면서, 사용자들이 편안하게 SeaVoice 봇과 상호 작용할 수 있는 권한을 부여할 수 있기를 바랍니다. 앞으로도 우리는 SeaVoice를 최고로 만들기 위해 이러한 어려운 문제들을 적극적으로 해결하기 위해 계속 노력할 것입니다!
 
-저희 Discord 봇에 관심을 가져주셔서 감사드리며, 지속적인 지원을 해주시는 사용자 여러분께 감사드립니다! STT 제품에 대한 자세한 내용은 [SeaVoice 음성-텍스트 홈페이지](https://suite.seasalt.ai/tts)에서 확인할 수 있습니다. 음성 지능 제품에 대한 일대일 데모를 원하시면 [데모 예약 양식](https://calendar.app.google/FLjCxzbYLqG6CkNs9)을 작성하십시오.
+저희 Discord 봇에 관심을 가져주셔서 감사드리며, 지속적인 지원을 해주시는 사용자 여러분께 감사드립니다! STT 제품에 대한 자세한 내용은 [SeaVoice 음성-텍스트 홈페이지](https://suite.seasalt.ai/tts)에서 확인할 수 있습니다. 음성 지능 제품에 대한 일대일 데모를 원하시면 [데모 예약 양식](https://calendar.app.google/GcdRQv1DVoiDaoCT6)을 작성하십시오.
 
 아직 SeaVoice 봇을 사용해보지 않았다면, [SeaVoice Discord 봇 위키](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/)에서 봇에 대해 자세히 알아보고 서버에 추가할 수 있습니다. 또한 [공식 SeaVoice Discord 서버](https://discord.gg/dfAYfwBQ)에 자유롭게 참여하십시오.
 

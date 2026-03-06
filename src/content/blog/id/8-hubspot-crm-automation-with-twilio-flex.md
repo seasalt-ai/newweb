@@ -75,4 +75,4 @@ Ketika Anda menyelesaikan percakapan dengan pelanggan di SeaX, otomatisasi dapat
 ### Satu Platform yang Nyaman
 Singkatnya, integrasi antara SeaX dan HubSpot menyederhanakan antarmuka dukungan pelanggan Anda dan memberi agen langsung Anda akses yang lebih mudah ke informasi pelanggan Anda. Menerapkan agen virtual berkemampuan AI dan otomatisasi yang memanfaatkan integrasi ini membebaskan agen langsung Anda agar lebih efisien dan merampingkan alur kerja dan proses CRM Anda.
 
-Ingin melihat bagaimana SeaX yang didukung oleh Seasalt.ai dapat membantu bisnis Anda? [Pesan demo hari ini](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Ingin melihat bagaimana SeaX yang didukung oleh Seasalt.ai dapat membantu bisnis Anda? [Pesan demo hari ini](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

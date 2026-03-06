@@ -170,7 +170,7 @@ Finally, the last issue we saw is that some users feel so uncomfortable with the
 
 We hope that these planned features will allow us to continue making voice channels more accessible for everyone while giving users the agency to interact with the SeaVoice Bot on a level they are comfortable with. Moving forward we will continue to make an effort to proactively address these challenging issues in order to make SeaVoice the best it can be!
 
-Thank you for your interest in our Discord Bot and thanks to our users for your continued support! You can learn more about our STT product on our [SeaVoice Speech-to-Text Homepage](https://suite.seasalt.ai/tts). For a one-on-one demo of any of our Voice Intelligence products, fill out the [Book a Demo Form](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Thank you for your interest in our Discord Bot and thanks to our users for your continued support! You can learn more about our STT product on our [SeaVoice Speech-to-Text Homepage](https://suite.seasalt.ai/tts). For a one-on-one demo of any of our Voice Intelligence products, fill out the [Book a Demo Form](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 If you haven’t tried out the SeaVoice bot yet, you can learn more about our bot and add it to your server from the [SeaVoice Discord Bot Wiki](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). Also feel free to join our [Official SeaVoice Discord Server](https://discord.gg/dfAYfwBQ).
 

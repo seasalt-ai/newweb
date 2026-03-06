@@ -85,4 +85,4 @@ Nesta série de blogs, vamos nos aprofundar nos grandes recursos da plataforma S
 
 **Monitoramento do Administrador** - Ferramentas integradas para monitorar a comunicação com o cliente e o desempenho do agente
 
-Para uma demonstração pessoal e para ver como o SeaX pode ajudar com as necessidades de sua central de atendimento, preencha nosso formulário "[Agendar uma demonstração](https://calendar.app.google/FLjCxzbYLqG6CkNs9)".
+Para uma demonstração pessoal e para ver como o SeaX pode ajudar com as necessidades de sua central de atendimento, preencha nosso formulário "[Agendar uma demonstração](https://calendar.app.google/GcdRQv1DVoiDaoCT6)".

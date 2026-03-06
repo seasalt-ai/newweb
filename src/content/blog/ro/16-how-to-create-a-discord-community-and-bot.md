@@ -247,4 +247,4 @@ Acum botul dvs. ar trebui să fie conectat și să asculte toată acțiunea de p
 Fiți cu ochii pe postarea finală din seria noastră de blog, care va parcurge modul în care am folosit produsul nostru, [SeaX](https://seax.seasalt.ai/), pentru a conecta [platforma de centru de contact a Twilio Flex](https://www.twilio.com/flex) cu un server comunitar Discord. Această integrare permite mărcilor nu numai să promoveze comunitatea cu clienții lor, ci și să mențină un canal direct de comunicare și să abordeze problemele direct din cadrul comunității online.
 
 
-Pentru mai multe informații despre oricare dintre soluțiile noastre, vizitați [Wiki-ul produselor Seasalt.ai](https://wiki.seasalt.ai) - sau completați [formularul „Rezervați o demonstrație”](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pentru a arunca o privire directă.
+Pentru mai multe informații despre oricare dintre soluțiile noastre, vizitați [Wiki-ul produselor Seasalt.ai](https://wiki.seasalt.ai) - sau completați [formularul „Rezervați o demonstrație”](https://calendar.app.google/GcdRQv1DVoiDaoCT6) pentru a arunca o privire directă.

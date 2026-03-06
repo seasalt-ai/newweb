@@ -120,4 +120,4 @@ Google Business Messagesは、繰り返しの問い合わせに答えること�
 
 Google Business Messagesを使用しながら顧客と直接話したい場合は、コンサルティング機関にライブチャットソリューションを提供するよう依頼する必要があります。この機能が有効になっている場合、顧客は「ライブエージェントにメッセージを送信」ボタンをクリックでき、その後あなたは会話に参加して顧客とチャットできます。ライブエージェント側では、会話はコンサルティング機関が統合を選択した任意のプラットフォームで行われます。これはSMS、WhatsApp、Messenger、Zendeskなどの既存のカスタマーサービスソフトウェア、またはカスタマイズされたウェブサイトやモバイルアプリを通じて行うことができます。
 
-そのため、私たちはあなたにNear Me Messagingソリューションをご紹介したいと思います（更新：私たちはその後、製品をフルチャンネルチャットボットビルダーに変換しました。現在は[SeaChat](https://chat.seasalt.ai/?utm_source=blog)と呼ばれています！）、これは中小企業に完全にカスタマイズ可能、セルフサービス、ライブチャット機能を備えた手頃で、迅速で、実装しやすいGoogle Business Messagesを提供します。Near Me Messagingとその優れた機能についての次の記事にご期待ください。[私たちとデモをスケジュール](https://calendar.app.google/FLjCxzbYLqG6CkNs9)して、Near Me Messagingを使用する最初の人になりましょう！
+そのため、私たちはあなたにNear Me Messagingソリューションをご紹介したいと思います（更新：私たちはその後、製品をフルチャンネルチャットボットビルダーに変換しました。現在は[SeaChat](https://chat.seasalt.ai/?utm_source=blog)と呼ばれています！）、これは中小企業に完全にカスタマイズ可能、セルフサービス、ライブチャット機能を備えた手頃で、迅速で、実装しやすいGoogle Business Messagesを提供します。Near Me Messagingとその優れた機能についての次の記事にご期待ください。[私たちとデモをスケジュール](https://calendar.app.google/GcdRQv1DVoiDaoCT6)して、Near Me Messagingを使用する最初の人になりましょう！

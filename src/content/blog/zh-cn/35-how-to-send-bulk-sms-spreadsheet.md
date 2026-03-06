@@ -118,4 +118,4 @@ Excel 或 Google 表格本身不支持短信发送，但可用 ClickSend、Zapie
 
 ## 联系我们
 
-如需了解更多 10DLC 或短信营销方案，[预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。我们随时为您服务！
+如需了解更多 10DLC 或短信营销方案，[预约演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。我们随时为您服务！

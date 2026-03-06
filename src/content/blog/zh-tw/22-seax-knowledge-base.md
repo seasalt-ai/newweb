@@ -114,4 +114,4 @@ draft: false
 如果您想更深入地了解知識庫系統及其與 SeaX 平台的整合方式，請觀看我們關於該主題的網路研討會：
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube 影片播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-如需一對一演示，或了解 Seasalt.ai 如何根據您的業務需求定制解決方案，請填寫我們的 [預約演示表單](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
+如需一對一演示，或了解 Seasalt.ai 如何根據您的業務需求定制解決方案，請填寫我們的 [預約演示表單](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。

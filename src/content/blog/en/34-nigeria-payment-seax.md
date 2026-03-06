@@ -48,4 +48,4 @@ In conclusion, the successful omni-channel contact center deployment for the lea
 
 ## Get in touch
 
-If you’re interested in learning more about SeaX, fill out our [Book a Demo form](https://calendar.app.google/FLjCxzbYLqG6CkNs9) to get a first hand look at the SeaX platform. We are always happy to chat!
+If you’re interested in learning more about SeaX, fill out our [Book a Demo form](https://calendar.app.google/GcdRQv1DVoiDaoCT6) to get a first hand look at the SeaX platform. We are always happy to chat!

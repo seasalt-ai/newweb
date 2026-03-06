@@ -76,4 +76,4 @@ Para sa karamihan ng mga negosyo, ang bagong teknolohiya ng boses ng OpenAI ay m
 Ang pinaka-advanced na teknolohiya ay hindi palaging ang pinakamahusay na pagpipilian para sa iyong mga pangangailangan sa negosyo. Isaalang-alang ang iyong badyet, ang kalidad ng serbisyo sa customer na kailangan mo, at kung gaano kahusay ang isang solusyon na isinasama sa iyong mga umiiral na sistema bago gumawa ng anumang mga pagbabago.
 
 ## Matuto Nang Higit Pa
-Kung nais mong unang tuklasin ang teknolohiya ng boses ng AI para sa serbisyo sa customer sa isang makatwirang presyo, maaari mong bisitahin ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) o maaari kang [mag-book ng demo sa amin](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Kung nais mong unang tuklasin ang teknolohiya ng boses ng AI para sa serbisyo sa customer sa isang makatwirang presyo, maaari mong bisitahin ang [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) o maaari kang [mag-book ng demo sa amin](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

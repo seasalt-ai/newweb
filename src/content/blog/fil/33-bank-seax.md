@@ -46,4 +46,4 @@ Sa konklusyon, ang matagumpay na pag-deploy ng omni-channel contact center para 
 
 ## Makipag-ugnayan
 
-Kung interesado kang matuto nang higit pa tungkol sa SeaX, punan ang aming [Book a Demo form](https://calendar.app.google/FLjCxzbYLqG6CkNs9) upang makita mismo ang platform ng SeaX. Palagi kaming masaya na makipag-chat!
+Kung interesado kang matuto nang higit pa tungkol sa SeaX, punan ang aming [Book a Demo form](https://calendar.app.google/GcdRQv1DVoiDaoCT6) upang makita mismo ang platform ng SeaX. Palagi kaming masaya na makipag-chat!

@@ -285,4 +285,4 @@ El futuro del servicio al cliente es brillante, eficiente y más humano que nunc
 
 ---
 
-*¿Quiere explorar cómo la IA puede transformar su servicio al cliente? [Programe una consulta](https://calendar.app.google/FLjCxzbYLqG6CkNs9) para ver cómo Seasalt.ai está ayudando a las empresas a prepararse para el futuro de la experiencia del cliente.*
+*¿Quiere explorar cómo la IA puede transformar su servicio al cliente? [Programe una consulta](https://calendar.app.google/GcdRQv1DVoiDaoCT6) para ver cómo Seasalt.ai está ayudando a las empresas a prepararse para el futuro de la experiencia del cliente.*

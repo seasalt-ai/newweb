@@ -123,4 +123,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-感谢您花时间阅读 SeaX 案例管理系统如何支持您的Agent与客户互动。请继续关注我们的下一篇博客文章，该文章将深入探讨使用 SeaX 平台发送批量短信的过程。如果您有兴趣立即了解更多信息，请填写我们的 [预约演示表单](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，以亲身体验 SeaX 平台。
+感谢您花时间阅读 SeaX 案例管理系统如何支持您的Agent与客户互动。请继续关注我们的下一篇博客文章，该文章将深入探讨使用 SeaX 平台发送批量短信的过程。如果您有兴趣立即了解更多信息，请填写我们的 [预约演示表单](https://calendar.app.google/GcdRQv1DVoiDaoCT6)，以亲身体验 SeaX 平台。

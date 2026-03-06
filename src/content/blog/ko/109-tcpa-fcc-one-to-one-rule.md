@@ -91,7 +91,7 @@ FCC의 일대일 규칙이 귀하에게 영향을 미칠지 여부를 판단하�
 2025년 TCPA 규칙 변경은 기업이 아웃리치를 수행하는 방식에 상당한 영향을 미칠 것입니다. 규제 기술을 사용하는 전화 및 문자는 명시적인 옵트인 동의가 필요합니다. 옵트인이 없는 경우, 스크러빙 후 수동 다이얼링 및 문자 메시지가 필요합니다. 기존 비즈니스 관계는 일부 면제를 제공할 수 있지만, 정보를 얻고 규정을 준수하는 것이 중요합니다. 변경하기 전에 항상 법률 고문과 상담하십시오.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">무료 상담 예약하기</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">무료 상담 예약하기</a>
 </center>
 
 

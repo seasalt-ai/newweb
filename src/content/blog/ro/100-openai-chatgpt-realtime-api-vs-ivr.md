@@ -75,4 +75,4 @@ Pentru majoritatea afacerilor, noua tehnologie vocală a OpenAI este probabil pr
 Cea mai avansată tehnologie nu este întotdeauna cea mai bună alegere pentru nevoile afacerii dvs. Luați în considerare bugetul dvs., calitatea serviciilor pentru clienți de care aveți nevoie și cât de bine se integrează o soluție cu sistemele dvs. existente înainte de a face orice modificare.
 
 ## Aflați mai multe
-Dacă doriți să explorați mai întâi tehnologia vocală AI pentru servicii pentru clienți la un preț rezonabil, puteți vizita [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) sau puteți [rezerva o demonstrație cu noi](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
+Dacă doriți să explorați mai întâi tehnologia vocală AI pentru servicii pentru clienți la un preț rezonabil, puteți vizita [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) sau puteți [rezerva o demonstrație cu noi](https://calendar.app.google/GcdRQv1DVoiDaoCT6). 

@@ -177,7 +177,7 @@ ChatGPT-4o Realtime API แสดงถึงความก้าวหน้�
 
 
 ## เรียนรู้เพิ่มเติม
-หากคุณต้องการสำรวจเทคโนโลยี AI เสียงสำหรับบริการลูกค้าในราคาที่สมเหตุสมผลก่อน คุณสามารถเยี่ยมชม [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) หรือคุณสามารถ [จองการสาธิตกับเรา](https://calendar.app.google/FLjCxzbYLqG6CkNs9)
+หากคุณต้องการสำรวจเทคโนโลยี AI เสียงสำหรับบริการลูกค้าในราคาที่สมเหตุสมผลก่อน คุณสามารถเยี่ยมชม [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) หรือคุณสามารถ [จองการสาธิตกับเรา](https://calendar.app.google/GcdRQv1DVoiDaoCT6)
 
 
 ## เกี่ยวกับชุดบทความนี้

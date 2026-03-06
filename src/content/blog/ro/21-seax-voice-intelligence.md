@@ -60,4 +60,4 @@ SeaX utilizează analiza sentimentelor pentru a detecta emoțiile clienților î
 
 SeaX oferă o soluție completă de inteligență vocală care poate ajuta companiile să își îmbunătățească serviciul clienți, să crească eficiența și să obțină informații despre clienți. Cu transcrierea live, rezumatele și analiza sentimentelor, SeaX oferă instrumentele de care aveți nevoie pentru a vă duce centrul de contact la nivelul următor.
 
-Pentru o demonstrație personală și pentru a vedea cum vă poate ajuta SeaX cu nevoile centrului dvs. de contact, vă rugăm să completați formularul nostru „[Rezervați o demonstrație](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”.
+Pentru o demonstrație personală și pentru a vedea cum vă poate ajuta SeaX cu nevoile centrului dvs. de contact, vă rugăm să completați formularul nostru „[Rezervați o demonstrație](https://calendar.app.google/GcdRQv1DVoiDaoCT6)”.

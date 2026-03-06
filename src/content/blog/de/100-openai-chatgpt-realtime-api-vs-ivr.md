@@ -76,4 +76,4 @@ Für die meisten Unternehmen ist die neue Sprachtechnologie von OpenAI im Moment
 Die fortschrittlichste Technologie ist nicht immer die beste Wahl für Ihre Geschäftsanforderungen. Berücksichtigen Sie Ihr Budget, die Qualität des Kundenservice, den Sie benötigen, und wie gut sich eine Lösung in Ihre bestehenden Systeme integrieren lässt, bevor Sie Änderungen vornehmen.
 
 ## Erfahren Sie mehr
-Wenn Sie zunächst die KI-Sprachtechnologie für den Kundenservice zu einem vernünftigen Preis erkunden möchten, können Sie [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) besuchen oder [eine Demo bei uns buchen](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Wenn Sie zunächst die KI-Sprachtechnologie für den Kundenservice zu einem vernünftigen Preis erkunden möchten, können Sie [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) besuchen oder [eine Demo bei uns buchen](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

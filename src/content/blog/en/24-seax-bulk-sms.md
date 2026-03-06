@@ -120,4 +120,4 @@ Just like all SeaX features, we strive to empower agents or campaign managers to
 
 # Closing
 
-Thank you for taking the time to read about how the SeaX Bulk SMS System empowers agents to send outbound communications in addition to handling incoming message requests. Stay tuned for the next segment in our blog series, which will cover some of the management and analytics tools built into the SeaX platform. If you’re interested in learning more right away, fill out our [Book a Demo form](https://calendar.app.google/FLjCxzbYLqG6CkNs9) to get a first hand look at the SeaX platform.
+Thank you for taking the time to read about how the SeaX Bulk SMS System empowers agents to send outbound communications in addition to handling incoming message requests. Stay tuned for the next segment in our blog series, which will cover some of the management and analytics tools built into the SeaX platform. If you’re interested in learning more right away, fill out our [Book a Demo form](https://calendar.app.google/GcdRQv1DVoiDaoCT6) to get a first hand look at the SeaX platform.

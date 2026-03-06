@@ -583,7 +583,7 @@ const OmniChannelCalculator = ({ lang, translations }: Props) => {
               {getText('seax.pricing.omniCalculator.cta.start', 'Sign Up Now')}
             </a>
             <a
-              href="https://calendar.app.google/FLjCxzbYLqG6CkNs9/"
+              href="https://calendar.app.google/GcdRQv1DVoiDaoCT6/"
               className="w-full border-2 border-blue-600 text-blue-600 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg transition-colors text-center inline-block break-words hyphens-auto"
             >
               {getText('seax.pricing.omniCalculator.cta.sales', 'Talk to Sales')}

@@ -159,4 +159,4 @@ Enviar SMS em lote para contatos em ferramentas de planilha como Excel, Google S
 
 ## Entre em contato
 
-Se você estiver interessado em saber mais sobre o 10DLC ou sobre suas opções para marketing por SMS, [agende uma demonstração](https://calendar.app.google/FLjCxzbYLqG6CkNs9) conosco. Estamos sempre felizes em conversar!
+Se você estiver interessado em saber mais sobre o 10DLC ou sobre suas opções para marketing por SMS, [agende uma demonstração](https://calendar.app.google/GcdRQv1DVoiDaoCT6) conosco. Estamos sempre felizes em conversar!

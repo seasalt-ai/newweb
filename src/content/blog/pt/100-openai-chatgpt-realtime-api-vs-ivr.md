@@ -76,4 +76,4 @@ Para a maioria das empresas, a nova tecnologia de voz da OpenAI provavelmente é
 A tecnologia mais avançada nem sempre é a melhor escolha para as necessidades do seu negócio. Considere seu orçamento, a qualidade do atendimento ao cliente que você precisa e o quão bem uma solução se integra aos seus sistemas existentes antes de fazer qualquer alteração.
 
 ## Saiba mais
-Se você quiser explorar primeiro a tecnologia de voz de IA para atendimento ao cliente a um preço razoável, você pode visitar [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou você pode [agendar uma demonstração conosco](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Se você quiser explorar primeiro a tecnologia de voz de IA para atendimento ao cliente a um preço razoável, você pode visitar [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou você pode [agendar uma demonstração conosco](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

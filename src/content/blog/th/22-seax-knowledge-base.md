@@ -115,4 +115,4 @@ draft: false
 หากคุณต้องการเจาะลึกเกี่ยวกับระบบฐานความรู้และวิธีการผสานรวมกับแพลตฟอร์ม SeaX โปรดดูการสัมมนาผ่านเว็บของเราในหัวข้อนี้:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-สำหรับการสาธิตแบบตัวต่อตัว หรือเพื่อเรียนรู้วิธีที่ Seasalt.ai สามารถปรับแต่งโซลูชันสำหรับความต้องการทางธุรกิจของคุณ โปรดกรอก [แบบฟอร์มนัดหมายการสาธิต](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ของเรา
+สำหรับการสาธิตแบบตัวต่อตัว หรือเพื่อเรียนรู้วิธีที่ Seasalt.ai สามารถปรับแต่งโซลูชันสำหรับความต้องการทางธุรกิจของคุณ โปรดกรอก [แบบฟอร์มนัดหมายการสาธิต](https://calendar.app.google/GcdRQv1DVoiDaoCT6) ของเรา

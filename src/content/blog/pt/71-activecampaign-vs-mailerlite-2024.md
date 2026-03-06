@@ -98,4 +98,4 @@ Escolha **ActiveCampaign** se: Você precisa de automação robusta, uma integra
 
 Não importa o que você escolha para o seu serviço de e-mail marketing, o [SeaChat](https://chat.seasalt.ai/?utm_source=blog) se integra bem com a maioria das plataformas de e-mail marketing. Você pode coletar os e-mails e leads do agente de IA SeaChat e sincronizá-los diretamente com sua lista de e-mail marketing. 
 
-Construa e lance um agente de chat de IA em 10 minutos. Suporte multilíngue. Transferência de agente ao vivo. Integre com webchat, SMS, Line, CRM, Shopify, calendários, Twilio, ZenDesk e chamadas telefônicas. Envie-nos um e-mail para mais detalhes em [seachat@seasalt.ai](mailto:seachat@seasalt.ai) ou [agende uma demonstração](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
+Construa e lance um agente de chat de IA em 10 minutos. Suporte multilíngue. Transferência de agente ao vivo. Integre com webchat, SMS, Line, CRM, Shopify, calendários, Twilio, ZenDesk e chamadas telefônicas. Envie-nos um e-mail para mais detalhes em [seachat@seasalt.ai](mailto:seachat@seasalt.ai) ou [agende uma demonstração](https://calendar.app.google/GcdRQv1DVoiDaoCT6). 

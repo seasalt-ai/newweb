@@ -42,7 +42,7 @@ const PriceCalculator: React.FC<PriceCalculatorProps> = ({ lang, translations })
   const humanCallCost = humanMinutes * 0.015;
   const totalMonthly = basePlan + phoneNumberCost + voiceAICost + humanCallCost;
 
-  const meetingUrl = `https://calendar.app.google/FLjCxzbYLqG6CkNs9?utm_source=website&utm_medium=footer&utm_campaign=cta&utm_content=demo_${lang}`;
+  const meetingUrl = `https://calendar.app.google/GcdRQv1DVoiDaoCT6?utm_source=website&utm_medium=footer&utm_campaign=cta&utm_content=demo_${lang}`;
 
   return (
     <section className="py-20 bg-gradient-to-br from-gray-50 to-white">

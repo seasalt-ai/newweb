@@ -116,4 +116,4 @@ draft: false
 اگر می خواهید نگاهی عمیق تر به سیستم پایگاه دانش و نحوه ادغام آن با پلتفرم SeaX بیندازید، وبینار ما را در این زمینه تماشا کنید:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="پخش کننده ویدیوی YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-برای یک نسخه ی نمایشی یک به یک، یا برای اطلاع از اینکه چگونه Seasalt.ai می تواند راه حلی را برای نیازهای تجاری شما سفارشی کند، لطفاً [فرم برنامه ریزی نسخه ی نمایشی](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ما را پر کنید.
+برای یک نسخه ی نمایشی یک به یک، یا برای اطلاع از اینکه چگونه Seasalt.ai می تواند راه حلی را برای نیازهای تجاری شما سفارشی کند، لطفاً [فرم برنامه ریزی نسخه ی نمایشی](https://calendar.app.google/GcdRQv1DVoiDaoCT6) ما را پر کنید.

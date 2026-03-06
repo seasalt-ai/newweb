@@ -119,4 +119,4 @@ Pemilik boleh menyertai mana-mana perbualan pada bila-bila masa selagi pengguna 
 *Antara muka ciri ejen langsung Near Me.*
 </center>
 
-Adakah anda bersedia untuk bermula dengan Near Me Messaging? Nantikan catatan kami yang seterusnya tentang cara melancarkan ejen maya anda dengan Near Me Messaging. [Tempah demo dengan kami](https://calendar.app.google/FLjCxzbYLqG6CkNs9) hari ini dan jadilah antara yang pertama mendapatkan percubaan percuma Near Me Messaging!
+Adakah anda bersedia untuk bermula dengan Near Me Messaging? Nantikan catatan kami yang seterusnya tentang cara melancarkan ejen maya anda dengan Near Me Messaging. [Tempah demo dengan kami](https://calendar.app.google/GcdRQv1DVoiDaoCT6) hari ini dan jadilah antara yang pertama mendapatkan percubaan percuma Near Me Messaging!

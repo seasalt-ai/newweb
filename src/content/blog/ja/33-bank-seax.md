@@ -40,4 +40,4 @@ draft: false
 
 ## お問い合わせ
 
-SeaXについてさらに詳しく知りたい場合は、[デモ予約フォーム](https://calendar.app.google/FLjCxzbYLqG6CkNs9)にご記入ください。SeaXプラットフォームを直接ご覧いただけます。いつでも喜んでお話しいたします！
+SeaXについてさらに詳しく知りたい場合は、[デモ予約フォーム](https://calendar.app.google/GcdRQv1DVoiDaoCT6)にご記入ください。SeaXプラットフォームを直接ご覧いただけます。いつでも喜んでお話しいたします！

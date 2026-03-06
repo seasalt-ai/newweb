@@ -287,4 +287,4 @@ Twilio Studioフローがメッセージをボットにルーティングする�
 
 # まとめ
 要約すると、このブログシリーズでは、Discordの普及と、ブランドが顧客と対話するための新しいプラットフォームとしてもたらす機会について議論しました。ブランドが独自のオンラインコミュニティを構築する方法を示すために、Discordの基本的な機能をいくつか紹介し、ブランドがDiscordボットを使用してサーバーでのモデレーションとカスタマーサポートを自動化できるより高度な機能も紹介しました。最後に、DiscordをカスタマーサービスプラットフォームSeaXと統合し、ライブエージェント転送、ケース管理、AI駆動のナレッジベース検索などの高度な機能をDiscordコミュニティにもたらす方法を共有しました。
-個人的なデモや、Seasalt.aiが特定のビジネスニーズを満たすのにどのように役立つかを学ぶために、["デモを予約"](https://calendar.app.google/FLjCxzbYLqG6CkNs9)フォームにご記入ください。Flex/Discord統合の詳細やお問い合わせについては、[Seasalt.aiのTwilioパートナーリスト](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)をご覧ください。
+個人的なデモや、Seasalt.aiが特定のビジネスニーズを満たすのにどのように役立つかを学ぶために、["デモを予約"](https://calendar.app.google/GcdRQv1DVoiDaoCT6)フォームにご記入ください。Flex/Discord統合の詳細やお問い合わせについては、[Seasalt.aiのTwilioパートナーリスト](https://showcase.twilio.com/partner-listing/a8E8Z000000PDCQUA4)をご覧ください。

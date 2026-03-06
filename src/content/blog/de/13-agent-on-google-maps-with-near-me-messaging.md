@@ -107,6 +107,6 @@ Es kann bis zu vier Stunden dauern, bis die Chat-Schaltfläche in Google Maps an
 *Sie können auf die Schaltfläche „Neu starten“ klicken, sobald Sie Änderungen/Verbesserungen an Ihrem virtuellen Agenten vorgenommen haben.*
 </center>
 
-[Buchen Sie eine Demo bei uns](https://calendar.app.google/FLjCxzbYLqG6CkNs9) und wir helfen Ihnen gerne weiter!
+[Buchen Sie eine Demo bei uns](https://calendar.app.google/GcdRQv1DVoiDaoCT6) und wir helfen Ihnen gerne weiter!
 
 Update: Wir haben das Produkt inzwischen zu einem Omnichannel-Chatbot-Builder umfunktioniert. Es heißt jetzt [SeaChat](https://chat.seasalt.ai/?utm_source=blog)!

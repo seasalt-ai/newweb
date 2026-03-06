@@ -124,4 +124,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-از اینکه وقت گذاشتید و در مورد نحوه پشتیبانی سیستم مدیریت پرونده SeaX از عوامل شما در هنگام تعامل با مشتریان خود مطالعه کردید، سپاسگزاریم. لطفاً منتظر پست وبلاگ بعدی ما باشید که به بررسی فرآیند ارسال پیامک انبوه با استفاده از پلتفرم SeaX می‌پردازد. اگر علاقه‌مند به کسب اطلاعات بیشتر هستید، [فرم رزرو دمو](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ما را پر کنید تا از نزدیک با پلتفرم SeaX آشنا شوید.
+از اینکه وقت گذاشتید و در مورد نحوه پشتیبانی سیستم مدیریت پرونده SeaX از عوامل شما در هنگام تعامل با مشتریان خود مطالعه کردید، سپاسگزاریم. لطفاً منتظر پست وبلاگ بعدی ما باشید که به بررسی فرآیند ارسال پیامک انبوه با استفاده از پلتفرم SeaX می‌پردازد. اگر علاقه‌مند به کسب اطلاعات بیشتر هستید، [فرم رزرو دمو](https://calendar.app.google/GcdRQv1DVoiDaoCT6) ما را پر کنید تا از نزدیک با پلتفرم SeaX آشنا شوید.

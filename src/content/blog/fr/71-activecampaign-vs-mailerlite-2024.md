@@ -94,4 +94,4 @@ Choisissez **ActiveCampaign** si : Vous avez besoin d'une automatisation puissan
 
 Quel que soit le service de marketing par email que vous choisissez finalement, [SeaChat](https://chat.seasalt.ai/?utm_source=blog) s'intègre bien avec la plupart des plateformes de marketing par email. Vous pouvez collecter des emails et des prospects depuis les agents IA SeaChat et les synchroniser directement avec vos listes de marketing par email.
 
-Créez et lancez un agent de chat IA en 10 minutes. Support multilingue. Transfert d'agent en temps réel. Intégration avec chat web, SMS, Line, CRM, Shopify, calendrier, Twilio, ZenDesk et téléphone. Pour plus de détails, envoyez un email à [seachat@seasalt.ai](mailto:seachat@seasalt.ai) ou [planifiez une démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
+Créez et lancez un agent de chat IA en 10 minutes. Support multilingue. Transfert d'agent en temps réel. Intégration avec chat web, SMS, Line, CRM, Shopify, calendrier, Twilio, ZenDesk et téléphone. Pour plus de détails, envoyez un email à [seachat@seasalt.ai](mailto:seachat@seasalt.ai) ou [planifiez une démo](https://calendar.app.google/GcdRQv1DVoiDaoCT6). 

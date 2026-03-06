@@ -285,4 +285,4 @@ L'avenir du service client est brillant, efficace et plus humain que jamais. En 
 
 ---
 
-*Vous souhaitez explorer comment l'IA peut transformer votre service client? [Planifiez une consultation](https://calendar.app.google/FLjCxzbYLqG6CkNs9) pour voir comment Seasalt.ai aide les entreprises à se préparer à l'avenir de l'expérience client.*
+*Vous souhaitez explorer comment l'IA peut transformer votre service client? [Planifiez une consultation](https://calendar.app.google/GcdRQv1DVoiDaoCT6) pour voir comment Seasalt.ai aide les entreprises à se préparer à l'avenir de l'expérience client.*

@@ -118,4 +118,4 @@ Proprietarul se poate alătura oricărei conversații în orice moment, atâta t
 *Interfața funcției de agent live Near Me.*
 </center>
 
-Sunteți gata să începeți cu Mesageria Near Me? Rămâneți pe fază pentru următoarea noastră postare despre cum să lansați agentul dvs. virtual cu Mesageria Near Me. [Rezervați o demonstrație cu noi](https://calendar.app.google/FLjCxzbYLqG6CkNs9) astăzi și fiți printre primii care obțin o perioadă de probă gratuită a Mesageriei Near Me!
+Sunteți gata să începeți cu Mesageria Near Me? Rămâneți pe fază pentru următoarea noastră postare despre cum să lansați agentul dvs. virtual cu Mesageria Near Me. [Rezervați o demonstrație cu noi](https://calendar.app.google/GcdRQv1DVoiDaoCT6) astăzi și fiți printre primii care obțin o perioadă de probă gratuită a Mesageriei Near Me!

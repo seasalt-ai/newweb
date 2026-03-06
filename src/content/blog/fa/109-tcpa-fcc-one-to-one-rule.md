@@ -94,7 +94,7 @@ TCPA یک قانون فدرال است که استفاده از تماس های 
 تغییرات قانون TCPA در سال 2025 به طور قابل توجهی بر نحوه انجام ارتباطات توسط کسب و کارها تأثیر خواهد گذاشت. تماس ها و پیامک هایی که از فناوری تنظیم شده استفاده می کنند، نیاز به رضایت صریح برای عضویت خواهند داشت. برای کسانی که عضویت ندارند، شماره گیری دستی و پیامک پس از پاکسازی ضروری خواهد بود. روابط تجاری موجود می تواند برخی معافیت ها را فراهم کند، اما آگاه ماندن و رعایت مقررات بسیار مهم است. قبل از انجام هرگونه تغییر، همیشه با مشاور حقوقی خود صحبت کنید.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">یک مشاوره رایگان با ما رزرو کنید</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">یک مشاوره رایگان با ما رزرو کنید</a>
 </center>
 
 

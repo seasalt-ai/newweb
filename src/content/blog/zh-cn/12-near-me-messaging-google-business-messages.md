@@ -118,4 +118,4 @@ Near Me Messaging 还配备了实时Agent功能。客户可以通过 GBM 点击�
 *Near Me 实时Agent功能的界面。*
 </center>
 
-您准备好开始使用 Near Me Messaging 了吗？请继续关注我们的下一篇文章，了解如何使用 Near Me Messaging 启动您的虚拟Agent。[立即与我们预约演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)，成为首批获得 Near Me Messaging 免费试用版的用户之一！
+您准备好开始使用 Near Me Messaging 了吗？请继续关注我们的下一篇文章，了解如何使用 Near Me Messaging 启动您的虚拟Agent。[立即与我们预约演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)，成为首批获得 Near Me Messaging 免费试用版的用户之一！

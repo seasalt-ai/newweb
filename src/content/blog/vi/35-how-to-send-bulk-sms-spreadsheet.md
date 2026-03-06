@@ -121,4 +121,4 @@ Gửi SMS hàng loạt bằng các công cụ như Excel, Google Sheets rất hi
 
 ## Liên hệ
 
-Nếu muốn biết thêm về 10DLC hoặc các lựa chọn SMS Marketing, [đặt lịch demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9) với chúng tôi. Chúng tôi luôn sẵn sàng hỗ trợ!
+Nếu muốn biết thêm về 10DLC hoặc các lựa chọn SMS Marketing, [đặt lịch demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6) với chúng tôi. Chúng tôi luôn sẵn sàng hỗ trợ!

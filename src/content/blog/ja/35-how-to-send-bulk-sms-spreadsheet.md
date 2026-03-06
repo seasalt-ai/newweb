@@ -119,4 +119,4 @@ ExcelやGoogleスプレッドシートなどのツールで一括SMS送信は非
 
 ## お問い合わせ
 
-10DLCやSMSマーケティングについて詳しく知りたい方は、[デモを予約](https://calendar.app.google/FLjCxzbYLqG6CkNs9)してください。ご相談をお待ちしています！
+10DLCやSMSマーケティングについて詳しく知りたい方は、[デモを予約](https://calendar.app.google/GcdRQv1DVoiDaoCT6)してください。ご相談をお待ちしています！

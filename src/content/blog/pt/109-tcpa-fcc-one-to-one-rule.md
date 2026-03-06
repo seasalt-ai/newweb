@@ -94,7 +94,7 @@ Se você quer estar à frente da curva, por favor, aja agora. 27 de janeiro de 2
 As mudanças na regra TCPA de 2025 impactarão significativamente a forma como as empresas conduzem suas atividades de alcance. Chamadas e textos que utilizam tecnologia regulamentada exigirão consentimento explícito de opt-in. Para aqueles sem opt-in, a discagem manual e o envio de mensagens de texto após a limpeza serão necessários. Relações comerciais existentes podem fornecer algumas isenções, mas manter-se informado e em conformidade é crucial. Sempre converse com seu advogado antes de fazer qualquer alteração.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Agende uma consulta gratuita conosco</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Agende uma consulta gratuita conosco</a>
 </center>
 
 

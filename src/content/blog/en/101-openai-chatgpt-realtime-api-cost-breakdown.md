@@ -176,7 +176,7 @@ As a practitioner in the field of speech recognition and natural language proces
 
 
 ## Learn More
-If you'd like to first explore the AI voice technology for customer service at a reasonable price, you can visit [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) or you can [book a demo with us](https://calendar.app.google/FLjCxzbYLqG6CkNs9). 
+If you'd like to first explore the AI voice technology for customer service at a reasonable price, you can visit [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) or you can [book a demo with us](https://calendar.app.google/GcdRQv1DVoiDaoCT6). 
 
 
 ## About this Series

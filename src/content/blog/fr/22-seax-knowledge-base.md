@@ -117,4 +117,4 @@ Sur cette page, vous pouvez ajouter de nouvelles entrées individuelles à la ba
 Si vous souhaitez un aperçu plus approfondi du système de base de connaissances et de la manière dont il s'intègre à la plateforme SeaX, regardez notre webinaire sur le sujet :
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="Lecteur vidéo YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Pour une démonstration personnalisée ou pour savoir comment Seasalt.ai peut personnaliser une solution pour les besoins de votre entreprise, veuillez remplir notre [formulaire de demande de démo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Pour une démonstration personnalisée ou pour savoir comment Seasalt.ai peut personnaliser une solution pour les besoins de votre entreprise, veuillez remplir notre [formulaire de demande de démo](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

@@ -116,4 +116,4 @@ draft: false
 Если вы хотите глубже изучить систему базы знаний и то, как она интегрируется с платформой SeaX, посмотрите наш вебинар на эту тему:
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/FOqQ01fpKQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-Для индивидуальной демонстрации или чтобы узнать, как Seasalt.ai может адаптировать решение для нужд вашего бизнеса, заполните нашу [форму записи на демонстрацию](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Для индивидуальной демонстрации или чтобы узнать, как Seasalt.ai может адаптировать решение для нужд вашего бизнеса, заполните нашу [форму записи на демонстрацию](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

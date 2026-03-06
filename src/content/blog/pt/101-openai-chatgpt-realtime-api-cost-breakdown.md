@@ -177,7 +177,7 @@ Como profissional na área de reconhecimento de fala e processamento de linguage
 
 
 ## Saiba mais
-Se você quiser explorar primeiro a tecnologia de voz de IA para atendimento ao cliente a um preço razoável, você pode visitar [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou você pode [agendar uma demonstração conosco](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Se você quiser explorar primeiro a tecnologia de voz de IA para atendimento ao cliente a um preço razoável, você pode visitar [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou você pode [agendar uma demonstração conosco](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 
 ## Sobre esta Série

@@ -76,4 +76,4 @@ Pour la plupart des entreprises, la nouvelle technologie vocale d'OpenAI est pro
 La technologie la plus avancée n'est pas toujours le meilleur choix pour les besoins de votre entreprise. Tenez compte de votre budget, de la qualité du service client dont vous avez besoin et de la manière dont une solution s'intègre à vos systèmes existants avant d'apporter des modifications.
 
 ## Apprendre encore plus
-Si vous souhaitez d'abord explorer la technologie vocale de l'IA pour le service client à un prix raisonnable, vous pouvez visiter [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou vous pouvez [réserver une démo avec nous](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Si vous souhaitez d'abord explorer la technologie vocale de l'IA pour le service client à un prix raisonnable, vous pouvez visiter [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) ou vous pouvez [réserver une démo avec nous](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

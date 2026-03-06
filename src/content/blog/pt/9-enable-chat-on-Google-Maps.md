@@ -125,4 +125,4 @@ O Google enviará um código de verificação para o seu número de telefone. Di
 
 Agora que você sabe como ativar um botão de Chat em sua listagem e seus benefícios, como você garante que sua empresa pode acompanhar um número crescente de consultas de clientes? Leva muito tempo e dinheiro para responder a chats repetitivos. Confira nossa próxima postagem sobre o Google Business Messages e como isso pode ajudá-lo a economizar tempo e dinheiro na prestação de um excelente atendimento ao cliente.
 
-[Agende uma demonstração conosco](https://calendar.app.google/FLjCxzbYLqG6CkNs9) e seja o primeiro a receber uma avaliação gratuita do nosso produto!
+[Agende uma demonstração conosco](https://calendar.app.google/GcdRQv1DVoiDaoCT6) e seja o primeiro a receber uma avaliação gratuita do nosso produto!

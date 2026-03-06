@@ -121,4 +121,4 @@ Google Business Messages는 반복적인 문의에 응답하고, 고객과의 �
 
 Google Business Messages를 사용하면서 고객과 직접 대화하고 싶다면, 컨설팅 기관에 라이브 채팅 솔루션을 제공하도록 요청해야 합니다. 이 기능이 활성화되면, 고객은 "라이브 에이전트에게 메시지 보내기" 버튼을 클릭할 수 있고, 그 후 대화에 참여하여 고객과 채팅할 수 있습니다. 라이브 에이전트 측에서는, 대화는 컨설팅 기관이 통합을 선택한 어떤 플랫폼에서든 이루어집니다. 이는 SMS, WhatsApp, Messenger, Zendesk와 같은 기존 고객 서비스 소프트웨어, 또는 맞춤형 웹사이트나 모바일 앱을 통해 할 수 있습니다.
 
-그래서 우리는 당신에게 Near Me Messaging 솔루션을 소개하고 싶습니다 (업데이트: 우리는 그 후 제품을 풀채널 챗봇 빌더로 변환했습니다. 이제 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)이라고 불립니다!), 이는 중소기업에게 완전히 맞춤형, 셀프서비스, 라이브 채팅 기능을 갖춘 저렴하고 빠르며 구현하기 쉬운 Google Business Messages를 제공합니다. Near Me Messaging과 그 훌륭한 기능들에 대한 다음 글을 기대해 주세요. [우리와 데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)하고 Near Me Messaging을 사용하는 첫 번째 사람이 되세요!
+그래서 우리는 당신에게 Near Me Messaging 솔루션을 소개하고 싶습니다 (업데이트: 우리는 그 후 제품을 풀채널 챗봇 빌더로 변환했습니다. 이제 [SeaChat](https://chat.seasalt.ai/?utm_source=blog)이라고 불립니다!), 이는 중소기업에게 완전히 맞춤형, 셀프서비스, 라이브 채팅 기능을 갖춘 저렴하고 빠르며 구현하기 쉬운 Google Business Messages를 제공합니다. Near Me Messaging과 그 훌륭한 기능들에 대한 다음 글을 기대해 주세요. [우리와 데모를 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)하고 Near Me Messaging을 사용하는 첫 번째 사람이 되세요!

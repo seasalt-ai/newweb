@@ -76,4 +76,4 @@ Dla większości firm nowa technologia głosowa OpenAI jest prawdopodobnie zbyt 
 Najbardziej zaawansowana technologia nie zawsze jest najlepszym wyborem dla potrzeb Twojej firmy. Przed wprowadzeniem jakichkolwiek zmian weź pod uwagę swój budżet, jakość obsługi klienta, której potrzebujesz, oraz to, jak dobrze rozwiązanie integruje się z Twoimi istniejącymi systemami.
 
 ## Dowiedz się więcej
-Jeśli chcesz najpierw zapoznać się z technologią głosową AI do obsługi klienta w rozsądnej cenie, możesz odwiedzić [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) lub [zarezerwować u nas demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Jeśli chcesz najpierw zapoznać się z technologią głosową AI do obsługi klienta w rozsądnej cenie, możesz odwiedzić [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) lub [zarezerwować u nas demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6).

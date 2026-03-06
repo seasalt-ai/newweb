@@ -73,4 +73,4 @@ OpenAI 的新語音 AI（稱為 ChatGPT-4o 即時 API）確實令人印象深刻
 最先進的技術並不總是最適合您的業務需求。在進行任何更改之前，請考慮您的預算、您需要的客戶服務品質以及解決方案與現有系統的整合程度。
 
 ## 了解更多
-如果您想以合理的價格首先探索用於客戶服務的 AI 語音技術，您可以訪問 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) 或 [與我們預約演示](https://calendar.app.google/FLjCxzbYLqG6CkNs9)。
+如果您想以合理的價格首先探索用於客戶服務的 AI 語音技術，您可以訪問 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/) 或 [與我們預約演示](https://calendar.app.google/GcdRQv1DVoiDaoCT6)。

@@ -94,7 +94,7 @@ Kung gusto mong mauna, kumilos ka na ngayon. Mabilis na papalapit ang Enero 27, 
 Ang mga pagbabago sa panuntunan ng TCPA ng 2025 ay makabuluhang makakaapekto sa kung paano isinasagawa ng mga negosyo ang kanilang pag-abot. Ang mga tawag at text na gumagamit ng regulated technology ay mangangailangan ng tahasang opt-in consent. Para sa mga walang opt-in, ang manual dialing at texting pagkatapos ng scrubbing ay kinakailangan. Ang mga umiiral na relasyon sa negosyo ay maaaring magbigay ng ilang exemption, ngunit ang pananatiling may kaalaman at sumusunod ay mahalaga. Laging makipag-usap sa iyong legal na tagapayo bago gumawa ng anumang pagbabago.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Mag-book ng Libreng Konsultasyon sa Amin</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Mag-book ng Libreng Konsultasyon sa Amin</a>
 </center>
 
 

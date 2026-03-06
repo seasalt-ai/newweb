@@ -94,7 +94,7 @@ Jika anda ingin mendahului, sila ambil tindakan sekarang. 27 Januari 2025 semaki
 Perubahan peraturan TCPA 2025 akan memberi kesan ketara kepada cara perniagaan menjalankan jangkauan mereka. Panggilan dan teks yang menggunakan teknologi terkawal akan memerlukan persetujuan opt-in yang jelas. Bagi mereka yang tidak mempunyai opt-in, pendailan manual dan pemesejan selepas pembersihan akan diperlukan. Hubungan perniagaan sedia ada boleh memberikan beberapa pengecualian, tetapi kekal bermaklumat dan patuh adalah kritikal. Sentiasa bercakap dengan penasihat undang-undang anda sebelum membuat sebarang perubahan.
 
 <center>
-<a href="https://calendar.app.google/FLjCxzbYLqG6CkNs9" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Tempah Perundingan Percuma dengan Kami</a>
+<a href="https://calendar.app.google/GcdRQv1DVoiDaoCT6" style="display: inline-block; padding: 10px 20px; font-size: 16px; color: #fff; background-color: #18a1a8; border-radius: 5px; text-decoration: none;">Tempah Perundingan Percuma dengan Kami</a>
 </center>
 
 

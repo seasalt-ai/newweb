@@ -51,4 +51,4 @@ Podsumowując, udane wdrożenie wielokanałowego centrum kontaktowego dla wiodą
 
 ## Skontaktuj się z nami
 
-Jeśli chcesz dowiedzieć się więcej o SeaX, wypełnij nasz formularz „[Umów się na demo](https://calendar.app.google/FLjCxzbYLqG6CkNs9)”, aby zapoznać się z platformą SeaX. Zawsze chętnie porozmawiamy!
+Jeśli chcesz dowiedzieć się więcej o SeaX, wypełnij nasz formularz „[Umów się na demo](https://calendar.app.google/GcdRQv1DVoiDaoCT6)”, aby zapoznać się z platformą SeaX. Zawsze chętnie porozmawiamy!

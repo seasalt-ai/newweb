@@ -171,7 +171,7 @@ Enfin, le dernier problème que nous avons constaté est que certains utilisateu
 
 Nous espérons que ces fonctionnalités planifiées nous permettront de continuer à rendre les canaux vocaux plus accessibles à tous tout en donnant aux utilisateurs la possibilité d'interagir avec le bot SeaVoice à un niveau avec lequel ils sont à l'aise. À l'avenir, nous continuerons à nous efforcer de résoudre de manière proactive ces problèmes difficiles afin de rendre SeaVoice le meilleur possible !
 
-Merci de votre intérêt pour notre bot Discord et merci à nos utilisateurs pour votre soutien continu ! Vous pouvez en savoir plus sur notre produit STT sur notre [page d'accueil SeaVoice Speech-to-Text](https://suite.seasalt.ai/tts). Pour une démonstration individuelle de l'un de nos produits Voice Intelligence, remplissez le [formulaire de réservation de démonstration](https://calendar.app.google/FLjCxzbYLqG6CkNs9).
+Merci de votre intérêt pour notre bot Discord et merci à nos utilisateurs pour votre soutien continu ! Vous pouvez en savoir plus sur notre produit STT sur notre [page d'accueil SeaVoice Speech-to-Text](https://suite.seasalt.ai/tts). Pour une démonstration individuelle de l'un de nos produits Voice Intelligence, remplissez le [formulaire de réservation de démonstration](https://calendar.app.google/GcdRQv1DVoiDaoCT6).
 
 Si vous n'avez pas encore essayé le bot SeaVoice, vous pouvez en savoir plus sur notre bot et l'ajouter à votre serveur à partir du [wiki du bot Discord SeaVoice](https://wiki.seasalt.ai/seavoice/discord/1-intro-discord-bot/). N'hésitez pas non plus à rejoindre notre [serveur Discord officiel SeaVoice](https://discord.gg/dfAYfwBQ).
 

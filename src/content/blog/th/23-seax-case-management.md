@@ -124,4 +124,4 @@ draft: false
 
 <iframe width="85%" height="450px" src="https://www.youtube.com/embed/xwZla3ftWLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 30px;"></iframe>
 
-ขอขอบคุณที่สละเวลาอ่านเกี่ยวกับวิธีที่ระบบ SeaX Case Management สนับสนุนตัวแทนของคุณในการโต้ตอบกับลูกค้าของคุณ โปรดติดตามบล็อกโพสต์ถัดไปของเรา ซึ่งจะเจาะลึกกระบวนการส่งข้อความ SMS จำนวนมากโดยใช้แพลตฟอร์ม SeaX หากคุณสนใจที่จะเรียนรู้เพิ่มเติมทันที โปรดกรอก [แบบฟอร์มจองการสาธิต](https://calendar.app.google/FLjCxzbYLqG6CkNs9) ของเราเพื่อดูแพลตฟอร์ม SeaX ด้วยตัวคุณเอง
+ขอขอบคุณที่สละเวลาอ่านเกี่ยวกับวิธีที่ระบบ SeaX Case Management สนับสนุนตัวแทนของคุณในการโต้ตอบกับลูกค้าของคุณ โปรดติดตามบล็อกโพสต์ถัดไปของเรา ซึ่งจะเจาะลึกกระบวนการส่งข้อความ SMS จำนวนมากโดยใช้แพลตฟอร์ม SeaX หากคุณสนใจที่จะเรียนรู้เพิ่มเติมทันที โปรดกรอก [แบบฟอร์มจองการสาธิต](https://calendar.app.google/GcdRQv1DVoiDaoCT6) ของเราเพื่อดูแพลตฟอร์ม SeaX ด้วยตัวคุณเอง

@@ -176,7 +176,7 @@ ChatGPT-4o의 실시간 API는 음성 AI 기술의 중요한 발전을 나타내
 
 
 ## 더 알아보기
-합리적인 가격으로 고객 서비스를 위한 AI 음성 기술을 먼저 탐색하고 싶다면 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/)을 방문하거나 [데모를 예약](https://calendar.app.google/FLjCxzbYLqG6CkNs9)할 수 있습니다.
+합리적인 가격으로 고객 서비스를 위한 AI 음성 기술을 먼저 탐색하고 싶다면 [SeaChat](https://chat.seasalt.ai/?utm_source=blog/)을 방문하거나 [데모를 예약](https://calendar.app.google/GcdRQv1DVoiDaoCT6)할 수 있습니다.
 
 
 ## 이 시리즈에 대해
