@@ -122,6 +122,11 @@ function extractAstroRoutes() {
           continue;
         }
 
+        // Skip the 404 page - it must never appear in any sitemap
+        if (route === '/404' || route.endsWith('/404')) {
+          continue;
+        }
+
         routes.add(route);
       }
     }
@@ -185,6 +190,15 @@ function extractBlogRoutes() {
 }
 
 /**
+ * Ensure a route ends with a trailing slash (matches GH Pages directory
+ * canonicals and avoids a needless 301 hop for every sitemap URL).
+ */
+function ensureTrailingSlash(route) {
+  if (!route || route === '/') return route;
+  return route.endsWith('/') ? route : route + '/';
+}
+
+/**
  * Get metadata for a route (lastmod, changefreq, priority)
  */
 function getRouteMeta(route) {
@@ -194,7 +208,8 @@ function getRouteMeta(route) {
   let priority = 0.8;
 
   // Special cases based on route patterns
-  if (route === '/' || route.endsWith('/')) {
+  // Per-language homepages like /en /zh-TW /fil (with or without trailing slash)
+  if (/^\/[a-z]{2,3}(-[A-Za-z]{2})?\/?$/.test(route)) {
     priority = 1.0;
     changefreq = 'weekly';
   } else if (route.includes('/pricing')) {
@@ -228,20 +243,20 @@ function generateAllRoutes() {
   const blogRoutes = extractBlogRoutes();
   const allRoutes = [];
 
-  // Add base routes for each language
+  // Add base routes for each language (trailing slash to match canonicals)
   SUPPORTED_LANGUAGES.forEach(lang => {
     baseRoutes.forEach(route => {
-      allRoutes.push(`/${lang}${route}`);
+      allRoutes.push(ensureTrailingSlash(`/${lang}${route}`));
     });
   });
 
   // Add blog routes (these already include language prefixes)
   blogRoutes.forEach(route => {
-    allRoutes.push(route);
+    allRoutes.push(ensureTrailingSlash(route));
   });
 
   // Add special zh-TW LINE Call Plus route (Taiwan-specific landing page)
-  allRoutes.push('/zh-TW/channels/line-call-plus');
+  allRoutes.push('/zh-TW/channels/line-call-plus/');
 
   console.log(`📄 Generated ${allRoutes.length} total routes`);
   console.log(`🌐 Base routes: ${baseRoutes.length} × ${SUPPORTED_LANGUAGES.length} languages = ${baseRoutes.length * SUPPORTED_LANGUAGES.length}`);
@@ -308,7 +323,7 @@ function generateHreflangSitemap() {
 
   // Group routes by base path with all language variants
   baseRoutes.forEach(baseRoute => {
-    groupedRoutes[baseRoute] = SUPPORTED_LANGUAGES.map(lang => `/${lang}${baseRoute}`);
+    groupedRoutes[baseRoute] = SUPPORTED_LANGUAGES.map(lang => ensureTrailingSlash(`/${lang}${baseRoute}`));
   });
 
   // Group blog posts by slug to create hreflang relationships
@@ -322,7 +337,7 @@ function generateHreflangSitemap() {
     if (!blogGroupedRoutes[slug]) {
       blogGroupedRoutes[slug] = [];
     }
-    blogGroupedRoutes[slug].push(blogRoute);
+    blogGroupedRoutes[slug].push(ensureTrailingSlash(blogRoute));
   });
 
   // Only include blog posts that have multiple language versions
@@ -434,7 +449,7 @@ function generateZapierSitemap() {
 
   // Add main integrations index page (English only)
   urls.push({
-    loc: `${SITE_URL}/en/integrations`,
+    loc: `${SITE_URL}/en/integrations/`,
     lastmod: now,
     changefreq: 'weekly',
     priority: 0.9
@@ -443,7 +458,7 @@ function generateZapierSitemap() {
   // Add hub pages for each app (English only)
   apps.forEach(app => {
     urls.push({
-      loc: `${SITE_URL}/en/integrations/${app.slug}`,
+      loc: `${SITE_URL}/en/integrations/${app.slug}/`,
       lastmod: now,
       changefreq: 'weekly',
       priority: 0.8
@@ -452,7 +467,7 @@ function generateZapierSitemap() {
     // Add spoke pages for each app-action combination
     actions.forEach(action => {
       urls.push({
-        loc: `${SITE_URL}/en/integrations/${app.slug}/${action.slug}`,
+        loc: `${SITE_URL}/en/integrations/${app.slug}/${action.slug}/`,
         lastmod: now,
         changefreq: 'weekly',
         priority: 0.7

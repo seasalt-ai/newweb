@@ -49,7 +49,43 @@
           var first = (
             pathOnly.split("/").filter(Boolean)[0] || ""
           ).toLowerCase();
-          return supported.indexOf(first) !== -1;
+          // case-insensitive: supported holds 'zh-TW'/'zh-CN'
+          return supported.some(function (s) { return s.toLowerCase() === first; });
+        }
+
+        // Legacy URL rewrite engine (mirrors public/404.html and
+        // scripts/generate-redirect-stubs.mjs). Returns a new path or null.
+        function rewritePath(p) {
+          var ACTIONS = ["sms", "whatsapp", "phone-call"];
+          var q = "", h = "", path = p;
+          var i = path.indexOf("?");
+          if (i > -1) { q = path.slice(i); path = path.slice(0, i); }
+          i = path.indexOf("#");
+          if (i > -1) { h = path.slice(i); path = path.slice(0, i); }
+          var orig = path.replace(/\/+$/, "") || "/";
+
+          path = path.replace(/\/app_images(\/.*)?$/i, "");
+
+          var m = path.match(/^\/(?:([a-zA-Z-]{2,7})\/)?(?:(?:seachat|seax)\/)?integrations(\/.*)?$/i);
+          if (m) {
+            var first = m[1] || "";
+            // case-insensitive (supported holds 'zh-TW'/'zh-CN'); also allow
+            // unprefixed /seachat/integrations/** and /seax/integrations/**
+            var firstOk = !first ||
+              supported.some(function (s) { return s.toLowerCase() === first.toLowerCase(); }) ||
+              /^(seachat|seax)$/i.test(first);
+            if (firstOk) {
+              var rest = (m[2] || "").replace(/\/+$/, "").split("/").filter(Boolean);
+              if (rest.length >= 2 && ACTIONS.indexOf(rest[1].toLowerCase()) === -1) {
+                rest.splice(1);
+              }
+              path = "/en/integrations" + (rest.length ? "/" + rest.join("/") : "") + "/";
+            }
+          }
+
+          var normalized = path.replace(/\/+$/, "") || "/";
+          if (normalized === orig) return null;
+          return path + q + h;
         }
 
         function detectPreferredLang() {
@@ -161,6 +197,14 @@
           console.log("[redirect] incoming p =", p);
           p = normalizePath(p);
           console.log("[redirect] normalized p =", p);
+
+          // Apply legacy-URL rewrite rules first (e.g. /{lang}/integrations/**
+          // -> /en/integrations/**, /app_images stripping)
+          var rewritten = rewritePath(p);
+          if (rewritten && rewritten !== p) {
+            console.log("[redirect] rewritten to:", rewritten);
+            p = rewritten;
+          }
 
           if (hasLocalePrefix(p)) {
             console.log(

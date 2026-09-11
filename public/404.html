@@ -1,86 +1,178 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Redirecting...</title>
-    <script>
-      (function () {
-        try {
-          // Store full path (pathname + search + hash)
-          var fullPath =
-            window.location.pathname +
-            window.location.search +
-            window.location.hash;
-          console.log("[404] fullPath =", fullPath);
-          try {
-            sessionStorage.setItem("redirectPath", fullPath);
-          } catch (e) {
-            console.warn("[404] sessionStorage.setItem failed:", e);
-          }
-
-          // If already has a supported locale prefix, do NOT redirect again (avoid loops)
-          var supported = [
-            "en",
-            "es",
-            "zh-TW",
-            "zh-CN",
-            "ja",
-            "ko",
-            "fr",
-            "de",
-            "ar",
-            "fa",
-            "fil",
-            "hi",
-            "id",
-            "ms",
-            "pl",
-            "pt",
-            "ru",
-            "ta",
-            "th",
-            "vi",
-            "ro",
-          ];
-          var pathOnly = (fullPath.split("?")[0] || "").split("#")[0] || "";
-          var first = (
-            pathOnly.split("/").filter(Boolean)[0] || ""
-          ).toLowerCase();
-          console.log(
-            "[404] first segment =",
-            first,
-            "supported? ",
-            supported.indexOf(first) !== -1
-          );
-          if (supported.indexOf(first) !== -1) {
-            // Already localized path; show 404 content as-is
-            console.log(
-              "[404] Already localized, staying on 404 page for",
-              fullPath
-            );
-            return;
-          }
-
-          // Otherwise, forward to our redirect helper with the original path preserved
-          var encoded = encodeURIComponent(fullPath);
-          var target = "/redirect.html?p=" + encoded;
-          console.log("[404] Redirecting to helper:", target);
-          window.location.replace(target);
-          return;
-        } catch (e) {
-          // If anything goes wrong, fall back to default locale home
-          console.error("[404] Error, fallback to /en/:", e);
-          window.location.replace("/en/");
-          return;
-        }
-      })();
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Not Found | Seasalt.ai</title>
+    <meta name="robots" content="noindex" />
     <noscript>
       <!-- Fallback for users/bots without JavaScript: go to English -->
       <meta http-equiv="refresh" content="0; url=/en/" />
     </noscript>
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #1f2937;
+      }
+      .card {
+        text-align: center;
+        max-width: 480px;
+        padding: 3rem 2rem;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        margin: 2rem 1rem;
+      }
+      .code { font-size: 4rem; font-weight: 700; color: #3b82f6; margin: 0; }
+      h1 { font-size: 1.4rem; margin: 0.75rem 0 0.5rem; }
+      p { color: #6b7280; margin: 0 0 1.5rem; line-height: 1.6; }
+      .links { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center; margin-bottom: 1.5rem; }
+      .links a {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 8px;
+        background: #eff6ff;
+        color: #1d4ed8;
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+      .links a:hover { background: #dbeafe; }
+      .langs { font-size: 0.85rem; color: #9ca3af; }
+      .langs a { color: #6b7280; text-decoration: none; margin: 0 0.35rem; }
+      .langs a:hover { color: #1d4ed8; text-decoration: underline; }
+    </style>
   </head>
-  <body>
-    <p>If you are not redirected automatically, <a href="/">click here</a>.</p>
+  <!-- Hidden until JS (at end of body) confirms this is a genuine 404;
+       avoids a flash of 404 content while redirecting legacy URLs -->
+  <body hidden>
+    <div class="card">
+      <p class="code">404</p>
+      <h1>Page Not Found</h1>
+      <p>The page you are looking for doesn't exist or has been moved.</p>
+      <div class="links">
+        <a href="/en/">Home</a>
+        <a href="/en/blog/">Blog</a>
+        <a href="/en/seavoice/">SeaVoice</a>
+        <a href="/en/seachat/">SeaChat</a>
+        <a href="/en/pricing/">Pricing</a>
+      </div>
+      <div class="langs">
+        <a href="/zh-TW/">繁體中文</a>
+        <a href="/zh-CN/">简体中文</a>
+        <a href="/ja/">日本語</a>
+        <a href="/ko/">한국어</a>
+        <a href="/es/">Español</a>
+        <a href="/de/">Deutsch</a>
+        <a href="/fr/">Français</a>
+        <a href="/vi/">Tiếng Việt</a>
+      </div>
+    </div>
+    <script>
+      (function () {
+        var SUPPORTED = [
+          "en","es","zh-TW","zh-CN","ja","ko","fr","de","ar","fa",
+          "fil","hi","id","ms","pl","pt","ru","ta","th","vi","ro"
+        ];
+        var ACTIONS = ["sms", "whatsapp", "phone-call"];
+
+        function isSupportedLang(seg) {
+          if (!seg) return false;
+          var lower = seg.toLowerCase();
+          for (var i = 0; i < SUPPORTED.length; i++) {
+            if (SUPPORTED[i].toLowerCase() === lower) return SUPPORTED[i];
+          }
+          return null;
+        }
+
+        /**
+         * Rewrite engine for legacy URL patterns (mirrors
+         * scripts/generate-redirect-stubs.mjs). Returns a new same-origin
+         * path, or null when no rule applies.
+         */
+        function rewritePath(p) {
+          var q = "", h = "", path = p;
+          var i = path.indexOf("?");
+          if (i > -1) { q = path.slice(i); path = path.slice(0, i); }
+          i = path.indexOf("#");
+          if (i > -1) { h = path.slice(i); path = path.slice(0, i); }
+
+          var orig = path.replace(/\/+$/, "") || "/";
+
+          // 1) strip legacy /app_images asset paths -> parent page
+          path = path.replace(/\/app_images(\/.*)?$/i, "");
+
+          // 2) integrations are English-only:
+          //    /{lang}/(seachat|seax/)?integrations/** -> /en/integrations/**
+          var m = path.match(/^\/(?:([a-zA-Z-]{2,7})\/)?(?:(?:seachat|seax)\/)?integrations(\/.*)?$/i);
+          if (m) {
+            var first = m[1] || "";
+            var firstOk = !first || !!isSupportedLang(first) ||
+              /^(seachat|seax)$/i.test(first);
+            if (firstOk) {
+              var rest = (m[2] || "").replace(/\/+$/, "").split("/").filter(Boolean);
+              if (rest.length >= 2 && ACTIONS.indexOf(rest[1].toLowerCase()) === -1) {
+                rest.splice(1); // unknown legacy channel slug -> hub page
+              }
+              path = "/en/integrations" + (rest.length ? "/" + rest.join("/") : "") + "/";
+            }
+          }
+
+          // 3) language-prefixed blog posts that no longer exist ->
+          //    that language's blog index (stubs cover the EN-available ones)
+          if (!m) {
+            var bm = path.match(/^\/([a-zA-Z-]{2,7})\/blog\/.+$/);
+            var bl = bm ? isSupportedLang(bm[1]) : null;
+            if (bl) {
+              path = "/" + bl + "/blog/";
+            }
+          }
+
+          var normalized = path.replace(/\/+$/, "") || "/";
+          if (normalized === orig) return null;
+          return path + q + h;
+        }
+
+        try {
+          var fullPath =
+            window.location.pathname +
+            window.location.search +
+            window.location.hash;
+
+          // 1) apply legacy-URL rewrite rules
+          var rewritten = rewritePath(fullPath);
+          if (rewritten) {
+            window.location.replace(rewritten);
+            return;
+          }
+
+          // 2) path already has a supported locale prefix and no rule
+          //    applies -> this is a genuine 404; show the UI
+          var pathOnly = (fullPath.split("?")[0] || "").split("#")[0] || "";
+          var first = pathOnly.split("/").filter(Boolean)[0] || "";
+          if (isSupportedLang(first)) {
+            try {
+              sessionStorage.setItem("redirectPath", fullPath);
+            } catch (e) {}
+            document.body.removeAttribute("hidden");
+            return;
+          }
+
+          // 3) no locale prefix -> language-detect helper, path preserved
+          var encoded = encodeURIComponent(fullPath);
+          window.location.replace("/redirect.html?p=" + encoded);
+          return;
+        } catch (e) {
+          document.body.removeAttribute("hidden");
+          return;
+        }
+      })();
+    </script>
   </body>
 </html>

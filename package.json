@@ -6,9 +6,10 @@
   "homepage": "https://seasalt.ai",
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run build:redirects && astro build && npm run build:sitemap",
+    "build": "npm run build:redirects && astro build && npm run build:sitemap && npm run build:stubs",
     "build:sitemap": "node scripts/generate-sitemap.js",
     "build:redirects": "node scripts/generate-integration-redirects.mjs",
+    "build:stubs": "node scripts/generate-redirect-stubs.mjs",
     "seo-update": "node scripts/generate-sitemap.js",
     "build:full": "npm run build && npm run build:sitemap",
     "preview": "astro preview",
