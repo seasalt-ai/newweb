@@ -67,8 +67,13 @@ const before = currentRedirects.substring(0, markerIndex + marker.length);
 const after = currentRedirects.substring(endOfSection);
 const newContent = before + '\n' + redirectRules + after;
 
-// Write back
-writeFileSync(redirectsPath, newContent.trimEnd() + '\n', 'utf-8');
-
-console.log('✅ Successfully updated _redirects file with integration redirects');
+// Write back only if content changed, so repeated builds never dirty the git
+// working tree (a dirty tree blocks deployment scripts)
+const finalContent = newContent.trimEnd() + '\n';
+if (finalContent === currentRedirects) {
+  console.log('✅ _redirects already up to date (no changes)');
+} else {
+  writeFileSync(redirectsPath, finalContent, 'utf-8');
+  console.log('✅ Successfully updated _redirects file with integration redirects');
+}
 console.log(`   Generated ${langCodes.length} redirect rules`);
