@@ -4,9 +4,11 @@ Allow: /
 # Block sensitive areas
 Disallow: /admin/
 Disallow: /api/
-Disallow: /_astro/
 Disallow: /scripts/
 Disallow: /node_modules/
+
+# Note: /_astro/ (JS/CSS assets) must stay crawlable so Googlebot can
+# render the page properly. Blocking it breaks React islands in indexing.
 
 # Sitemap
 Sitemap: https://seasalt.ai/sitemap-index.xml
