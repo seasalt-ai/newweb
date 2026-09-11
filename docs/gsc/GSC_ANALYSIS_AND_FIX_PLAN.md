@@ -298,7 +298,7 @@ root 入口樁 ~250 + 缺文語言 blog 樁 ~2,000 + GSC 清單樁（目前 154 
 2. 部署後抽查：`/blog/48-how-to-utilize-custom-chatpot-in-marketing/`、`/es/integrations/markate`、`/seavoice/` 應為 200 + 偵測 JS
 3. AWS 後端：`voice.seasalt.ai` 301 目標改 `https://seasalt.ai/seavoice/`；`chat.seasalt.ai` 改 `https://seasalt.ai/seachat/`；`chat.seasalt.ai/chat/**` 加 `X-Robots-Tag: noindex`
 4. GSC 重新提交 `sitemap-index.xml`
-5. 之後從 GSC 匯出全量 404 清單覆蓋 `scripts/gsc-404-urls.txt` 再 build，涵蓋所有長尾
+5. ~~匯出 GSC 全量 404 清單覆蓋 `scripts/gsc-404-urls.txt` 再 build~~（不需再做：GSC 報表匯出上限即 1,000 筆，現有檔案已涵蓋；剩餘長尾由 404.html rewrite 引擎與規則式 stub 覆蓋）
 
 ### Phase 3.1 實作紀錄（2026-09-11）
 
