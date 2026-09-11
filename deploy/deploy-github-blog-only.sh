@@ -29,8 +29,7 @@ source "$SCRIPT_DIR/deploy-utils.sh"
 # Configuration
 BUILD_DIR="dist"
 PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"
-PROD_REPO_NAME="seasalt-ai.github.io"
-PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"
+PROD_REPO_DIR="$( cd "$SCRIPT_DIR/../.." && pwd )/seasalt.ai"  # Sibling directory: ../seasalt.ai relative to repo root
 PROD_BRANCH="master"
 BACKUP_TAG_PREFIX="blog-backup"
 
@@ -116,6 +115,8 @@ deploy_blog_changes() {
         print_info "Cloning production repository (first time)..."
         git clone "$PROD_REPO_URL" "$PROD_REPO_DIR"
     else
+        # Guard: make sure this is really our production repo clone
+        verify_prod_repo "$PROD_REPO_DIR" "$PROD_REPO_URL"
         print_info "Updating production repository..."
         pushd "$PROD_REPO_DIR" > /dev/null
         git fetch origin

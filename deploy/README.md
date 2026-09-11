@@ -174,7 +174,7 @@ git pull origin main
 - MUST deploy from `main` branch only
 - Creates automatic backup before deployment
 - Multiple confirmation prompts for safety
-- Stores production repo locally in `~/.deployment-cache/`
+- Stores production repo locally in `../seasalt.ai` (sibling directory of this repo)
 
 #### How Production Deployment Works
 
@@ -183,9 +183,9 @@ The production deployment uses a **separate repository strategy**. Here's the st
 1. **Build Phase**: Runs `npm run build` in your current project to generate the `dist/` folder
 
 2. **Repository Setup**: 
-   - Checks if `~/.deployment-cache/seasalt-ai.github.io/` exists
+   - Checks if `../seasalt.ai` (sibling directory) exists
    - If not, clones: `git clone git@github.com:seasalt-ai/seasalt-ai.github.io.git`
-   - If exists, updates: `git fetch origin && git reset --hard origin/master`
+   - If exists, verifies it is a clone of the production repo, then updates: `git fetch origin && git reset --hard origin/master`
 
 3. **Backup Creation**: 
    - Creates a backup tag of current production state
@@ -294,10 +294,10 @@ If production has issues after deployment:
 
 ```bash
 # View production repo location
-echo ~/.deployment-cache/seasalt-ai.github.io
+echo ../seasalt.ai
 
 # Check production deployment history
-cd ~/.deployment-cache/seasalt-ai.github.io
+cd ../seasalt.ai
 git log --oneline -10
 
 # View backup tags
@@ -318,7 +318,7 @@ Key configurations in the scripts:
 - Target branch: `master`
 - Domain: `seasalt.ai`
 - Required source branch: `main`
-- Cache directory: `~/.deployment-cache/`
+- Production repo location: `../seasalt.ai` (sibling directory; deploy logs/temp in `../.deployment-cache/`)
 
 ## Build Process
 
@@ -370,14 +370,14 @@ All deployment scripts automatically:
 #### Local cache issues
 ```bash
 # Clear the cache and try again
-rm -rf ~/.deployment-cache/seasalt-ai.github.io
+rm -rf ../seasalt.ai
 ./deploy/deploy-github-prod.sh
 ```
 
 #### Verify production repo state manually
 ```bash
 # Check the production repo directly
-cd ~/.deployment-cache/seasalt-ai.github.io
+cd ../seasalt.ai
 git status
 git log --oneline -5
 git remote -v

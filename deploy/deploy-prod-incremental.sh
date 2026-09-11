@@ -11,7 +11,7 @@ set -euo pipefail
 #
 # The incremental deployment process:
 # 1. Builds the website in the current repository (creates dist/ folder)
-# 2. Clones/updates the production repo to ~/.deployment-cache/seasalt-ai.github.io/
+# 2. Clones/updates the production repo to ../seasalt.ai (sibling directory)
 # 3. Creates a backup tag of the current production state
 # 4. Compares files between new build and current production
 # 5. Only copies/updates CHANGED files (additions, modifications, deletions)
@@ -42,8 +42,7 @@ source "$SCRIPT_DIR/deploy-utils.sh"
 # Configuration
 BUILD_DIR="dist"                                          # Build output directory from npm run build
 PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"  # Production repo (separate from source)
-PROD_REPO_NAME="seasalt-ai.github.io"                   # Repository name
-PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"  # Local cache location for faster deployments
+PROD_REPO_DIR="$( cd "$SCRIPT_DIR/../.." && pwd )/seasalt.ai"  # Sibling directory: ../seasalt.ai relative to repo root
 PROD_BRANCH="master"                                     # Production branch (GitHub Pages default)
 BACKUP_TAG_PREFIX="prod-backup"                          # Prefix for backup tags
 REQUIRED_BRANCH="main"                                   # Must deploy from this branch
@@ -53,8 +52,11 @@ MAX_FILES_PER_PUSH=800                                   # Max files to push at 
 GITHUB_RATE_LIMIT_DELAY=10                              # Seconds to wait between batched pushes
 
 # New variables for incremental deployment
-CHANGES_LOG="$HOME/.deployment-cache/last-deployment-changes.log"
-TEMP_DIFF_DIR="$HOME/.deployment-cache/temp-diff"
+# Logs and temp files live in a hidden cache dir next to the production clone
+# (NOT inside it - the prod repo gets cleaned/reset during deployment)
+DEPLOY_CACHE_DIR="$(dirname "$PROD_REPO_DIR")/.deployment-cache"
+CHANGES_LOG="$DEPLOY_CACHE_DIR/last-deployment-changes.log"
+TEMP_DIFF_DIR="$DEPLOY_CACHE_DIR/temp-diff"
 
 # Ensure temp directory is cleaned up on exit
 trap 'rm -rf "$TEMP_DIFF_DIR"' EXIT
@@ -488,6 +490,8 @@ main() {
     
     # Check if we already have the production repo cached locally
     if [[ -d "$PROD_REPO_DIR" ]]; then
+        # Guard: make sure this is really our production repo clone
+        verify_prod_repo "$PROD_REPO_DIR" "$PROD_REPO_URL"
         # Production repo exists locally - update it to latest state
         print_info "Updating existing production repository..."
         pushd "$PROD_REPO_DIR" > /dev/null

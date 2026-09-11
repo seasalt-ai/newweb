@@ -13,8 +13,7 @@ source "$SCRIPT_DIR/deploy-utils.sh"
 
 # Configuration
 PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"
-PROD_REPO_NAME="seasalt-ai.github.io"
-PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"
+PROD_REPO_DIR="$( cd "$SCRIPT_DIR/../.." && pwd )/seasalt.ai"  # Sibling directory: ../seasalt.ai relative to repo root
 PROD_BRANCH="master"
 BACKUP_TAG_PREFIX="prod-backup"
 
@@ -86,6 +85,9 @@ main() {
         print_info "Production repository not found locally. Cloning..."
         mkdir -p "$(dirname "$PROD_REPO_DIR")"
         git clone "$PROD_REPO_URL" "$PROD_REPO_DIR"
+    else
+        # Guard: make sure this is really our production repo clone
+        verify_prod_repo "$PROD_REPO_DIR" "$PROD_REPO_URL"
     fi
     
     # Update production repo
