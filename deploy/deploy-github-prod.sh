@@ -11,7 +11,7 @@ set -euo pipefail
 #
 # The deployment process:
 # 1. Builds the website in the current repository (creates dist/ folder)
-# 2. Clones/updates the production repo to ~/.deployment-cache/seasalt-ai.github.io/
+# 2. Clones/updates the production repo to ../seasalt.ai (sibling directory)
 # 3. Creates a backup tag of the current production state
 # 4. Replaces ALL content in production repo with the new build
 # 5. Commits and pushes to the master branch
@@ -35,8 +35,7 @@ source "$SCRIPT_DIR/deploy-utils.sh"
 # Configuration
 BUILD_DIR="dist"                                          # Build output directory from npm run build
 PROD_REPO_URL="git@github.com:seasalt-ai/seasalt-ai.github.io.git"  # Production repo (separate from source)
-PROD_REPO_NAME="seasalt-ai.github.io"                   # Repository name
-PROD_REPO_DIR="$HOME/.deployment-cache/$PROD_REPO_NAME"  # Local cache location for faster deployments
+PROD_REPO_DIR="$( cd "$SCRIPT_DIR/../.." && pwd )/seasalt.ai"  # Sibling directory: ../seasalt.ai relative to repo root
 PROD_BRANCH="master"                                     # Production branch (GitHub Pages default)
 BACKUP_TAG_PREFIX="prod-backup"                          # Prefix for backup tags
 REQUIRED_BRANCH="main"                                   # Must deploy from this branch
@@ -123,6 +122,8 @@ main() {
     
     # Check if we already have the production repo cached locally
     if [[ -d "$PROD_REPO_DIR" ]]; then
+        # Guard: make sure this is really our production repo clone
+        verify_prod_repo "$PROD_REPO_DIR" "$PROD_REPO_URL"
         # Production repo exists locally - update it to latest state
         print_info "Updating existing production repository..."
         pushd "$PROD_REPO_DIR" > /dev/null

@@ -49,6 +49,32 @@ check_clean_working_tree() {
     fi
 }
 
+# Verify that an existing directory is a clone of the production repo
+# (seasalt-ai/seasalt-ai.github.io). Guards against destructive operations
+# (reset --hard, clean -fdx, content replacement, push) on an unrelated
+# checkout that happens to live at the deploy target path.
+verify_prod_repo() {
+    local repo_dir="$1"
+    local expected_url="${2:-}"
+    local origin_url
+    origin_url=$(git -C "$repo_dir" remote get-url origin 2>/dev/null || true)
+    # Derive the "owner/repo" slug from the expected URL so this guard cannot
+    # drift from the configured PROD_REPO_URL (supports scp-like, ssh alias,
+    # and https remote forms)
+    local expected_slug
+    expected_slug="${expected_url%.git}"
+    expected_slug=$(printf '%s' "$expected_slug" | sed -E 's#^.*[/:]([^/:]+/[^/:]+)$#\1#')
+    if [[ -z "$expected_slug" ]]; then
+        print_error "Could not derive expected repo slug from '${expected_url:-empty}'"
+        exit 1
+    fi
+    if [[ "$origin_url" != *"$expected_slug"* ]]; then
+        print_error "Directory '$repo_dir' is not a clone of $expected_slug (origin: ${origin_url:-none})"
+        print_error "Refusing to operate on an unrelated repository"
+        exit 1
+    fi
+}
+
 # Build the project
 build_project() {
     print_info "Building project..."

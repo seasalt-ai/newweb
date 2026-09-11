@@ -158,16 +158,16 @@ Both deployment methods include:
 ### If you want to see what would change without deploying:
 ```bash
 # Dry run to see changes (add this feature if needed)
-rsync -avh --delete --dry-run dist/ ~/.deployment-cache/seasalt-ai.github.io/
+rsync -avh --delete --dry-run dist/ ../seasalt.ai/
 ```
 
 ### Check deployment logs:
 ```bash
 # Recent changes log
-cat ~/.deployment-cache/last-deployment-changes.log
+cat ../.deployment-cache/last-deployment-changes.log
 
 # Git history in production repo
-cd ~/.deployment-cache/seasalt-ai.github.io
+cd ../seasalt.ai
 git log --oneline -10
 ```
 
@@ -194,7 +194,7 @@ git log --oneline -10
 
 - **File comparison**: Uses `rsync` for efficient diff analysis
 - **Git optimization**: Only commits actual changes
-- **Cache location**: `~/.deployment-cache/`
+- **Cache location**: `../.deployment-cache/` (sibling, for logs and temp files)
 - **Backup system**: Same robust backup/restore as original
 - **Dependencies**: Requires `rsync` (standard on Unix systems)
 
