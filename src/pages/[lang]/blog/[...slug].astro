@@ -154,7 +154,9 @@ const languageNames = {
 };
 
 // 從內容提取 YouTube 影片（embed iframe / youtu.be 連結），供 VideoObject 使用
-const videoIdPattern = /(?:youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/g;
+// - 邊界檢查 (?![a-zA-Z0-9_-]) 排除 placeholder（如 example-video-id）
+// - 支援 embed/{id}、embed/?v={id}、v/{id}、watch?v=、watch?t=..&v=、youtu.be/{id}
+const videoIdPattern = /(?:youtube(?:-nocookie)?\.com\/(?:embed\/(?:\?v=)?|v\/|watch\?(?:[a-zA-Z_]+=[^&\s#]*&)*v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})(?![a-zA-Z0-9_-])/g;
 const videoIds = new Set<string>();
 let videoMatch: RegExpExecArray | null;
 while ((videoMatch = videoIdPattern.exec(entry.body)) !== null) {

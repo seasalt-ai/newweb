@@ -307,5 +307,6 @@ root 入口樁 ~250 + 缺文語言 blog 樁 ~2,000 + GSC 清單樁（目前 154 
 - 從 `entry.body` 以 regex 提取 YouTube ID（`youtube.com/embed|v|watch?v=`、`youtube-nocookie.com/embed/`、`youtu.be/`），去重後為每支影片生成 `VideoObject`（name / description / thumbnailUrl / uploadDate / contentUrl / embedUrl）
 - 有影片時 structured data 改用 `@graph: [BlogPosting, ...VideoObject]` 支援多影片；無影片維持原狀
 - 順帶修正 `mainEntityOfPage["@id"]` 與 VideoObject `@id`：改用 `currentSlug`（`entry.id` 推導、保留大小寫），原本 `entry.slug` 為 Astro slugified（含語系目錄 + 小寫），與實際路由不符
-- 涵蓋範圍：全語言 424 篇文章 / 1,180 支影片（GSC 目前僅通報 186 支為已發現未索引）
-- 驗證：`astro check` 錯誤數維持 823（全為既有），regex 掃描 2,370 篇 md 統計如上
+- 涵蓋範圍：全語言 466 篇文章 / 1,222 支影片（GSC 目前僅通報 186 支為已發現未索引）
+- regex 邊界檢查排除 placeholder（`example-video-id`，21 頁），並支援 `embed/?v=`、`watch?t=..&v=` 兩種額外形態
+- 驗證：`astro check` 錯誤數維持 823（全為既有）
