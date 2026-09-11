@@ -293,8 +293,19 @@ root 入口樁 ~250 + 缺文語言 blog 樁 ~2,000 + GSC 清單樁（目前 154 
 
 ### 待辦（部署側）
 
+0. ~~Phase 3.1 VideoObject~~（已完成，見下）
 1. 其他機器跑 `npm run build`（含 stubs）→ 部署 gh-pages
 2. 部署後抽查：`/blog/48-how-to-utilize-custom-chatpot-in-marketing/`、`/es/integrations/markate`、`/seavoice/` 應為 200 + 偵測 JS
 3. AWS 後端：`voice.seasalt.ai` 301 目標改 `https://seasalt.ai/seavoice/`；`chat.seasalt.ai` 改 `https://seasalt.ai/seachat/`；`chat.seasalt.ai/chat/**` 加 `X-Robots-Tag: noindex`
 4. GSC 重新提交 `sitemap-index.xml`
 5. 之後從 GSC 匯出全量 404 清單覆蓋 `scripts/gsc-404-urls.txt` 再 build，涵蓋所有長尾
+
+### Phase 3.1 實作紀錄（2026-09-11）
+
+`src/pages/[lang]/blog/[...slug].astro`：
+
+- 從 `entry.body` 以 regex 提取 YouTube ID（`youtube.com/embed|v|watch?v=`、`youtube-nocookie.com/embed/`、`youtu.be/`），去重後為每支影片生成 `VideoObject`（name / description / thumbnailUrl / uploadDate / contentUrl / embedUrl）
+- 有影片時 structured data 改用 `@graph: [BlogPosting, ...VideoObject]` 支援多影片；無影片維持原狀
+- 順帶修正 `mainEntityOfPage["@id"]` 與 VideoObject `@id`：改用 `currentSlug`（`entry.id` 推導、保留大小寫），原本 `entry.slug` 為 Astro slugified（含語系目錄 + 小寫），與實際路由不符
+- 涵蓋範圍：全語言 424 篇文章 / 1,180 支影片（GSC 目前僅通報 186 支為已發現未索引）
+- 驗證：`astro check` 錯誤數維持 823（全為既有），regex 掃描 2,370 篇 md 統計如上

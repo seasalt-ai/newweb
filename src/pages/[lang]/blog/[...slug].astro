@@ -153,8 +153,27 @@ const languageNames = {
   'vi': 'Tiếng Việt'
 };
 
-// 生成結構化資料
-const structuredData = {
+// 從內容提取 YouTube 影片（embed iframe / youtu.be 連結），供 VideoObject 使用
+const videoIdPattern = /(?:youtube(?:-nocookie)?\.com\/(?:embed\/|v\/|watch\?v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})/g;
+const videoIds = new Set<string>();
+let videoMatch: RegExpExecArray | null;
+while ((videoMatch = videoIdPattern.exec(entry.body)) !== null) {
+  videoIds.add(videoMatch[1]);
+}
+
+const videoObjects = Array.from(videoIds).map((id, index) => ({
+  "@type": "VideoObject",
+  "@id": `https://seasalt.ai/${currentLang}/blog/${currentSlug}#video-${index + 1}`,
+  "name": entry.data.title,
+  "description": entry.data.description,
+  "thumbnailUrl": [`https://i.ytimg.com/vi/${id}/hqdefault.jpg`],
+  "uploadDate": (entry.data.updatedDate || entry.data.publishDate).toISOString(),
+  "contentUrl": `https://www.youtube.com/watch?v=${id}`,
+  "embedUrl": `https://www.youtube.com/embed/${id}`
+}));
+
+// 生成結構化資料（有影片時使用 @graph 以標記多支 VideoObject）
+const blogPosting = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": entry.data.title,
@@ -176,9 +195,16 @@ const structuredData = {
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": `/${currentLang}/blog/${entry.slug}`
+    "@id": `https://seasalt.ai/${currentLang}/blog/${currentSlug}`
   }
 };
+
+const structuredData = videoObjects.length > 0
+  ? {
+      "@context": "https://schema.org",
+      "@graph": [blogPosting, ...videoObjects]
+    }
+  : blogPosting;
 
 // 生成麵包屑
 const breadcrumbs = [
