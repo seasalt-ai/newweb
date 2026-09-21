@@ -91,6 +91,8 @@ build_blog_pages() {
     
     # First, do a minimal build to get the base structure
     print_info "Running minimal Astro build..."
+    # Astro content cache is not invalidated by markdown config changes - clear it
+    rm -rf node_modules/.astro .astro
     npm run build
     
     print_success "Blog pages built successfully!"

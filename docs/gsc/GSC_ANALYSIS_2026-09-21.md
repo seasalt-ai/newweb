@@ -333,6 +333,26 @@ GH Pages 對無斜線 URL 一律 301 → 斜線版。canonical 指向一個會 3
 
 **外部主機附帶發現**：`voice.seasalt.ai/discord/zh-tw(/)`、`suite.seasalt.ai/stt(/)`、`tts(/)` 兩種形式皆 200 且**皆無 canonical** → AWS 端重複內容（本 repo 無法修，轉 backend 團隊）。
 
+### 8.4 第三輪：CWV CLS 修復 — blog 圖片注入原生尺寸（2026-09-21，已驗證）
+
+GSC CWV「CLS > 0.1（行動版）22 URL」最大群組 `vi/blog/26`（339 人次）。排查結論：header/footer 圖示皆有 CSS 定尺寸、相關文章縮圖亦同 — **元兇是文章本體圖片全部缺 width/height**（瀏覽器無法預留空間，載入時推移版面）。
+
+**修復**（`astro.config.mjs` 自訂 rehype plugin + blog 模板）：
+
+- blog 文章多數用 **raw HTML `<img>`**（非 markdown `![]()`）→ plugin 同時處理 hast element 節點與 `raw` 節點（字串層修補，不引入 rehype-raw 以免重排 466 篇 HTML）
+- 對 `public/` 本地圖片以 `image-size` 讀取原始尺寸後注入：
+  - 無尺寸 → 注入原始 width/height
+  - 僅 width（如 `550`）→ 依長寬比補 height
+  - 僅 height（如 `400px`）→ 補 width 並將 `400px` 正規化為有效數值 `400`（`Npx` 屬性值瀏覽器會整個忽略）
+  - 百分比（`width="100%"`）尊重作者版面配置，不動
+  - **每篇文章第一張圖 `fetchpriority="high"` 不 lazy**（行動版 LCP 元素，兼顧 GSC LCP>4s 的 10 個 URL），其餘 `loading="lazy"` + `decoding="async"`
+- `image-size` 明確宣告為 dependency（原為 @astrojs/netlify 的傳遞依賴，屬幽靈依賴）
+- 相關文章縮圖加 lazy/decoding
+
+**Build 後實測**（11,340 頁複掃，canonical/hreflang 檢查維持全零）：blog 本體圖片 7,391 張 — 尺寸完整 5,470、百分比樣式 1,746（刻意保留）、無法解析 175（**內容問題：42 張 mp4/mp3 誤用 `<img>`、約 133 張圖檔缺檔或格式損壞**，另立內容待辦）；1,804 個 blog 頁面各恰 1 張首圖 high-priority、其餘全 lazy。
+
+⚠️ **部署注意**：Astro content-layer 快取（`node_modules/.astro/data-store.json`、`.astro/`）**不會因 markdown 設定變更而失效** — 本次部署前必須先 `rm -rf node_modules/.astro .astro` 再 `npm run build`，否則圖片尺寸修復不會進到產出（已踩過）。**已內建至部署腳本**：`deploy-utils.sh build_project()` 與 3 個直接呼叫 build 的腳本（cloudflare / github-blog-only / github-cloudflare）皆自動清除；`deploy/README.md` 已記載，手動 build 時需自行清理。
+
 ---
 
 ## 九、問題清單與建議行動
@@ -343,7 +363,7 @@ GH Pages 對無斜線 URL 一律 301 → 斜線版。canonical 指向一個會 3
 |---|---|---|---|
 | N1 | **私人對話頁仍被索引**（P9 未修，Phase 2 待辦） | `chat.seasalt.ai/chat/4ec0dfb0...` 218 點擊 / 13,112 曝光；Coverage 仍有該頁 | AWS 後端加 `X-Robots-Tag: noindex` + GSC 申請移除（09-11 計畫 Phase 2 原封不動） |
 | N2 | **曝光持續下滑、9/17–18 創新低** | 8,100 → 4,940/日；9/18 = 2,874 | 兩週後複查；對照 8/29–31 低點（當時 4,100）已跌破；排查是否特定頁面（voice/discord）排名滑落 |
-| N3 | **開發/預備主機被索引**（新發現） | `newweb.seasalt.ai` 24 頁、`main-dev.seasalt.ai` 20 頁（main-dev 還拿 4 點擊）；`api`、`suite`、`code` 亦有 | dev 站加 noindex meta / X-Robots-Tag，或以 basic auth 阻擋；GSC 移除 |
+| N3 | **開發/預備主機被索引**（新發現） | `newweb.seasalt.ai` 24 頁、`main-dev.seasalt.ai` 20 頁（main-dev 還拿 4 點擊）；`api`、`suite`、`code` 亦有 | 實查（09-21）：`newweb.seasalt.ai` CNAME → `seasalt-ai.github.io`，為**舊版 build 的 GH Pages 部署**（其 canonical 已指向 seasalt.ai，SEO 傷害有限但應移除）。處理：DNS/Hosting 端移除 CNAME 或停用該 Pages 部署 + GSC 移除；dev 站加 noindex |
 
 ### 🟡 中優先
 
@@ -351,7 +371,7 @@ GH Pages 對無斜線 URL 一律 301 → 斜線版。canonical 指向一個會 3
 |---|---|---|---|
 | N4 | 影片索引惡化 | 「不在觀賞頁面上」186 → 218 | 影片 embed 提升至頁面主體（專屬觀賞段落/頁），而非僅 JSON-LD（已生效 15 筆但不足） |
 | N5 | ~~Videos 非重大問題~~（**已修復**，R3） | 1 筆 description 未填 | ✅ VideoObject description 加 title fallback |
-| N6 | CWV 行動版 | CLS>0.1：22 URL（最大群組 vi/blog/26，339 人次）；LCP>4s：10；INP>200ms：7 | 針對 blog 26 各語版本做 CLS 檢查（影片 embed 尺寸、字體載入） |
+| N6 | ~~CWV 行動版 CLS~~（**主因已修復 2026-09-21，見 §8.4**） | CLS>0.1：22 URL（最大群組 vi/blog/26，339 人次）；LCP>4s：10；INP>200ms：7 | ✅ blog 圖片注入 width/height + lazy；LCP/INP 待修復部署後觀察；42 張 mp4/mp3 誤用 `<img>` + ~133 缺圖屬內容待辦 |
 | N7 | 404 / 重新導向待消化 | 2,074 / 1,635（stub 已上線） | GSC 針對「找不到網頁」按「驗證修正」；預期 2–6 週下降 |
 | N8 | Discovered/Crawled–未索引仍 9,891 | 4,246 + 5,645 | 屬品質訊號；stub 整併 canonical 後觀察；低品質長尾可接受 |
 | N9 | suite / usecase / m / api 主機檢索異常 | Crawl stats 狀態標記 | 確認服務可用性（09-11 即通報 suite，仍未解） |
