@@ -19,7 +19,7 @@ const { t } = await getTranslationHelpers(lang as keyof typeof languages);
 const seoTitle = t('channels.sms.seo.title');
 const seoDescription = t('channels.sms.seo.description');
 const seoKeywords = 'SMS marketing, text message marketing, bulk SMS, SMS campaigns, customer engagement, mobile marketing';
-const canonicalUrl = lang === 'en' ? 'https://seasalt.ai/channels/sms' : `https://seasalt.ai/${lang}/channels/sms`;
+const canonicalUrl = `https://seasalt.ai/${lang}/channels/sms`;
 
 // 麵包屑導航
 const breadcrumbs = [

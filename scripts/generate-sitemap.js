@@ -29,7 +29,7 @@ const EXTERNAL_URLS = [
     lastmod: new Date().toISOString().split('T')[0]
   },
   {
-    url: 'https://voice.seasalt.ai/discord/zh-tw',
+    url: 'https://voice.seasalt.ai/discord/zh-tw/',
     changefreq: 'monthly',
     priority: 0.7,
     lastmod: new Date().toISOString().split('T')[0]
@@ -41,13 +41,13 @@ const EXTERNAL_URLS = [
     lastmod: new Date().toISOString().split('T')[0]
   },
   {
-    url: 'https://suite.seasalt.ai/stt',
+    url: 'https://suite.seasalt.ai/stt/',
     changefreq: 'monthly',
     priority: 0.7,
     lastmod: new Date().toISOString().split('T')[0]
   },
   {
-    url: 'https://suite.seasalt.ai/tts',
+    url: 'https://suite.seasalt.ai/tts/',
     changefreq: 'monthly',
     priority: 0.7,
     lastmod: new Date().toISOString().split('T')[0]
@@ -353,7 +353,7 @@ function generateHreflangSitemap() {
   const externalHreflangGroups = {
     'external:discord': [
       { url: 'https://voice.seasalt.ai/discord/', lang: 'en' },
-      { url: 'https://voice.seasalt.ai/discord/zh-tw', lang: 'zh-TW' }
+      { url: 'https://voice.seasalt.ai/discord/zh-tw/', lang: 'zh-TW' }
     ]
   };
 
