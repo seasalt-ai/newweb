@@ -276,10 +276,20 @@ const {
 } = Astro.props;
 
 // URL processing
-// Support relative canonical URLs by resolving against the current page URL
-const currentUrl = canonical ? new URL(canonical, Astro.url) : Astro.url;
+// Support relative canonical URLs by resolving against the current page URL.
+// Always clone: mutating Astro.url directly would leak the trailing-slash
+// normalization into every other component that reads Astro.url this request.
+const currentUrl = new URL(canonical ?? Astro.url.href, Astro.url.origin);
 const baseUrl = `${currentUrl.protocol}//${currentUrl.host}`;
-const canonicalUrl = canonical ? new URL(canonical, Astro.url).href : Astro.url.href;
+
+// Normalize trailing slash: GH Pages serves directory URLs with a trailing
+// slash (no-slash variants 301). Canonical/hreflang must point at the served
+// form, otherwise every canonical resolves to a redirect (weak signal that
+// makes Google pick a different canonical).
+if (!currentUrl.pathname.endsWith('/') && !/\.[a-z0-9]+$/i.test(currentUrl.pathname)) {
+  currentUrl.pathname = `${currentUrl.pathname}/`;
+}
+const canonicalUrl = currentUrl.href;
 
 // Safe image URL handling
 const safeImage = image || '/seasalt-ai-logo.png';
@@ -288,18 +298,34 @@ const absoluteImageUrl = (safeImage && safeImage.startsWith && safeImage.startsW
   : `${baseUrl}${safeImage}`;
 
 // Multi-language support - generate hreflang links
+// Strip only a *known* language prefix (/en, /zh-TW, ...). The previous loose
+// regex ^\/[a-z]{2}(-[a-z]{2})? ate the first two letters of any path
+// ("/channels/sms" -> "annels/sms"), producing broken hreflang URLs
+// (https://seasalt.aiannels/sms) on pages whose canonical has no lang prefix.
+const langPrefixRe = new RegExp(`^/(?:${Object.keys(languages).join('|')})(?=/|$)`, 'i');
+const localizedPath = currentUrl.pathname.replace(langPrefixRe, '') || '/';
+
+const normalizeAltPath = (path: string) => {
+  // Same-host absolute URLs get slash normalization too (keeps this in sync
+  // with generate-sitemap.js); foreign hosts are left untouched — we cannot
+  // know which form they serve.
+  const p = path.startsWith('http') ? path : `${baseUrl}${path}`;
+  if (!p.startsWith(baseUrl)) return p;
+  return p.endsWith('/') || /\.[a-z0-9]+$/i.test(p) ? p : `${p}/`;
+};
+
 const alternateLinks = alternateUrls ? 
   Object.entries(alternateUrls).map(([langCode, url]) => ({
     lang: langCode,
-    url: url.startsWith('http') ? url : `${baseUrl}${url}`
+    url: normalizeAltPath(url)
   })) :
-  // Auto-generate from current URL if not provided
+  // Auto-generate from current URL if not provided.
+  // All languages live under /{lang}/ (EN included); root paths are redirect
+  // stubs, so the EN alternate must be /en/... not the root URL.
   Object.keys(languages).map(langCode => {
-    const langPath = langCode === defaultLang ? '' : `/${langCode}`;
-    const alternatePath = currentUrl.pathname.replace(/^\/[a-z]{2}(-[a-z]{2})?/i, '');
     return {
       lang: langCode,
-      url: `${baseUrl}${langPath}${alternatePath}${currentUrl.search}`,
+      url: `${baseUrl}/${langCode}${localizedPath}${currentUrl.search}`,
     };
   });
 

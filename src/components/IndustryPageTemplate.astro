@@ -37,7 +37,7 @@ const { t } = await getTranslationHelpers(currentLang);
 const seoTitle = `${title} ${t('industries.template.solutions.title')} - Seasalt.ai`;
 const seoDescription = `${headline} - Transform your ${title.toLowerCase()} business with AI-powered customer communication.`;
 const seoKeywords = `${title.toLowerCase()}, AI customer service, omnichannel communication, business automation, ${title.toLowerCase()} solutions`;
-const canonicalUrl = currentLang === 'en' ? `https://seasalt.ai/industries/${slug}` : `https://seasalt.ai/${currentLang}/industries/${slug}`;
+const canonicalUrl = `https://seasalt.ai/${currentLang}/industries/${slug}`;
 
 // 麵包屑導航
 const breadcrumbs = [

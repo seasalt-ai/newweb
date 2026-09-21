@@ -19,7 +19,7 @@ const { t } = await getTranslationHelpers(lang as SupportedLanguage);
 const seoTitle = t('channels.phoneCalls.seo.title') || 'Phone Calls & Voice Support - Seasalt.ai';
 const seoDescription = t('channels.phoneCalls.seo.description') || 'Professional phone system with AI voice agents and human support. Handle calls, route intelligently, and provide 24/7 voice assistance with Twilio partnership.';
 const seoKeywords = 'phone calls, voice support, AI voice agents, call center, phone system, Twilio integration, voice automation';
-const canonicalUrl = lang === 'en' ? 'https://seasalt.ai/channels/phone-calls' : `https://seasalt.ai/${lang}/channels/phone-calls`;
+const canonicalUrl = `https://seasalt.ai/${lang}/channels/phone-calls`;
 
 // 麵包屑導航
 const breadcrumbs = [
