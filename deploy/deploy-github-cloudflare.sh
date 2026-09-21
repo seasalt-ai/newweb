@@ -34,6 +34,8 @@ main() {
     print_info "Step 1/3: Building the website..."
     echo "------------------------------------------------------------"
     
+    # Astro content cache is not invalidated by markdown config changes - clear it
+    rm -rf node_modules/.astro .astro
     if ! npm run build; then
         print_error "Build failed! Aborting deployment."
         exit 1

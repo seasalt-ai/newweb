@@ -144,6 +144,8 @@ main() {
     print_success "Found existing dist/ folder"
   else
     print_info "Building the website..."
+    # Astro content cache is not invalidated by markdown config changes - clear it
+    rm -rf node_modules/.astro .astro
     if ! npm run build; then
       print_error "Build failed"
       exit 1

@@ -20,6 +20,15 @@ For Github Pages:
    A Record @ 185.199.110.153
    A Record @ 185.199.111.153
 
+Build cache note (IMPORTANT):
+
+Astro's content-layer cache (`node_modules/.astro/data-store.json`, `.astro/`) is NOT
+invalidated when the markdown/rehype config in `astro.config.mjs` changes. A stale cache
+silently ships old rendered markdown. All deploy scripts clear it automatically before
+building (`rm -rf node_modules/.astro .astro` in `deploy-utils.sh build_project()` and the
+scripts that call `npm run build` directly). If you build manually, clear both directories
+first, especially after touching `markdown`/`rehypePlugins` in the config.
+
 Quick commands:
 
    npm run build

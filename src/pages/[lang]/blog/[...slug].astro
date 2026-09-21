@@ -430,6 +430,8 @@ const breadcrumbs = [
                           src={relatedPost.extractedImage.url}
                           alt={relatedPost.extractedImage.alt}
                           class="w-full h-32 sm:h-40 object-cover hover:scale-105 transition-transform duration-300"
+                          loading="lazy"
+                          decoding="async"
                           onerror="this.src='/seasalt-ai-icon.png'"
                         />
                       ) : (

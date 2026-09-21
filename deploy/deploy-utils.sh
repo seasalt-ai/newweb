@@ -78,16 +78,23 @@ verify_prod_repo() {
 # Build the project
 build_project() {
     print_info "Building project..."
-    
+
+    # Astro's content-layer cache (node_modules/.astro/data-store.json, .astro/)
+    # is NOT invalidated when markdown/rehype config changes. A stale cache
+    # silently ships old rendered markdown (e.g. image-dimension injection),
+    # so clear it before every deploy build.
+    print_info "Clearing Astro content cache (node_modules/.astro, .astro)..."
+    rm -rf node_modules/.astro .astro
+
     if ! npm run build; then
         print_error "Build failed!"
         exit 1
     fi
-    
+
     if ! npm run seo-update; then
         print_warning "SEO update failed, continuing anyway..."
     fi
-    
+
     print_success "Build completed successfully"
 }
 
